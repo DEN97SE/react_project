@@ -9,7 +9,7 @@
       "analysis_1c",
       "downloads"
     ],
-    "copied_files": 879,
+    "copied_files": 884,
     "known_credential_values_redacted": 9,
     "redacted_locations": [
       {
@@ -52,13 +52,14 @@
     "excluded_binary_files": [],
     "source_files_modified_by_backup": false,
     "raw_attachment_directory_copied": false,
-    "notes": "Relevant latest console outputs are saved inside 1c_shop50. Known credential values are redacted only in repository copies, including text entries inside ZIP/XLSX. Original files and service keys remain local."
+    "notes": "Relevant latest console outputs are saved inside 1c_shop50. Known credential values are redacted only in repository copies, including text entries inside ZIP/XLSX. Original files and service keys remain local.",
+    "latest_checkpoint": "Native39: no configured primary barcode blocks first portions in both bases; missing-primary policy pending; candidate40 not deployed."
   },
   "files": [
     {
       "path": "1c_shop50/README.md",
-      "bytes": 31145,
-      "sha256": "b9aa1fe04d700b36c625c20f3ef478a7549db5c9ec8300deda1d6e0977be877b",
+      "bytes": 31691,
+      "sha256": "941f74ec56f654ac79b8db0d6647c011638efc1cf93cc2209283fab6e7f2cf92",
       "sanitized": false
     },
     {
@@ -1209,8 +1210,8 @@
     },
     {
       "path": "1c_shop50/ПроверкаОтправки_20261030/Результаты.md",
-      "bytes": 178124,
-      "sha256": "54985fd1f5eb912237adaf8e142810c2a792e24a13002827990e4974bf58b462",
+      "bytes": 179732,
+      "sha256": "9d429a4f54543c68382e6f657c8d707593bf3013811293cd8549d9fb3e080413",
       "sanitized": false
     },
     {
@@ -5327,6 +5328,36 @@
       "path": "inputs/Астор_магазин50_Опера_ПрайсЧекеры.zip",
       "bytes": 772075,
       "sha256": "225284230b8becc1b6195b9f113dbbdaa739cbe305233683184e4cdf9de288a0",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/39_ФактическаяОшибка410_20261103.txt",
+      "bytes": 13498,
+      "sha256": "2f4a9f77bc121f084c00da7b12ffb95e9a88ca22365d9f8638a6eb48b2d7c166",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/39_ФактическаяОшибка50_20261103.txt",
+      "bytes": 13572,
+      "sha256": "2421ae05f12fe64a286a1470752c46e8843ac1730c59a43276917b82f35d6dfe",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/40_КандидатБезНазначенногоОсновного_ПолныйМодуль.bsl",
+      "bytes": 85293,
+      "sha256": "6fabbf82769c636da621e175c666ff2dc311b319b0f7949ad963bbbd05f23533",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/40_ПричинаИВариантОбработки.json",
+      "bytes": 1522,
+      "sha256": "41cd80f64501cb4ce39ae26fd7d9beccc3865933042788c9d6b2f86164dfa85e",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/40_ВопросПриОтсутствииОсновного.md",
+      "bytes": 2231,
+      "sha256": "48f26c7d39f3fa9cd31d28e359eee969e476a6cb6d621a6a1b783f50a510c0a5",
       "sanitized": false
     }
   ]

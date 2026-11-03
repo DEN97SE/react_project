@@ -1,0 +1,20 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "confirmed_error": "Для базовой единицы товара не установлен основной ШК",
+  "source_module": "КХ_ДанныеОпера",
+  "source_line": 622,
+  "stores": {
+    "50": "Вино Тини Монтепульчано д`Абруццо кр п/сух12,5%0,75л",
+    "410": "Фартук-портфель Хороший р.56-58/170, усиленный-стеганный, цвет красный;1"
+  },
+  "diagnostic39_native_executed": true,
+  "diagnostic_completed_with_caught_error": true,
+  "diagnostic_sends_or_new_full": false,
+  "cause": "Добавленная нами обязательность основного ШК останавливает всю порцию, если у одного товара он не назначен.",
+  "policy_question_pending": true,
+  "candidate_policy": "Если основной задан — только он. Если не задан — последний по дате для базовой единицы с is_primary=false, без записи в ОсновныеШтрихкоды.",
+  "candidate_applied_to_working_module": false,
+  "alternative_policy": "Назначить основной в исходных данных и сохранять строгий отказ.",
+  "do_not_infer": "Ошибка не означает отсутствия всех штрихкодов, сбоя маршрутов или отказа бэка."
+}
