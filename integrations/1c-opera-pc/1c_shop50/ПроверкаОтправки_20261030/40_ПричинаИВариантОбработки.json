@@ -12,9 +12,15 @@
   "diagnostic_completed_with_caught_error": true,
   "diagnostic_sends_or_new_full": false,
   "cause": "Добавленная нами обязательность основного ШК останавливает всю порцию, если у одного товара он не назначен.",
-  "policy_question_pending": true,
+  "policy_question_pending": false,
   "candidate_policy": "Если основной задан — только он. Если не задан — последний по дате для базовой единицы с is_primary=false, без записи в ОсновныеШтрихкоды.",
-  "candidate_applied_to_working_module": false,
+  "candidate_applied_to_working_module": true,
   "alternative_policy": "Назначить основной в исходных данных и сохранять строгий отказ.",
-  "do_not_infer": "Ошибка не означает отсутствия всех штрихкодов, сбоя маршрутов или отказа бэка."
+  "do_not_infer": "Ошибка не означает отсутствия всех штрихкодов, сбоя маршрутов или отказа бэка.",
+  "user_clarification": "даже если не назначен берем тоже к отправке, просто если есть Основной он в приоритете к выгрузке",
+  "current_revision": 41,
+  "native_installation_confirmed": true,
+  "commit_deferred_until_user_confirms": false,
+  "user_confirmed_success": true,
+  "user_confirmation": "Все сработало"
 }

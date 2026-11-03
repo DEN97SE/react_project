@@ -9,7 +9,7 @@
       "analysis_1c",
       "downloads"
     ],
-    "copied_files": 884,
+    "copied_files": 895,
     "known_credential_values_redacted": 9,
     "redacted_locations": [
       {
@@ -53,13 +53,20 @@
     "source_files_modified_by_backup": false,
     "raw_attachment_directory_copied": false,
     "notes": "Relevant latest console outputs are saved inside 1c_shop50. Known credential values are redacted only in repository copies, including text entries inside ZIP/XLSX. Original files and service keys remain local.",
-    "latest_checkpoint": "Native39: no configured primary barcode blocks first portions in both bases; missing-primary policy pending; candidate40 not deployed."
+    "latest_checkpoint": {
+      "date_client": "2026-11-03",
+      "revision": 41,
+      "state": "User confirmed successful full exchange; final source, TXT, evidence and closure note saved",
+      "user_confirmation": "Все сработало",
+      "commit_deferred_until_user_confirms": false,
+      "remaining_closure_check": "Automatic primary-barcode delta through subscription"
+    }
   },
   "files": [
     {
       "path": "1c_shop50/README.md",
-      "bytes": 31691,
-      "sha256": "941f74ec56f654ac79b8db0d6647c011638efc1cf93cc2209283fab6e7f2cf92",
+      "bytes": 32127,
+      "sha256": "4859d57d95a89bd53762e38a2bd03873111bbca690e66f873a178da42b7edaa6",
       "sanitized": false
     },
     {
@@ -118,8 +125,8 @@
     },
     {
       "path": "1c_shop50/ОбщиеМодули/КХ_ДанныеОпера.bsl",
-      "bytes": 85178,
-      "sha256": "8ad05818a6f8dc52019692bc0aca881b41f92e24ec47035605910c0edfc3954e",
+      "bytes": 85010,
+      "sha256": "7ea2db2fff3dca4a6ccaf6ab3974d0d6323c53523bd547a2471702996c46c451",
       "sanitized": false
     },
     {
@@ -1210,8 +1217,8 @@
     },
     {
       "path": "1c_shop50/ПроверкаОтправки_20261030/Результаты.md",
-      "bytes": 179732,
-      "sha256": "9d429a4f54543c68382e6f657c8d707593bf3013811293cd8549d9fb3e080413",
+      "bytes": 184952,
+      "sha256": "0ea0b64fad88f2f3a48289148c3fd837c5e86cc76ccf6ebe4070be53e313e6d4",
       "sanitized": false
     },
     {
@@ -1402,14 +1409,14 @@
     },
     {
       "path": "1c_shop50/ДляКопирования/КХ_ДанныеОпера.md",
-      "bytes": 85202,
-      "sha256": "e8044669a5927e8925c3ea1c008560a5f7d83b7c583bdc635938d3dc24ac11bd",
+      "bytes": 85055,
+      "sha256": "3d57af2bdc3f4ba14fa42cc4c99c7d87165934e722b28b4372c2ae6497d0c938",
       "sanitized": false
     },
     {
       "path": "1c_shop50/ДляКопирования/КХ_ДанныеОпера.txt",
-      "bytes": 86324,
-      "sha256": "2dbd02829b23222afcd2d9e6d86fe85b7acbc5555e316a1c4c817359585414fb",
+      "bytes": 86174,
+      "sha256": "fb80870b6025f20d9ba90c90866417137cc63080373532454e3e3d39d08d2647",
       "sanitized": false
     },
     {
@@ -5344,20 +5351,86 @@
     },
     {
       "path": "1c_shop50/ПроверкаОтправки_20261030/40_КандидатБезНазначенногоОсновного_ПолныйМодуль.bsl",
-      "bytes": 85293,
-      "sha256": "6fabbf82769c636da621e175c666ff2dc311b319b0f7949ad963bbbd05f23533",
+      "bytes": 85525,
+      "sha256": "48957f9e86ab745d7f7201d847b897979d0804e4eb37a88b2ad7796578cc25b2",
       "sanitized": false
     },
     {
       "path": "1c_shop50/ПроверкаОтправки_20261030/40_ПричинаИВариантОбработки.json",
-      "bytes": 1522,
-      "sha256": "41cd80f64501cb4ce39ae26fd7d9beccc3865933042788c9d6b2f86164dfa85e",
+      "bytes": 1928,
+      "sha256": "8437e050118b02f01bd2bf9530fb36feb53947275507b9d73f929d81d55e846f",
       "sanitized": false
     },
     {
       "path": "1c_shop50/ПроверкаОтправки_20261030/40_ВопросПриОтсутствииОсновного.md",
-      "bytes": 2231,
-      "sha256": "48f26c7d39f3fa9cd31d28e359eee969e476a6cb6d621a6a1b783f50a510c0a5",
+      "bytes": 2817,
+      "sha256": "e371376a21c0a395eefc5c094e085cf8574af612dec87603fb820be0e97b7b4c",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/Исправления_20261103/ОсновнойШКВПриоритете/ДоПравки/ДляКопирования_КХ_ДанныеОпера.md",
+      "bytes": 85202,
+      "sha256": "e8044669a5927e8925c3ea1c008560a5f7d83b7c583bdc635938d3dc24ac11bd",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/Исправления_20261103/ОсновнойШКВПриоритете/ДоПравки/ДляКопирования_КХ_ДанныеОпера.txt",
+      "bytes": 86324,
+      "sha256": "2dbd02829b23222afcd2d9e6d86fe85b7acbc5555e316a1c4c817359585414fb",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/Исправления_20261103/ОсновнойШКВПриоритете/ДоПравки/ОбщиеМодули_КХ_ДанныеОпера.bsl",
+      "bytes": 85178,
+      "sha256": "8ad05818a6f8dc52019692bc0aca881b41f92e24ec47035605910c0edfc3954e",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/Исправления_20261103/ОсновнойШКВПриоритете/КХ_ДанныеОпера.diff",
+      "bytes": 3505,
+      "sha256": "6dc0842a3011ac499add87c4eb8c569eacd0f195a1233b270cfadb4cf3c07b66",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/41_КХ_ДанныеОпера_ПолныйМодуль.bsl",
+      "bytes": 85010,
+      "sha256": "7ea2db2fff3dca4a6ccaf6ab3974d0d6323c53523bd547a2471702996c46c451",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/41_КХ_ДанныеОпера_ПолныйМодуль.txt",
+      "bytes": 86244,
+      "sha256": "4761f628600364de9cb97d5513c63bfc1a7d3eea666c2d12bd288638db306b70",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/41_ПодготовитьШтрихКоды_ДляЗамены.txt",
+      "bytes": 5542,
+      "sha256": "1051c819167f8c0a50b76f67eb63c47358c0eb56491fe5474cd3214fac3462ae",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/41_ПроверкаПравки.json",
+      "bytes": 2918,
+      "sha256": "dad90bde2f4c3e47b07fc4540a35eb857753e95d3d09aed59003066b5469f322",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/41_Установка.txt",
+      "bytes": 4243,
+      "sha256": "5511e9dd4bf6580ef8f58e648b69ff7509447d86e3ca2d69f449c9604476df9e",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/41_ФактическийПрогресс_50_410_20261103.txt",
+      "bytes": 2524,
+      "sha256": "ea27fc5dbeee3240fb296b2c56ed6c59f89951987d4dd295b57dd628bf8614a5",
+      "sanitized": false
+    },
+    {
+      "path": "1c_shop50/ПроверкаОтправки_20261030/42_Завершение_ЧтоОсталось.txt",
+      "bytes": 4783,
+      "sha256": "4c05b14b80f4e76958946b51887e88215694ade55708b27eda2f93b6fde62b51",
       "sanitized": false
     }
   ]

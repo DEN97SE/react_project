@@ -1,0 +1,58 @@
+{
+  "revision": 41,
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "user_policy": "Основной имеет приоритет, если назначен; отсутствие основного не исключает товар из отправки.",
+  "change_scope": [
+    "ПодготовитьШтрихКоды",
+    "Комментарии к этой функции"
+  ],
+  "bsl_parser": "0.40.0",
+  "syntax_errors": 0,
+  "source_outside_function_and_comments_unchanged": true,
+  "installation_copies_function_match": true,
+  "full_txt_matches_source": true,
+  "unit_id_and_output_flags_unchanged": true,
+  "core_and_routes_unchanged": true,
+  "native_installation_confirmed": true,
+  "native_execution_of_revision41_confirmed": true,
+  "backend_receipt_confirmed": true,
+  "commit_deferred_until_user_confirms": false,
+  "continue_existing_full": true,
+  "request_new_full": false,
+  "native_evidence": "Пользователь прислал контроль38 после выдачи41: те же сессии продвинулись с1 на4 в410 и с1 на2 в50.",
+  "initial_packet_acknowledgements_seen": true,
+  "ack_evidence_source": "Статус Доставка подтверждена в очередях Opera и PriceCheker; это не счётчик Delivered Шины.",
+  "backend_receipt_confirmed_meaning": "Пользователь подтвердил успешный результат словами «Все сработало» после показанного продвижения и первых подтверждений Opera/PC.",
+  "full_completed": true,
+  "observed_progress": {
+    "410": {
+      "session_id": "733b2d16-85b0-4592-bc33-6c2c90812bf9",
+      "next_sequence": 4,
+      "total_batches": 28,
+      "confirmed_queue_rows": {
+        "Opera": 3,
+        "PriceCheker": 3
+      },
+      "full_active": true,
+      "job_time_reported": "03.11.2026 14:25:20"
+    },
+    "50": {
+      "session_id": "7db8cc58-b741-4610-a6d2-bbb71f79504c",
+      "next_sequence": 2,
+      "total_batches": 102,
+      "confirmed_queue_rows": {
+        "Opera": 1,
+        "PriceCheker": 1
+      },
+      "full_active": true,
+      "job_time_reported": "03.11.2026 14:25:27"
+    }
+  },
+  "user_confirmed_success": true,
+  "user_confirmation": "Все сработало",
+  "confirmation_date_client": "2026-11-03",
+  "full_completion_evidence": "Подтверждение пользователя; окончательные счётчики full и JSON каждого ACK отдельно не предоставлялись.",
+  "observed_progress_is_previous_snapshot": true,
+  "remaining_closure_check": "Автоматическая доставка изменения основного ШК через подписку без повторного full; отдельный фактический запуск ещё не показан."
+}
