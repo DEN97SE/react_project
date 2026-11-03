@@ -1,0 +1,27 @@
+[
+  {
+    "path": "onec/requirements/ТЗ_на_разработку_личного_кабинета_поставщика.docx",
+    "sha256": "e98fb474b9c9f64fda181b5a85c8a2c9729ccea19985f5046545621896c2664c",
+    "bytes": 1513710
+  },
+  {
+    "path": "onec/sources/README.txt",
+    "sha256": "45b80848d2c32b09d6044e90e1bb13d413ef65b3af10de3fb4a87759385f1471",
+    "bytes": 738
+  },
+  {
+    "path": "onec/sources/КабинетПоставщика_ДанныеДляСайта_20260819.bsl",
+    "sha256": "f0e867688e87d79b8359cddde577fbe88e887ff80cd7546d528194c3102b447b",
+    "bytes": 31537
+  },
+  {
+    "path": "onec/sources/Исходный_модуль_20260819.txt",
+    "sha256": "f0e867688e87d79b8359cddde577fbe88e887ff80cd7546d528194c3102b447b",
+    "bytes": 31537
+  },
+  {
+    "path": "onec/requirements/spec-extracted.txt",
+    "sha256": "010e8cf2644067d1159302429edb3126dff7ff2f11055c8fe3f3f9797ed96a85",
+    "bytes": 76867
+  }
+]
