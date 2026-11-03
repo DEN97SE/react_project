@@ -1,0 +1,44 @@
+{
+  "analysis_date": "2026-10-23 08:57:35",
+  "checks_analysis_date": "2026-10-23 08:54:37",
+  "files": {
+    "КХ_ДанныеОпера.bsl": {
+      "sha256": "9d3712fcfdef15aa931fc29d6ff18be5509a67a1366e8cf942136c549fff3883",
+      "bytes": 59469,
+      "changed_in_this_stage": false
+    },
+    "КХ_ДанныеПрайсЧекеры.bsl": {
+      "sha256": "537aecf03939a130e75df0eaf1be6b6a334b338e1e2ed2cfc761430af0b0fb43",
+      "bytes": 1352,
+      "changed_in_this_stage": false
+    },
+    "КХ_ДанныеСтруктурныхЕдиниц.bsl": {
+      "sha256": "d6f9fc0f2b8b6ae2a93d1a92113ce3c1fef740a592afff563f11b53f645736f9",
+      "bytes": 9713,
+      "changed_in_this_stage": false
+    },
+    "КХ_ОбменСтруктурныхЕдиниц.bsl": {
+      "sha256": "abc6617e482ef296244cc6ac3a79c8503ed4de8d6be7ae48148c25521df046cc",
+      "bytes": 38864,
+      "changed_in_this_stage": true
+    },
+    "КХ_ОбменШиныОпера.bsl": {
+      "sha256": "fe844e422d5a57d33d1b8e3d242da3a3eaefc44dc542ac5daed90797c7282149",
+      "bytes": 80039,
+      "changed_in_this_stage": true
+    },
+    "КХ_ОбменШиныПрайсЧекеры.bsl": {
+      "sha256": "240a689534a4f94a3951ca9e1ee6c6f4ee8230841f349b56b6a815c6b94e7006",
+      "bytes": 6386,
+      "changed_in_this_stage": true
+    },
+    "13_СтатусПубликацииСЕБезОтправки.txt": {
+      "sha256": "a8dd99d735fde80ac1bad9e416f2c80e38280ce9f22ec9500b2eb8900cbd9e9f",
+      "bytes": 1461
+    },
+    "14_ПроверитьРегистраторСЕСПОткатом.txt": {
+      "sha256": "50db0e841506f9b7fda04c2b3c70900010736f39a910bc704cf1d1f579a16ad6",
+      "bytes": 10487
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "form_module_methods": 15,
+  "commands": [
+    "ПроверитьСостояние",
+    "ПодготовитьВсеМагазины",
+    "ПодготовитьВыбранныйМагазин",
+    "НачатьКаталогТоваров",
+    "ВозобновитьСправочник"
+  ],
+  "static_errors": 0,
+  "static_warnings": 17,
+  "static_information": 17,
+  "epf_compiled": false,
+  "platform_gui_tested": false,
+  "no_service_or_sender_calls": true,
+  "no_implicit_route_or_source_configuration": true,
+  "no_ack_or_cleanup_calls": true,
+  "txt_encoding": "UTF-8 BOM, CRLF"
+}

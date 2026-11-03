@@ -1,0 +1,20 @@
+{
+  "bsl_parser_version": "0.40.0",
+  "syntax_errors": 0,
+  "lines": 178,
+  "exported_calls_verified": 6,
+  "sample_limits": {
+    "negative": 3,
+    "zero": 1,
+    "positive": 1
+  },
+  "actual_installed_formatter_used": true,
+  "json_roundtrip_checked": true,
+  "stock_reread_to_detect_changes": true,
+  "integration_services_called": false,
+  "outgoing_packets_registered": false,
+  "queue_deleted_or_rewritten": false,
+  "new_full_started": false,
+  "pilot_store_restrictions": false,
+  "runtime_1c_tested": false
+}

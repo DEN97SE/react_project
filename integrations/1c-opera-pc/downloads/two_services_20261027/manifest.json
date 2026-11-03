@@ -1,0 +1,42 @@
+[
+  {
+    "file": "44_check_two_services_without_send.txt",
+    "bytes": 11922,
+    "sha256": "047c8573cae642b0a7f375caf17b169342f6dbc1da3f6ba0f2b05fef51a40514"
+  },
+  {
+    "file": "44_check_two_services_without_send_v2.txt",
+    "bytes": 11922,
+    "sha256": "047c8573cae642b0a7f375caf17b169342f6dbc1da3f6ba0f2b05fef51a40514"
+  },
+  {
+    "file": "common_exchange_opera.txt",
+    "bytes": 151211,
+    "sha256": "e89bc6c36f4cfc8a22c26d024ca622dffcd5433b11c9697309ec63d7273ce9d5"
+  },
+  {
+    "file": "common_exchange_opera_v2.txt",
+    "bytes": 151211,
+    "sha256": "e89bc6c36f4cfc8a22c26d024ca622dffcd5433b11c9697309ec63d7273ce9d5"
+  },
+  {
+    "file": "instructions.txt",
+    "bytes": 12489,
+    "sha256": "f53a2a355f78fc0dd1cb7213ceee24dba937e061768e9575113e82be82b8ba0c"
+  },
+  {
+    "file": "service_opera.txt",
+    "bytes": 966,
+    "sha256": "57cea6a61a42c51853a582f7a8308eac2a287b2ca26bbf3187c97f767d88f930"
+  },
+  {
+    "file": "service_pc.txt",
+    "bytes": 973,
+    "sha256": "ac48dc54ce2fb821085c2a6b9849255251c17c7fde64f5770104f5180a903868"
+  },
+  {
+    "file": "static_analysis.json",
+    "bytes": 538473,
+    "sha256": "b0f5d29d3526fc2181782cd446c17b66e984826ee29b2a14b376e22b4d3e95af"
+  }
+]

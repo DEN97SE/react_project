@@ -1,0 +1,22 @@
+{
+  "kind": "limited Python model and source checks; not a 1C platform run",
+  "passed": 16,
+  "checks": [
+    "foreign ACK archived without changing root or outgoing packet",
+    "raw JSON whitespace and body retained",
+    "redelivery idempotent",
+    "another base refuses completion and leaves archive unchanged",
+    "another sender refuses completion and leaves archive unchanged",
+    "unknown system refuses completion and leaves archive unchanged",
+    "own-store ACK refuses completion and leaves archive unchanged",
+    "full request refuses completion and leaves archive unchanged",
+    "directory ACK refuses completion and leaves archive unchanged",
+    "unknown status refuses completion and leaves archive unchanged",
+    "invalid batch refuses completion and leaves archive unchanged",
+    "zero batch refuses completion and leaves archive unchanged",
+    "empty transport refuses completion and leaves archive unchanged",
+    "malformed JSON refuses completion and leaves archive unchanged",
+    "transport ID conflict refuses completion and leaves archive unchanged",
+    "persistence failure refuses completion and leaves archive unchanged"
+  ]
+}

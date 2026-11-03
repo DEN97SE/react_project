@@ -1,0 +1,74 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "requirement": "Один ШК на единицу; для базовой только установленный основной, для остальных последний установленный.",
+  "supersedes": [
+    "33: исключать коробку",
+    "34: передавать все альтернативные ШК единицы"
+  ],
+  "expected_bun_rows": [
+    {
+      "barcode": "2210000274648",
+      "unit": "шт",
+      "quantity_in_package": "1",
+      "is_primary": true,
+      "is_base_unit": true
+    },
+    {
+      "barcode": "2000452859001",
+      "unit": "кор",
+      "quantity_in_package": "30",
+      "is_primary": false,
+      "is_base_unit": false
+    }
+  ],
+  "unit_ids": "Реальные UUID конкретных записей ЕдиницыИзмерения; не известны из изображений и не выдуманы.",
+  "base_selection": "Один установленный основной код на базовую единицу товара, включая альтернативные базовые привязки. Отсутствие/несвязанность основного — ошибка данных.",
+  "other_unit_selection": "Максимальная дата записи по Номенклатура + конкретная ЕдиницаИзмерения; не порядок строки и не величина ШК.",
+  "time_field": "Проверяется метаданными в runtime; точное имя ШтриховыеКоды ещё не получалось исполняемым выводом.",
+  "max_time_ties": "Разные коды/привязки с одинаковой максимальной датой — явная неоднозначность.",
+  "backend_key_within_project": [
+    "store_id",
+    "nomenclature_id",
+    "unit_id"
+  ],
+  "barcode_is_mutable_attribute": true,
+  "grammar_checks": {
+    "module_bsl_errors": 0,
+    "readonly_check_bsl_errors": 0,
+    "nonperiodic_query_sdbl_errors": 0,
+    "periodic_query_sdbl_errors": 0
+  },
+  "query_positions_preserved": 9,
+  "temporary_tables_preserved": 4,
+  "native_1c_compile_tested": false,
+  "native_1c_runtime_tested": false,
+  "backend_tested": false,
+  "live_deployment_performed": false,
+  "saved_packets_rewritten": false,
+  "manual_review_cases_not_executed_tests": [
+    "Основной штучный код старше альтернативного по дате — выбирается основной.",
+    "Коробочный поздний код стоит первым или последним — критерий дата.",
+    "Раннее совпадение дат снято более поздней однозначной записью.",
+    "Разные коды на одинаковой последней дате — ошибка.",
+    "Одинаковые экспортируемые записи одной единицы — одна строка.",
+    "Нет основного у базовой единицы — не назначать другой код автоматически."
+  ],
+  "change_scope": [
+    {
+      "path": "/workspace/1c_shop50/ОбщиеМодули/КХ_ДанныеОпера.bsl",
+      "outside_two_functions_unchanged": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.md",
+      "outside_two_functions_unchanged": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.txt",
+      "outside_two_functions_unchanged": true
+    }
+  ],
+  "runtime_error_reported_by_user": "Консоль35, строка20: Поле объекта не обнаружено (Периодичность)",
+  "fixed_by_revision": 36,
+  "active_source_updated": true
+}

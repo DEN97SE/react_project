@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-02",
+  "algorithm": "28_ПолнаяОчисткаОчередейИНовыйКаталог_50_410.bsl",
+  "user_authorization": "Очистить все сообщения в1С; новая выгрузка только товарных карточек",
+  "user_reports_existing_pc_delivered": true,
+  "pc_reupload_explicitly_authorized": true,
+  "allowed_test_refs": ["AstorK50_Semidockiy", "Astor_k410_Semidockiy"],
+  "allowed_store_ids": ["3370588b-0742-11e0-b9c1-001a64c3f566", "40933103-84ba-4d00-ab50-ce9efa15eda8"],
+  "cleared_native_channels": [
+    "ExchOperaPC/Основной_ExchangeOpera_FromOpera",
+    "ExchOperaPC/Основной_ExchangeOpera_ToBackend",
+    "ExchPriceChecker/Основной_PC_FromShops",
+    "ExchPriceChecker/Основной_PC_ToBackend"
+  ],
+  "cleared_business_sections": ["Opera", "PriceCheker", "StructuralUnits", "OperaChange"],
+  "cleared_technical_state": "Старые снимки/запросы/служебные сообщения OperaState, кроме двух корней настроек",
+  "preserved_roots": ["КХ_OperaState", "КХ_СЕState"],
+  "preserved_configuration": ["ключи", "настройки подключений", "маршруты", "source_epoch", "directory_epoch", "revision"],
+  "goods_revision": "Повышается штатным ЗапроситьПовторнуюПолнуюВыгрузку в транзакции очистки",
+  "goods_full": "Запрашивается один раз, далее подготавливается и отправляется штатным заданием в Opera и PC",
+  "directory_full_requested": false,
+  "directory_publication_disabled": true,
+  "only_jobs_stopped": [
+    "КХ_ОбменШиныОпера.РегламентнаяОбработкаОчередиОпера",
+    "КХ_ОбменШиныПрайсЧекеры.РегламентнаяОбработкаОчередиPriceCheker",
+    "КХ_ОбменСтруктурныхЕдиниц.РегламентнаяОбработкаСправочника"
+  ],
+  "background_cancel_scope": "Только активные фоновые задания, отобранные по конкретным регламентным заданиям нашего обмена",
+  "cleanup_waits_for_cancel_completion": true,
+  "resumed_job": "Только общее товарное задание, ежедневно каждые10секунд",
+  "repeat_marker": "КХ_OperaState.test_products_reload.id=TEST_PRODUCTS_20261102_01",
+  "repeat_behavior": "Без повторной очистки; восстановление включения после частичного сбоя и контроль новой выгрузки",
+  "syntax_parser": "io.github.1c-syntax:bsl-parser:0.40.0",
+  "syntax_errors": 0,
+  "api_sources": [
+    "Native ВыбратьСообщения/УдалитьСообщения: kodmis/messages-1c-shina-viewer и ранее выполненный16 для входящего PC",
+    "Отбор ФоновыеЗадания по РегламентноеЗадание и Отменить: сохранённый SDK tools_ui_1c, /tmp/1c-readiness-jobs-service.bsl",
+    "РегламентныеЗадания/подключения/расписание: уже выполненные19/20/24/26",
+    "ЗапроситьПовторнуюПолнуюВыгрузку: текущий общий модуль, поддерживает внешнюю транзакцию"
+  ],
+  "runtime_1c_tested": false,
+  "cleanup_executed_in_user_bases": false,
+  "explicit_backend_data_delete_or_esb_server_purge": false,
+  "manual_ack_or_confirmed_status_assignment": false
+}

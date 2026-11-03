@@ -1,0 +1,83 @@
+{
+  "date_local": "2026-10-26",
+  "timezone": "Asia/Krasnoyarsk",
+  "runtime_executed": false,
+  "static_analysis": {
+    "report_modules": {
+      "Warning": 59,
+      "Information": 177,
+      "Hint": 25
+    },
+    "report_checks": {
+      "Hint": 2,
+      "Information": 41
+    }
+  },
+  "changed_methods": [
+    "КодПолучателяПрайсЧекеров",
+    "ЗарегистрироватьПакетыКаталога",
+    "ОтправитьПакетВСервис"
+  ],
+  "added_methods": [
+    "ПроверитьКодУчастникаPC",
+    "ПараметрыМаршрутаПрайсЧекеров",
+    "НастроитьМаршрутПрайсЧекеров"
+  ],
+  "unchanged_methods": 43,
+  "unchanged_other_modules": 5,
+  "resolved_cross_module_calls": 72,
+  "files": {
+    "/workspace/1c_shop50/ОбщиеМодули/КХ_ОбменШиныОпера.bsl": {
+      "bytes": 86304,
+      "sha256": "6a33333287d40a92b51c051ae6d1787df22e3459e550a2f499d05d2771de26fa"
+    },
+    "/workspace/1c_shop50/Исправления_20261026/МаршрутPC/00_Порядок.txt": {
+      "bytes": 10583,
+      "sha256": "009de0678bd6069ef16ae43ff3c168c706c40ab6035877f6266a5d3b14e6e47d"
+    },
+    "/workspace/1c_shop50/АвтоматическаяРегистрация/17_НастроитьМаршрутPC.txt": {
+      "bytes": 3351,
+      "sha256": "001ef4ce960d7dfe36fc81a75688a62db496bb0029e15f4d9b5009599a613828"
+    },
+    "/workspace/1c_shop50/АвтоматическаяРегистрация/18_ПроверитьОчередьPCОднимТоваром.txt": {
+      "bytes": 7727,
+      "sha256": "5f5b4f10841c237b8181a6971e2c98c4ea4a2aa7a243a3a0cd0a5ca9d5e8f520"
+    },
+    "/workspace/1c_shop50/АвтоматическаяРегистрация/19_СтатусОчередиPCИАCK.txt": {
+      "bytes": 3637,
+      "sha256": "3e88528b5f7fad7f55a802796dcaba8441404822642fa9b816103254d69a5a82"
+    },
+    "/workspace/1c_shop50/Исправления_20261026/МаршрутPC/20_КакВернутьACK.txt": {
+      "bytes": 3818,
+      "sha256": "3524de6fd7f9d91f8d8446f4fefbc15fd60437c4d6acb865f0ab7dcc781156fc"
+    },
+    "/workspace/downloads/pc_queue_20261026/00_Порядок.txt": {
+      "bytes": 10631,
+      "sha256": "1c6dc38732427c1e4d6efc1d0c42a07f097957e0eedba50c112785e4ae7d4f1b"
+    },
+    "/workspace/downloads/pc_queue_20261026/01_КХ_ОбменШиныОпера.txt": {
+      "bytes": 87519,
+      "sha256": "84e69fe4c7a7c1a9991562666a6efa29baec7bb1b77e7db5cbfccc3a7d67c8f7"
+    },
+    "/workspace/downloads/pc_queue_20261026/17_НастроитьМаршрутPC.txt": {
+      "bytes": 3388,
+      "sha256": "517822e856d985dbdfedecc49c696d19b2a3533ea8075c37bcb607851c5fc61c"
+    },
+    "/workspace/downloads/pc_queue_20261026/18_ПроверитьОчередьPCОднимТоваром.txt": {
+      "bytes": 7799,
+      "sha256": "d77d878168c83dd2ae9e8fb49f45468b8e886c888347105191d943d949c973df"
+    },
+    "/workspace/downloads/pc_queue_20261026/19_СтатусОчередиPCИАCK.txt": {
+      "bytes": 3676,
+      "sha256": "24327976ed7b21c57e0dfddd3c93a16df4b9998b50013609f5aa4a1840745e00"
+    },
+    "/workspace/downloads/pc_queue_20261026/20_КакВернутьACK.txt": {
+      "bytes": 3847,
+      "sha256": "c4bbc600f0ad174425583e15826b403284a493ee7629d266d0d1fcff4d9d10bf"
+    },
+    "/workspace/downloads/1c_pc_queue_20261026.zip": {
+      "bytes": 23859,
+      "sha256": "177e648bbd4b726ace43e892bc3214499f355d125b53f770ed6acb8e4b9c2800"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "date_local": "2026-10-26",
+  "evidence": "Два скриншота: журнал регистрации и отладчик входящего обработчика PC",
+  "ack_arrived_in_1c": true,
+  "json_parsed_as_structure": true,
+  "ack_fields": {
+    "message_type": "ack",
+    "status": "processed",
+    "batch_id": "9d4a84df-91c5-43ff-92a2-f1f5557a3408",
+    "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+  },
+  "failure_stage": "Запись подтверждения в РегистрСведений.ОчередьШины; штатное ПередЗаписью",
+  "native_error_module": "ОмОбщиеПроцедурыИФункции",
+  "native_error_line": 2832,
+  "missing_session_parameter": "ТекущийПользователь",
+  "execution_context": "Фоновое задание",
+  "common_own_write_line": 1177,
+  "ack_committed": false,
+  "native_routine_source_available": false,
+  "source_changes_made_for_this_error": false,
+  "next_required_input": "Полная процедура/функция ОмОбщиеПроцедурыИФункции, содержащая строку 2832, с сигнатурой и проверками"
+}

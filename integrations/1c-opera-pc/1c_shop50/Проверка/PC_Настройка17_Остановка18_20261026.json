@@ -1,0 +1,14 @@
+{
+  "date_local": "2026-10-26",
+  "evidence": "Скриншот консоли пользователя с результатами 17/18/19",
+  "route_setup_17_passed": true,
+  "pc_sender": "Magazyni_PC",
+  "pc_receiver": "Backend_PC",
+  "opera_sender_before_and_after": "astor123",
+  "test_18_stopped_before_registration": true,
+  "stop_reason": "Есть другие отметки товаров",
+  "new_pc_queue_packet_created": false,
+  "report_19_displayed_only_opera_sent_packets": 4,
+  "real_pc_ack_verified": false,
+  "new_cleanup_version_installed": false
+}

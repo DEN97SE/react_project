@@ -1,0 +1,105 @@
+﻿// Выполнить через «На сервере» после замены общего модуля и обновления конфигурации базы.
+// Редакция 2: проверяет также крайние пробелы и печатает реальные каналы до проверки каждого пакета.
+// Проверяет выбор сервиса для новых и старых ключей, затем только читает существующие исходящие строки.
+// Сервисы, отправка, ACK, сборка, изменение маршрутов и запуск full не вызываются.
+// {{ semidockij - 27.10.2026 - Проверка разделения сервисов без изменения очереди
+Проверки = Новый Массив;
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "Opera", "Основной_ExchangeOpera_FromOpera", "", "ExchOperaPC", "Основной_ExchangeOpera_FromOpera"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "PriceCheker", "Основной_PriceChekerExc_FromShops", "", "ExchPriceChecker", "Komandor_Opera_PC_Основной_PC_FromShops"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "PriceCheker", "Komandor_Opera_PC_Основной_PC_FromShops", "", "ExchPriceChecker", "Komandor_Opera_PC_Основной_PC_FromShops"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "StructuralUnits", "Основной_ExchangeOpera_FromOpera", "opera", "ExchOperaPC", "Основной_ExchangeOpera_FromOpera"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "StructuralUnits", "Основной_PriceChekerExc_FromShops", "pricechecker", "ExchPriceChecker", "Komandor_Opera_PC_Основной_PC_FromShops"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "StructuralUnits", "Komandor_Opera_PC_Основной_PC_FromShops", "pricechecker", "ExchPriceChecker", "Komandor_Opera_PC_Основной_PC_FromShops"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "Opera", "Основной_ExchangeOpera_FromOpera                    ", "", "ExchOperaPC", "Основной_ExchangeOpera_FromOpera"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "PriceCheker", "Основной_PriceChekerExc_FromShops                   ", "", "ExchPriceChecker", "Komandor_Opera_PC_Основной_PC_FromShops"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "StructuralUnits", "Komandor_Opera_PC_Основной_PC_FromShops              ", "pricechecker", "ExchPriceChecker", "Komandor_Opera_PC_Основной_PC_FromShops"));
+Проверки.Добавить(Новый Структура("system,channel,project,service,result_channel",
+    "StructuralUnits", "  Основной_ExchangeOpera_FromOpera  ", "opera", "ExchOperaPC", "Основной_ExchangeOpera_FromOpera"));
+
+Для Каждого Проверка Из Проверки Цикл
+    ИсходныйКанал = Проверка.channel;
+    Маршрут = КХ_ОбменШиныОпера.МаршрутКаналаОтправки(Проверка.system, Проверка.channel, Проверка.project);
+    Если Маршрут.СервисИнтеграции <> Проверка.service ИЛИ Маршрут.Канал <> Проверка.result_channel Тогда
+        ВызватьИсключение "Неверный выбор сервиса/канала для " + Проверка.system + "/" + Проверка.project;
+    КонецЕсли;
+    Если Проверка.channel <> ИсходныйКанал Тогда
+        ВызватьИсключение "Выбор маршрута изменил исходное значение канала";
+    КонецЕсли;
+КонецЦикла;
+Сообщить("ПРОВЕРЕНО: 10 допустимых маршрутов, включая каналы с крайними пробелами. Исходные значения не менялись.");
+
+Запрещенные = Новый Массив;
+Запрещенные.Добавить(Новый Структура("system,channel,project", "Opera", "Основной_PriceChekerExc_FromShops", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "Opera", "Komandor_Opera_PC_Основной_PC_FromShops", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "PriceCheker", "Основной_ExchangeOpera_FromOpera", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "StructuralUnits", "Основной_PriceChekerExc_FromShops", "opera"));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "StructuralUnits", "Komandor_Opera_PC_Основной_PC_FromShops", "opera"));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "StructuralUnits", "Основной_ExchangeOpera_FromOpera", "pricechecker"));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "StructuralUnits", "Основной_ExchangeOpera_FromOpera", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "StructuralUnits", "Основной_ExchangeOpera_FromOpera", "unknown"));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "PriceCheker", "UnknownChannel", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "PriceCheker", "", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "OperaState", "Основной_ExchangeOpera_FromOpera", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "Opera", "  Основной_PriceChekerExc_FromShops  ", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "PriceCheker", "   ", ""));
+Запрещенные.Добавить(Новый Структура("system,channel,project", "PriceCheker", "Основной_PriceChekerExc_FromShops_extra", ""));
+Для Каждого Проверка Из Запрещенные Цикл
+    Отклонен = Ложь;
+    Попытка
+        КХ_ОбменШиныОпера.МаршрутКаналаОтправки(Проверка.system, Проверка.channel, Проверка.project);
+    Исключение
+        Отклонен = Истина;
+    КонецПопытки;
+    Если НЕ Отклонен Тогда ВызватьИсключение "Разрешён чужой/неизвестный канал либо неизвестная система"; КонецЕсли;
+КонецЦикла;
+Сообщить("ПРОВЕРЕНО: 14 недопустимых сочетаний отклонены, межпроектная подмена канала запрещена.");
+
+Для Каждого ИмяСервиса Из СтрРазделить("ExchOperaPC,ExchPriceChecker", ",") Цикл
+    Если Метаданные.СервисыИнтеграции.Найти(ИмяСервиса) = Неопределено Тогда
+        ВызватьИсключение "В конфигурации базы отсутствует сервис " + ИмяСервиса;
+    КонецЕсли;
+КонецЦикла;
+Сообщить("Оба сервиса присутствуют в метаданных. Ключи, активность и фактическое подключение этим не проверялись.");
+
+ЗапросОчереди = Новый Запрос;
+ЗапросОчереди.Текст = "ВЫБРАТЬ Очередь.ИдентификаторОбъекта КАК batch_id,
+| Очередь.ВнешняяСистема КАК system, Очередь.КаналСервисаИнтеграции КАК channel,
+| Очередь.УзелПолучатель КАК receiver, Очередь.СтроковыйОбъект КАК json,
+| Очередь.СтатусСообщения КАК status
+|ИЗ РегистрСведений.ОчередьШины КАК Очередь
+|ГДЕ Очередь.ВнешняяСистема В (""Opera"", ""PriceCheker"", ""StructuralUnits"")
+|УПОРЯДОЧИТЬ ПО Очередь.ВнешняяСистема, Очередь.ИдентификаторОбъекта";
+ОшибокПросмотра = 0;
+Для Каждого СтрокаПакета Из ЗапросОчереди.Выполнить().Выгрузить() Цикл
+    Сообщить("ПАКЕТ | " + СтрокаПакета.system + " | " + СтрокаПакета.batch_id + " | " + Строка(СтрокаПакета.status));
+    Сообщить("  Тип канала: " + Строка(ТипЗнч(СтрокаПакета.channel)));
+    Если ТипЗнч(СтрокаПакета.channel) = Тип("Строка") Тогда
+        Сообщить("  Сохранённый канал: [" + СтрокаПакета.channel + "]; длина: " + Строка(СтрДлина(СтрокаПакета.channel)));
+        СокращенныйКанал = СокрЛП(СтрокаПакета.channel);
+        Сообщить("  После СокрЛП: [" + СокращенныйКанал + "]; длина: " + Строка(СтрДлина(СокращенныйКанал)));
+    КонецЕсли;
+    Попытка
+        Пакет = КХ_ОбменШиныОпера.ИзJSON(СтрокаПакета.json);
+        ПроектСЕ = ?(СтрокаПакета.system = "StructuralUnits", КХ_ОбменШиныОпера.СтроковоеПоле(Пакет, "project"), "");
+        Маршрут = КХ_ОбменШиныОпера.МаршрутКаналаОтправки(СтрокаПакета.system, СтрокаПакета.channel, ПроектСЕ);
+        Сообщить("  Доставка через: " + Маршрут.СервисИнтеграции + " / " + Маршрут.Канал);
+        Сообщить("  Канал в сохранённом ключе: " + СтрокаПакета.channel);
+        Сообщить("  source_node тела: " + КХ_ОбменШиныОпера.СтроковоеПоле(Пакет, "source_node")
+            + "; получатель: " + СтрокаПакета.receiver);
+    Исключение
+        ОшибокПросмотра = ОшибокПросмотра + 1;
+        Сообщить("ОШИБКА ПРОСМОТРА | " + СтрокаПакета.batch_id + " | " + ОписаниеОшибки());
+    КонецПопытки;
+КонецЦикла;
+Сообщить("Ошибок просмотра сохранённых пакетов: " + Строка(ОшибокПросмотра));
+Сообщить("Очередь, тела, batch_id, отправители, настройки и прогресс full не менялись. Отправка и ACK не вызывались.");
+// }} semidockij - 27.10.2026

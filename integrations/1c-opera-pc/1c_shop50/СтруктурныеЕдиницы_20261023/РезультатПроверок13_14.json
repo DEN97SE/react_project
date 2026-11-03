@@ -1,0 +1,38 @@
+{
+  "date_local": "2026-10-23",
+  "timezone": "Asia/Krasnoyarsk",
+  "evidence": "Два скриншота в чате и сообщение пользователя «Все создал и сделал и заменил»",
+  "database": "Тестовая база магазина Командор №50",
+  "installation_reported_by_user": true,
+  "installed_sources_verified_byte_for_byte": false,
+  "check_13": {
+    "passed": true,
+    "publication_enabled": false,
+    "central_office_helper": true,
+    "source_id": "",
+    "source_node": "",
+    "opera_node": "",
+    "pc_routes_count": 0
+  },
+  "check_14": {
+    "passed": true,
+    "opera_full_chunks": 3,
+    "opera_packets_in_transaction": 5,
+    "pricechecker_packets_in_transaction": 3,
+    "outgoing_count_before": 0,
+    "outgoing_count_after_rollback": 0,
+    "own_project_ack_accepted": true,
+    "other_project_ack_rejected": true,
+    "late_error_did_not_clear_success": true,
+    "state_and_outgoing_count_restored": true,
+    "handlers_called_manually": true,
+    "sender_called": false
+  },
+  "not_proven": [
+    "Реальный автоматический вызов подписок при записи, создании и удалении",
+    "Отправка, маршрутизация, приём бэком и настоящий обратный ACK",
+    "Повтор после рестарта и конкуренция",
+    "Входящие запросы full: пока не реализованы"
+  ],
+  "next_check": "15_ПроверитьПодпискиСЕСПОткатом.txt"
+}

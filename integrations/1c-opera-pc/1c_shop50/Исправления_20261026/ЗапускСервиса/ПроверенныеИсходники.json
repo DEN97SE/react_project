@@ -1,0 +1,41 @@
+{
+  "date_local": "2026-10-26",
+  "runtime_executed": false,
+  "static_analysis": {
+    "report_modules": {
+      "Information": 179,
+      "Warning": 62,
+      "Hint": 25
+    },
+    "report_checks": {
+      "Information": 12,
+      "Warning": 2
+    }
+  },
+  "changed_methods": [
+    "ОтправитьПорциюПакетов"
+  ],
+  "unchanged_methods": 48,
+  "files": {
+    "/workspace/1c_shop50/ОбщиеМодули/КХ_ОбменШиныОпера.bsl": {
+      "bytes": 88902,
+      "sha256": "315a4d042e2910de281f4d48531d273c5aac8ccfbe6e713b60afa9a99c61c61b"
+    },
+    "/workspace/1c_shop50/АвтоматическаяРегистрация/23_ПовторитьСохраненныйПакетPC.txt": {
+      "bytes": 7347,
+      "sha256": "d0abe1c45b0027dd13833b279c2863024b4f3e6f156afd86b3587c21eb63c87e"
+    },
+    "/workspace/downloads/pc_full_module_service_start.txt": {
+      "bytes": 90145,
+      "sha256": "ed97ddcce061c0f7b2a73502bddf70178791e89583c7b302eb5c2e25e2f17492"
+    },
+    "/workspace/downloads/pc_23_retry_existing.txt": {
+      "bytes": 7419,
+      "sha256": "d91837be849089cc6a5e7ea7910432c78f737fcb1ddaccee5395088ce9e60b5b"
+    },
+    "/workspace/downloads/pc_23_instructions.txt": {
+      "bytes": 4592,
+      "sha256": "48df336b814d82ee084e3099d61ec2666a36e32a8d0bf82d2ff723642f486fb4"
+    }
+  }
+}

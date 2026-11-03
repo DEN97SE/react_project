@@ -1,0 +1,39 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "source": "38_ВосстановитьМаршрутыИНовыйFull_50_410.bsl",
+  "native_user_failure37": {
+    "bases": [
+      "AstorK50_Semidockiy",
+      "Astor_k410_Semidockiy"
+    ],
+    "runs_per_base": 2,
+    "stage": 3,
+    "error": "Не соответствует магазину маршрут node_code",
+    "actual_node_values_supplied": false,
+    "full_requested_before_failure": false
+  },
+  "cause_status": "Ручное удаление технического состояния возможно; фактические адреса пока не получены.",
+  "recovery": "Print actual routes, pause common goods job only when changes needed, wait current cycle, use core configuration exports, then continue request/resume/control.",
+  "configuration_exports": [
+    "УстановитьКодУзлаОтправителя",
+    "НастроитьПолучателяОпера",
+    "НастроитьМаршрутПрайсЧекеров"
+  ],
+  "node_setter_called_outside_outer_transaction": true,
+  "native_route_change_guards_bypassed": false,
+  "old_bodies_rewritten": false,
+  "queues_deleted": false,
+  "acks_fabricated": false,
+  "idempotency_operation_unchanged": "BARCODES_PRIMARY_LAST_20261103_01",
+  "existing_epoch_rewritten": false,
+  "keys_replaced": false,
+  "directory_full_requested": false,
+  "grammar_check": {
+    "engine": "BSLParser0.40.0",
+    "errors": 0,
+    "exit_code": 0
+  },
+  "native_runtime_tested": false,
+  "live_execution_performed": false
+}

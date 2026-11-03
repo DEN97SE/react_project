@@ -1,0 +1,14 @@
+[
+  {
+    "project": "ExchangeVEDO",
+    "uploaded_file": "/workspace/attachments/16c663bf-622d-4b7a-b733-1a373ec165c3/ExchangeVEDO 2.0-2.xasm",
+    "sha256": "376b1563eb4ed3ffdbf24f81c208fa62b2ee506ea495a3cd595221979f822261",
+    "extracted_path": "/workspace/1c_esb_projects/20261028/ExchangeVEDO"
+  },
+  {
+    "project": "Opera_PC",
+    "uploaded_file": "/workspace/attachments/51c29422-7f3c-4c4d-b99b-fd118ae1e15d/Opera_PC 1.0-38.xasm",
+    "sha256": "767e07127a67b42636f286dedabc999023dea3103b97a494c98e7384bc20af6d",
+    "extracted_path": "/workspace/1c_esb_projects/20261028/Opera_PC"
+  }
+]

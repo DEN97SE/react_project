@@ -1,0 +1,20 @@
+{
+  "bsl_parser_version": "0.40.0",
+  "syntax_errors": 0,
+  "exported_calls_verified": 5,
+  "read_only": true,
+  "native_job_fields_reference": {
+    "repository": "https://github.com/cpr1c/tools_ui_1c",
+    "commit": "09554193d696c6cecb5859486dd0a51f481586a9",
+    "module": "УИ_РегламентныеЗаданияСлужебный"
+  },
+  "subscription_inventory": "names and source types; exact event/handler binding is not asserted",
+  "native_incoming_selection_limit": 5,
+  "service_settings_or_activity_changed": false,
+  "jobs_created_enabled_or_started": false,
+  "queue_mutated": false,
+  "messages_sent": false,
+  "new_full_started": false,
+  "secrets_printed": false,
+  "runtime_1c_tested": false
+}

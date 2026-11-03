@@ -1,0 +1,47 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "source": "37_НовыйFullКарточекИКонтроль_50_410.bsl",
+  "user_report": "Все обновил — после успешных проверок трёх карточек и инструкции по подписке",
+  "targets": [
+    "AstorK50_Semidockiy",
+    "Astor_k410_Semidockiy"
+  ],
+  "projects": [
+    "opera",
+    "pricechecker"
+  ],
+  "single_request_export": "КХ_ОбменШиныОпера.ЗапроситьПовторнуюПолнуюВыгрузку",
+  "idempotency": {
+    "root": "OperaState/КХ_OperaState/empty node/empty channel",
+    "field": "barcode_full_reload",
+    "operation_id": "BARCODES_PRIMARY_LAST_20261103_01",
+    "exclusive_root_lock": true,
+    "marker_and_request_same_transaction": true,
+    "core_preserves_unknown_root_fields_reviewed": true,
+    "repeat_requests_another_full": false
+  },
+  "scheduler": "Resume existing common goods job; restore daily10s when disabled; disable legacy separate PC job",
+  "services_activated": [
+    "ExchOperaPC",
+    "ExchPriceChecker"
+  ],
+  "directory_full_requested": false,
+  "queues_cleared": false,
+  "epochs_reset": false,
+  "credentials_changed": false,
+  "acks_fabricated": false,
+  "direct_send_called": false,
+  "direct_exchange_job_called": false,
+  "active_full_cancelled": false,
+  "status_output": "Request/active flags, session revision, last job info and overall queue including old packets",
+  "grammar_check": {
+    "engine": "BSLParser0.40.0",
+    "errors": 0,
+    "exit_code": 0
+  },
+  "native_runtime_tested": true,
+  "live_execution_performed": false,
+  "native_runtime_result": "Остановка перед full на node_code в обеих базах после ручной очистки; фактическое значение не выведено.",
+  "superseded_for_recovery_by": 38
+}

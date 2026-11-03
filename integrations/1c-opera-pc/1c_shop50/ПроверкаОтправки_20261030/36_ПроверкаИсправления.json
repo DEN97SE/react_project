@@ -1,0 +1,80 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "fix": "Неверный доступ к Периодичность удалён из консольной проверки и getter общего модуля.",
+  "user_observed_error": {
+    "source": "native1C console35",
+    "line": 20,
+    "message": "Поле объекта не обнаружено (Периодичность)"
+  },
+  "confirmed_user_metadata": {
+    "ШтриховыеКоды.ДатаИВремяЗаписи": "Дата, дата и время",
+    "ОсновныеШтрихкоды.ДатаИВремяЗаписи": "Дата, дата и время"
+  },
+  "main_register_source": "РегистрСведений.ОсновныеШтрихкоды, связь по Номенклатуре",
+  "last_barcode_time_field": "ШтриховыеКоды.ДатаИВремяЗаписи",
+  "unsupported_periodicity_references_in_active_module_and_check": 0,
+  "getter_runtime_metadata_search_removed": true,
+  "selection_rule_changed": false,
+  "expected_bun_rows": [
+    "2210000274648 шт/1",
+    "2000452859001 кор/30"
+  ],
+  "grammar_checks": {
+    "data_module_bsl_errors": 0,
+    "console36_bsl_errors": 0,
+    "query_sdbl_errors": 0
+  },
+  "query_result_count": 9,
+  "temporary_table_count": 4,
+  "sql_matches_previously_checked_direct_register_variant": true,
+  "native1c_success_after_fix_confirmed": true,
+  "backend_tested": false,
+  "live_deployment_performed": false,
+  "queue_modified": false,
+  "acks_modified": false,
+  "scope": [
+    {
+      "path": "/workspace/1c_shop50/ОбщиеМодули/КХ_ДанныеОпера.bsl",
+      "only_getter_metadata_block_changed": true,
+      "unsupported_periodicity_removed": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.md",
+      "only_getter_metadata_block_changed": true,
+      "unsupported_periodicity_removed": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.txt",
+      "only_getter_metadata_block_changed": true,
+      "unsupported_periodicity_removed": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ПроверкаОтправки_20261030/35_КХ_ДанныеОпера_ПолныйМодуль.bsl",
+      "only_getter_metadata_block_changed": true,
+      "unsupported_periodicity_removed": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ПроверкаОтправки_20261030/35_КХ_ДанныеОпера_ПолныйМодуль.txt",
+      "only_getter_metadata_block_changed": true,
+      "unsupported_periodicity_removed": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ПроверкаОтправки_20261030/35_ИзменяемыеФункции.bsl",
+      "only_getter_metadata_block_changed": true,
+      "unsupported_periodicity_removed": true
+    }
+  ],
+  "native_success_scope": "№410: булочка; №50: две тетради. Все3 ранее выделенных товара: ровно основной шт и кор с30/100/50, реальные разные UUID единиц и правильные флаги.",
+  "native_success_evidence": [
+    "36_ФактическийРезультат410_20261103.json",
+    "36_ФактическийРезультат50_20261103.json"
+  ],
+  "store50_native_result_provided": true,
+  "our_subscription_source_confirmed": false,
+  "diagnostic_fix": "Штатная проверка роли больше не засчитывается как подтверждение нашей подписки. Проверяются имя ожидаемой подписки и тип источника; событие/обработчик всё ещё требуют проверки в конфигураторе.",
+  "native_control_products_passed": 3,
+  "full_catalog_tested": false,
+  "subscription_update_reported_by_user": true,
+  "subscription_update_report": "Все обновил"
+}

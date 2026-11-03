@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-27",
+  "common_modules": 7,
+  "commented_methods": 147,
+  "static_analysis": {
+    "Information": 605,
+    "Warning": 286,
+    "Hint": 58
+  },
+  "archive_test": "passed",
+  "platform_runtime_new_release": "not run locally; requires user checks",
+  "previous_runtime": "PC product delivery / application ACK / cleanup confirmed by user",
+  "features": [
+    "first full of newly configured store",
+    "durable catalog_full_request and structural_units_request",
+    "common store directory both projects / selected store",
+    "separate event context guard in CO",
+    "resume without duplicate full",
+    "captured physical-delete external ID",
+    "mass dependency full request",
+    "managed form source, not compiled EPF"
+  ],
+  "release_dir": "/workspace/downloads/release_20261027",
+  "start_file": "START_HERE.txt"
+}

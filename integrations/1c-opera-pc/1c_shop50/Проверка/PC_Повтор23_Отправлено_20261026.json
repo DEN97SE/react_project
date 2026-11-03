@@ -1,0 +1,20 @@
+{
+  "date_local": "2026-10-26",
+  "evidence": "Скриншот пользователя после 23, отчёта 19 и очистки 22",
+  "retry_23_sent": true,
+  "batch_id": "9d4a84df-91c5-43ff-92a2-f1f5557a3408",
+  "source_revision": "25",
+  "route": "Magazyni_PC -> Backend_PC",
+  "status": "Отправлено",
+  "transport_id": "dbf9f0fa-da5e-4124-b912-8eb3cf5c975b",
+  "body_and_batch_preserved": true,
+  "awaiting_application_ack": true,
+  "cleanup_preserved_unconfirmed_rows": true,
+  "confirmed_deletion_verified": false,
+  "queue_counts_before_and_after_cleanup": {
+    "Opera_sent": 4,
+    "Opera_waiting": 1,
+    "PriceCheker_sent": 1
+  },
+  "next_step": "Настоящий ACK Backend_PC -> Magazyni_PC через FromBackend/ToBackend; затем 19, только после подтверждения 22"
+}

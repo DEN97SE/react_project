@@ -1,0 +1,33 @@
+{
+  "date_local": "2026-10-26",
+  "timezone": "Asia/Krasnoyarsk",
+  "evidence": "Скриншот пользователя с финальными сообщениями сценария 15",
+  "database": "Тестовая база магазина Командор №50",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "passed": true,
+  "events_invoked_by_platform": true,
+  "disabled_publication_created_no_directory_events": true,
+  "actions_verified": [
+    "Обычная запись существующей СЕ",
+    "Пометка на удаление",
+    "Снятие пометки"
+  ],
+  "opera_delta_packets_in_transaction": 3,
+  "pricechecker_delta_packets_in_transaction": 3,
+  "rollback_verified": [
+    "Исходные данные СЕ",
+    "Настройка публикации",
+    "Маркеры",
+    "Число исходящих пакетов"
+  ],
+  "sender_called": false,
+  "not_proven": [
+    "Создание новой СЕ",
+    "Настоящее физическое удаление",
+    "Смена вида СЕ",
+    "Связанные справочники",
+    "Сеть и настоящий ACK бэка",
+    "Конкуренция и рестарт"
+  ],
+  "full_requests_implemented": false
+}

@@ -1,0 +1,16 @@
+{
+  "bsl_parser_version": "0.40.0",
+  "syntax_errors": 0,
+  "exported_calls_verified": 16,
+  "project_sent": "Opera",
+  "backend_identity": "BackendOpera",
+  "reply_recipient": "source_node of original goods packet",
+  "credentials_from_verified_pc": true,
+  "automatic_incoming_purge": false,
+  "new_full_started": false,
+  "manual_business_ack": false,
+  "native_handler_called_from_console": false,
+  "pc_route_modified": false,
+  "runtime_1c_tested": false,
+  "lines": 277
+}

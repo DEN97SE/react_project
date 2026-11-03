@@ -1,0 +1,134 @@
+{
+  "scope": "Статическое чтение исходников и выгрузки XLSX; без исполнения запросов в 1С",
+  "native_filter_checks": {
+    "ОчередьДляВыгрузки": "Исключение и его параметр присутствуют",
+    "ОтменаЗависшихСообщенийВШине": "Исключение и его параметр присутствуют",
+    "УдалениеСтарыхЗаписейОчереди": "Исключение и его параметр присутствуют",
+    "ОбработатьКвитанцию": "Исключение и его параметр присутствуют"
+  },
+  "own_write_filter": [
+    "ИдентификаторОбъекта",
+    "УзелПолучатель",
+    "КаналСервисаИнтеграции",
+    "ВнешняяСистема"
+  ],
+  "queue_rows": 546,
+  "legacy_rows_retained_by_system_exclusion": 542,
+  "own_rows_excluded_from_native_processing": 4,
+  "groups": [
+    {
+      "external_system": "",
+      "status": "Доставка подтверждена",
+      "count": 472
+    },
+    {
+      "external_system": "",
+      "status": "Отправлено",
+      "count": 27
+    },
+    {
+      "external_system": "",
+      "status": "Ошибка",
+      "count": 37
+    },
+    {
+      "external_system": "Opera",
+      "status": "Отправлено",
+      "count": 4
+    },
+    {
+      "external_system": "АРМСупервайзера",
+      "status": "Отправлено",
+      "count": 6
+    }
+  ],
+  "mixed_own_legacy_object_recipient_pairs": [],
+  "opera_packets": [
+    {
+      "batch_id": "1f810e13-dd91-4015-9ccb-59e25878125e",
+      "source_revision": "12",
+      "status": "Отправлено",
+      "products_count": 2
+    },
+    {
+      "batch_id": "2406c48b-9b79-49f8-9c0c-940ac1c1b988",
+      "source_revision": "1",
+      "status": "Отправлено",
+      "products_count": 1
+    },
+    {
+      "batch_id": "aa9c02b9-ace7-4950-babc-7fc405fb4ffe",
+      "source_revision": "2",
+      "status": "Отправлено",
+      "products_count": 1
+    },
+    {
+      "batch_id": "c1db3910-e46a-460c-b5d6-6388f5685490",
+      "source_revision": "13",
+      "status": "Отправлено",
+      "products_count": 1
+    }
+  ],
+  "bsl_language_server_severities": {
+    "ОбработчикиСервисаВЭДО.bsl": {
+      "Information": 16,
+      "Warning": 4,
+      "Hint": 1
+    },
+    "Интеграция1СШина.bsl": {
+      "Warning": 11,
+      "Hint": 2,
+      "Information": 9,
+      "Error": 1
+    },
+    "КХ_ОбменШиныОпера.bsl": {
+      "Warning": 8,
+      "Hint": 2,
+      "Information": 44
+    },
+    "СуществующийОбменОнлайнПлощадок.bsl": {
+      "Hint": 8,
+      "Warning": 59,
+      "Information": 56
+    },
+    "Интеграция1СШинаПереопределяемый.bsl": {
+      "Warning": 4,
+      "Information": 1,
+      "Hint": 1
+    },
+    "ОбменДаннымиЧерезСервисыИнтеграции.bsl": {
+      "Hint": 26,
+      "Warning": 53,
+      "Information": 31
+    },
+    "СуществующаяЗагрузкаWMS.bsl": {
+      "Hint": 9,
+      "Warning": 22,
+      "Information": 45,
+      "Error": 6
+    },
+    "КХ_ОбменШиныПрайсЧекеры.bsl": {
+      "Information": 1,
+      "Warning": 1
+    },
+    "КХ_ДанныеОпера.bsl": {
+      "Warning": 20,
+      "Hint": 2,
+      "Information": 32
+    },
+    "КХ_ДанныеПрайсЧекеры.bsl": {
+      "Warning": 2
+    },
+    "РегистрацияОбъектов1СШина.bsl": {
+      "Warning": 10,
+      "Information": 12,
+      "Hint": 1
+    }
+  },
+  "limitations": [
+    "Проверка добавленного исключения по внешней системе не воспроизводит целиком платформенные запросы.",
+    "XLSX не подтверждает текущую доставку старого обмена, расписание, источники подписок и активные сервисы.",
+    "Нулевое число пересечений ключей относится только к присланному срезу.",
+    "Статический анализ не является компиляцией и исполнением в платформе 1С."
+  ]
+}

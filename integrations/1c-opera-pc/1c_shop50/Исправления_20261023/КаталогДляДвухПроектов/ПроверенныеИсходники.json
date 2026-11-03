@@ -1,0 +1,25 @@
+{
+  "analysis_date": "2026-10-23 07:47:42",
+  "files": {
+    "КХ_ДанныеОпера.bsl": {
+      "sha256": "9d3712fcfdef15aa931fc29d6ff18be5509a67a1366e8cf942136c549fff3883",
+      "changed": true,
+      "bytes": 59469
+    },
+    "КХ_ДанныеПрайсЧекеры.bsl": {
+      "sha256": "537aecf03939a130e75df0eaf1be6b6a334b338e1e2ed2cfc761430af0b0fb43",
+      "changed": false,
+      "bytes": 1352
+    },
+    "КХ_ОбменШиныОпера.bsl": {
+      "sha256": "237733c363083311361b403d4f12f0342f76765acbea956ac4b4ec397add6fa4",
+      "changed": true,
+      "bytes": 73569
+    },
+    "КХ_ОбменШиныПрайсЧекеры.bsl": {
+      "sha256": "4060485271f974b328b87515edf665f64ef2670761f147929ec3cf8b3f3947bb",
+      "changed": false,
+      "bytes": 5900
+    }
+  }
+}

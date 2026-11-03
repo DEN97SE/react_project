@@ -1,0 +1,33 @@
+{
+  "kind": "LOCAL_STATIC_CHECKS_ONLY",
+  "date": "2026-10-29",
+  "version": "3.2",
+  "passed": 13,
+  "total": 13,
+  "checks": {
+    "limited_bsl_parse": true,
+    "no_global_user_create": true,
+    "no_credential_issue": true,
+    "no_UserId_string_conversion": true,
+    "only_existing_shared_user": true,
+    "existing_id_passed_without_conversion": true,
+    "creates_information_system": true,
+    "existing_user_reference_assigned": true,
+    "both_process_memberships": true,
+    "repeat_does_not_replace_owner": true,
+    "create_response_does_not_require_new_secret": true,
+    "empty_credentials_blocked_before_apply": true,
+    "old_pending_guard_retained": true
+  },
+  "bsl_parser_errors": [],
+  "runtime": {
+    "1C": false,
+    "XBSL": false,
+    "program58": false
+  },
+  "scope": "Registration-only, reuses existing K0410, no credentials or native connections activated",
+  "hashes": {
+    "InfoBases_Пилот3.xbsl": "526d3065d020f200972cc4bbbb1aac47d18a34677c4b3935b9dd9b6d930c34c7",
+    "КХ_ПилотШины.bsl": "193b3e76a2789edb8cb697200dde47b6c772db1efca9545a0ca67af4add5ab67"
+  }
+}

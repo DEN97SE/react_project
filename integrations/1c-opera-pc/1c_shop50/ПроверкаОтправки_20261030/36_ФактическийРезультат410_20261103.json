@@ -1,0 +1,40 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "evidence_source": "Фактический вывод консоли пользователя после исправления36",
+  "store_id": "40933103-84ba-4d00-ab50-ce9efa15eda8",
+  "store_label": "410",
+  "nomenclature_id": "3a7f0a8d-56f7-11f0-9682-6eae8b1e8f89",
+  "name": "Булочка Киевская плюшка сдобная 100г Командор (R) (VSG)",
+  "barcodes": [
+    {
+      "barcode": "2210000274648",
+      "unit_id": "06e6250c-5dff-11f0-96d2-5ef3fd361d6b",
+      "unit": "шт",
+      "quantity_in_package": "1",
+      "is_primary": true,
+      "is_base_unit": true
+    },
+    {
+      "barcode": "2000452859001",
+      "unit_id": "7b6dfea6-98ec-11f0-96d4-5ef3fd361d6b",
+      "unit": "кор",
+      "quantity_in_package": "30",
+      "is_primary": false,
+      "is_base_unit": false
+    }
+  ],
+  "native_readonly_check_passed": true,
+  "products_checked": 1,
+  "store50_native_result_provided": false,
+  "messages_sent_by_check": false,
+  "queue_changed_by_check": false,
+  "backend_acceptance_tested": false,
+  "subscription_sources_reported": [
+    "РегистрыСведенийПроверкаНаличияРоли"
+  ],
+  "our_subscription_source_confirmed": false,
+  "subscription_event_and_handler_verified": false,
+  "editor_cache_notice": "При чтении из файла вероятно была потеряна часть данных обычно связанная с метаданными; для анализа содержимого модулей нужно обновить кэш модулей через форму настроек.",
+  "cache_notice_observation": "После предупреждения проверка завершилась с ОК; отсутствие потерь всех бизнес-данных по этому сообщению не доказывалось и не опровергалось."
+}

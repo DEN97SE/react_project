@@ -1,0 +1,201 @@
+{
+  "review_date_client": "2026-11-03",
+  "client_timezone": "Asia/Krasnoyarsk",
+  "user_report": "В двух сообщениях ошибка, все остальное доставлено как надо",
+  "failed_batches_identified_by_user": null,
+  "transport_headers_supplied": false,
+  "error_text_supplied": false,
+  "production_data_changed": false,
+  "packets": [
+    {
+      "attachment_number": 1,
+      "input_path": "/workspace/attachments/ff278c98-ac6b-475c-911c-27834c73fe4d/Вставленный текст.txt",
+      "file_size_bytes": 117979,
+      "project": "pricechecker",
+      "message_type": "products",
+      "store_id": "40933103-84ba-4d00-ab50-ce9efa15eda8",
+      "store_label": "410",
+      "store_code": "526",
+      "batch_id": "eece4c4f-661f-4e43-92d0-87120b1acc5a",
+      "session_id": "349de5d6-cdc0-43e7-b9ca-dde06970dfbd",
+      "sequence": 10,
+      "total_batches": 28,
+      "products_count": 200,
+      "json_valid": true,
+      "duplicate_json_keys": [],
+      "uuid_errors": [],
+      "source_node_matches_store_id": true,
+      "duplicate_nomenclature_ids": [],
+      "identical_barcode_entries": [],
+      "same_barcode_different_quantity": [
+        {
+          "item": 93,
+          "nomenclature_id": "3a7f0a8d-56f7-11f0-9682-6eae8b1e8f89",
+          "name": "Булочка Киевская плюшка сдобная 100г Командор (R) (VSG)",
+          "base_unit": "шт",
+          "barcode": "2000452859001",
+          "entries": [
+            {
+              "barcode": "2000452859001",
+              "unit": "шт",
+              "quantity_in_package": "1"
+            },
+            {
+              "barcode": "2000452859001",
+              "unit": "кор",
+              "quantity_in_package": "30"
+            }
+          ]
+        }
+      ],
+      "fractional_package_quantities": [
+        {
+          "item": 16,
+          "nomenclature_id": "d09b0e10-98bc-11e9-9680-5ef3fd361d6b",
+          "barcode": "14680021881081",
+          "unit": "кор",
+          "quantity_in_package": "1.2"
+        },
+        {
+          "item": 17,
+          "nomenclature_id": "37490ffd-98bd-11e9-9680-5ef3fd361d6b",
+          "barcode": "14680021881098",
+          "unit": "кор",
+          "quantity_in_package": "1.2"
+        },
+        {
+          "item": 110,
+          "nomenclature_id": "489263d9-fb80-11e9-9683-5ef3fd361d6b",
+          "barcode": "4605516024388",
+          "unit": "кор",
+          "quantity_in_package": "3.2"
+        }
+      ],
+      "negative_stock_count": 0,
+      "missing_price_count": 74,
+      "null_nutrition_count": 131,
+      "notes": "Отсутствие цены, null/неполные КБЖУ и дробное количество упаковки сами по себе не признаны ошибкой."
+    },
+    {
+      "attachment_number": 2,
+      "input_path": "/workspace/attachments/82b3c0a5-e5e3-41c7-9ec8-581c343f4699/Вставленный текст.txt",
+      "file_size_bytes": 119699,
+      "project": "pricechecker",
+      "message_type": "products",
+      "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+      "store_label": "50",
+      "store_code": "123",
+      "batch_id": "d5d2519c-efbb-4dcc-b32b-72695b1b62db",
+      "session_id": "4f2647d8-a8f3-47e4-b672-4b393d6125e0",
+      "sequence": 65,
+      "total_batches": 102,
+      "products_count": 200,
+      "json_valid": true,
+      "duplicate_json_keys": [],
+      "uuid_errors": [],
+      "source_node_matches_store_id": true,
+      "duplicate_nomenclature_ids": [],
+      "identical_barcode_entries": [],
+      "same_barcode_different_quantity": [
+        {
+          "item": 166,
+          "nomenclature_id": "ace5bf53-5c12-11e8-a448-5ef3fd3615c3",
+          "name": "Тетрадь 48л клетка, офсет №1 (92%), обложка цветной картон Краснокамский ПК Т-11",
+          "base_unit": "шт",
+          "barcode": "4620000130321",
+          "entries": [
+            {
+              "barcode": "4620000130321",
+              "unit": "кор",
+              "quantity_in_package": "100"
+            },
+            {
+              "barcode": "4620000130321",
+              "unit": "шт",
+              "quantity_in_package": "1"
+            }
+          ]
+        }
+      ],
+      "fractional_package_quantities": [],
+      "negative_stock_count": 0,
+      "missing_price_count": 20,
+      "null_nutrition_count": 137,
+      "notes": "Отсутствие цены, null/неполные КБЖУ и дробное количество упаковки сами по себе не признаны ошибкой."
+    },
+    {
+      "attachment_number": 3,
+      "input_path": "/workspace/attachments/f5f04914-87e2-40c5-baec-03c117ab7be9/Вставленный текст.txt",
+      "file_size_bytes": 121351,
+      "project": "pricechecker",
+      "message_type": "products",
+      "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+      "store_label": "50",
+      "store_code": "123",
+      "batch_id": "701e114a-af79-42dc-a9f5-ea02ac531eed",
+      "session_id": "4f2647d8-a8f3-47e4-b672-4b393d6125e0",
+      "sequence": 82,
+      "total_batches": 102,
+      "products_count": 200,
+      "json_valid": true,
+      "duplicate_json_keys": [],
+      "uuid_errors": [],
+      "source_node_matches_store_id": true,
+      "duplicate_nomenclature_ids": [],
+      "identical_barcode_entries": [],
+      "same_barcode_different_quantity": [
+        {
+          "item": 81,
+          "nomenclature_id": "657b3be5-2162-11e6-b1b8-5ef3fd361d6b",
+          "name": "Тетрадь 96л клетка, офсет №1(92%), обложка цветной картон Краснокамский ПК Т-06",
+          "base_unit": "шт",
+          "barcode": "4620000130369",
+          "entries": [
+            {
+              "barcode": "4620000130369",
+              "unit": "кор",
+              "quantity_in_package": "50"
+            },
+            {
+              "barcode": "4620000130369",
+              "unit": "шт",
+              "quantity_in_package": "1"
+            }
+          ]
+        }
+      ],
+      "fractional_package_quantities": [
+        {
+          "item": 48,
+          "nomenclature_id": "96a5dbb9-0e51-4e71-b192-c1c207a95eb2",
+          "barcode": "4607017465721",
+          "unit": "кор",
+          "quantity_in_package": "1.5"
+        },
+        {
+          "item": 98,
+          "nomenclature_id": "03044e5d-de4e-4cda-b1bf-c4fd0799b5cf",
+          "barcode": "4630056951986",
+          "unit": "кор",
+          "quantity_in_package": "3.5"
+        }
+      ],
+      "negative_stock_count": 0,
+      "missing_price_count": 10,
+      "null_nutrition_count": 93,
+      "notes": "Отсутствие цены, null/неполные КБЖУ и дробное количество упаковки сами по себе не признаны ошибкой."
+    }
+  ],
+  "interpretation": {
+    "confirmed": "В каждом из трёх вложений один barcode одного товара связан с разными quantity_in_package; это не полностью одинаковые строки.",
+    "historical_reference": "Исправления_20261029/ПовторыШтрихкодов/ДляРазработчикаБэка.md: конфликт одного ШК с разным количеством требует явного отказа, если нет выбора варианта упаковки. Первый ШК 2000452859001 уже присутствовал в прежнем логе.",
+    "runtime_cause": "Выделенные3 товара подтверждены пользователем; модель получателя должна допускать один ШК у разных единиц. Текст системного отказа не предоставлен.",
+    "no_blind_fix": "По JSON нельзя определить, какая привязка упаковки верна; произвольное сохранение первого варианта меняет смысл сканирования.",
+    "saved_packet_retries": "Правка текущих данных 1С не изменяет тела уже сохранённых пакетов; повтор старого пакета сохраняет старый конфликт."
+  },
+  "user_confirmed_affected_products": true,
+  "user_confirmed_resolution": "Сохранить обе упаковки; добавить UUID конкретной единицы, признак основного ШК и отдельный признак базовой единицы.",
+  "screenshot_primary_barcode": "2210000274648",
+  "screenshot_primary_barcode_register_caption": "Основные штрихкоды; точное имя метаданных не установлено и для этой правки не требуется",
+  "previous_resolution_superseded": "Ранее обсуждённое исключение коробки отменено последним требованием."
+}

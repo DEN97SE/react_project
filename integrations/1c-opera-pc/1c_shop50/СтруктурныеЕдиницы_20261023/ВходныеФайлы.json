@@ -1,0 +1,149 @@
+[
+  {
+    "file_id": "file_000000003bbc820ba5885374f3b22676",
+    "original_name": "ObjectModule.bsl",
+    "local_name": "ObjectModule.bsl",
+    "bytes": 23469,
+    "sha256": "80bcdb16b38edeff5ced2c45c5ab6fb629ab828709b67beb8519319099a60ec3"
+  },
+  {
+    "file_id": "file_000000009d50820b8f9b09edf6704f75",
+    "original_name": "Help.xml",
+    "local_name": "Help.xml",
+    "bytes": 232,
+    "sha256": "76aa9ea3f89de48211fc07ae7713bf627d61be458b41c955a87b05c3eb2bcd23"
+  },
+  {
+    "file_id": "file_0000000068f0820b992612947fa7448c",
+    "original_name": "Predefined.xml",
+    "local_name": "Predefined.xml",
+    "bytes": 865,
+    "sha256": "ebcb21e11ee2d314b277bf13726b93708c2a0bbeb8cd6ebb24b3eaa539602d6a"
+  },
+  {
+    "file_id": "file_0000000084c0820bb1b9da1bf60e9025",
+    "original_name": "ManagerModule.bsl",
+    "local_name": "ManagerModule.bsl",
+    "bytes": 1693,
+    "sha256": "2629868f4d313e7a592781428af1c1a92120692570e926623572914b9c1ad5e2"
+  },
+  {
+    "file_id": "file_00000000a8fc8211993e9e86ee62c047",
+    "original_name": "ru.html",
+    "local_name": "ru.html",
+    "bytes": 3467,
+    "sha256": "dd915d7bbf07cb8bf0ee1916f26782e448d8a9b7c3fc80f268659876d5fae164"
+  },
+  {
+    "file_id": "file_00000000729c820b8c394004f2c6f9c6",
+    "original_name": "ФормаГруппы.xml",
+    "local_name": "ФормаГруппы.xml",
+    "bytes": 1628,
+    "sha256": "b280cb1791e42b8a941c65f42ccc08755ad4463f6ea62782750bec4354540f11"
+  },
+  {
+    "file_id": "file_00000000ac3c820bb69e38f7fd09916d",
+    "original_name": "ФормаВыбораУправляемая.xml",
+    "local_name": "ФормаВыбораУправляемая.xml",
+    "bytes": 1568,
+    "sha256": "24bbcf28706992db16e2adbb4ca82cf5515d33675c3f2dc3c064e6b71075ab82"
+  },
+  {
+    "file_id": "file_000000007794823082bce09bf06588d5",
+    "original_name": "ФормаВыбора.xml",
+    "local_name": "ФормаВыбора.xml",
+    "bytes": 1631,
+    "sha256": "a21de5f301d054241429d27b3518c9f2a9b910fd63b7389343c46fbe19c3686f"
+  },
+  {
+    "file_id": "file_000000005a64820b9711da08c9fffa01",
+    "original_name": "ФормаСписка.xml",
+    "local_name": "ФормаСписка.xml",
+    "bytes": 1624,
+    "sha256": "174a35c2f2c32cf9f1716cf1eba597ae4643ac3d2a92e18cd1dd255569c2ae16"
+  },
+  {
+    "file_id": "file_00000000c9dc820b9b38923d4363e488",
+    "original_name": "Form.bin",
+    "local_name": "Form.bin",
+    "bytes": 18024,
+    "sha256": "ce7730548558e843dd0397e15ad2767fbe00718b3e8207b4df47c6799e015d48"
+  },
+  {
+    "file_id": "file_00000000b01882119a6d817bc22e0e21",
+    "original_name": "ФормаЭлемента.xml",
+    "local_name": "ФормаЭлемента.xml",
+    "bytes": 1644,
+    "sha256": "d6a60c0577f63f31a57dc5fa9c24ba11c7651e5dfe2d4d7f7dbea6eb5f4d41f6"
+  },
+  {
+    "file_id": "file_0000000001d8820ba97ac23986b6e9cd",
+    "original_name": "Form.xml",
+    "local_name": "Form.xml",
+    "bytes": 41298,
+    "sha256": "f07e59128102394e0904f7f157fe4357170c393f504f2a260abff659716dd258"
+  },
+  {
+    "file_id": "file_000000000cd8820b9203bb11aed17a1c",
+    "original_name": "Form.bin",
+    "local_name": "Form_2.bin",
+    "bytes": 12236,
+    "sha256": "7fe7014601e74884093fe101c8c75ac0eaa2075a3cffc4d05d73e201bb99553d"
+  },
+  {
+    "file_id": "file_00000000b8ec820993e9e357f97b6b90",
+    "original_name": "Form.bin",
+    "local_name": "Form_3.bin",
+    "bytes": 47518,
+    "sha256": "2728fa959c7950bb71c8a81fc10c8318673a17e8f5ebf2be401effceccbfa0cb"
+  },
+  {
+    "file_id": "file_0000000055b8820bb0696fa8bc78fd66",
+    "original_name": "Help.xml",
+    "local_name": "Help_2.xml",
+    "bytes": 232,
+    "sha256": "76aa9ea3f89de48211fc07ae7713bf627d61be458b41c955a87b05c3eb2bcd23"
+  },
+  {
+    "file_id": "file_00000000c25c8211aa09e5e3f9cff086",
+    "original_name": "Form.bin",
+    "local_name": "Form_4.bin",
+    "bytes": 239266,
+    "sha256": "09ea5b538b15a54a95119742136159f5be2bd5a08856f8069083a717dac306c5"
+  },
+  {
+    "file_id": "file_000000009138820bb5603fbb4a46392d",
+    "original_name": "ru.html",
+    "local_name": "ru_2.html",
+    "bytes": 3614,
+    "sha256": "31b451e38e9b458f87453ee71ed51ac354eea84dc31a9953ad32e476e8a9578c"
+  },
+  {
+    "file_id": "file_000000000660820bbf377ae330be7fe5",
+    "original_name": "СтруктурныеЕдиницы.xml",
+    "local_name": "СтруктурныеЕдиницы.xml",
+    "bytes": 125812,
+    "sha256": "2d703503356c9dc9d3a02ca0cff59a617c79aa696cd1cc270570b8dc4d37849f"
+  },
+  {
+    "file_id": "file_000000005c5c820b855aef4982ab8054",
+    "original_name": "Склады.xml",
+    "local_name": "Склады.xml",
+    "bytes": 29597,
+    "sha256": "46e10dd27008458fa61918b70191f95464ff68ce9951d5b4f890af60d94fb17b"
+  },
+  {
+    "file_id": "file_00000000af348211a2dc35a904cdbe50",
+    "original_name": "ТерриториальныеЕдиницы.xml",
+    "local_name": "ТерриториальныеЕдиницы.xml",
+    "bytes": 15859,
+    "sha256": "e40f368dc2852b1a78ca8e0393682243b936bca32eb44ce57775e3321d7b3ecf"
+  },
+  {
+    "file_id": "file_0000000044c8820baf978a89e41beb70",
+    "original_name": "ТерриториальныеОбразования.xml",
+    "local_name": "ТерриториальныеОбразования.xml",
+    "bytes": 16815,
+    "sha256": "2c292667c30a11c54189f8d777978e4457b39d556441a2cd1b1294f4849cdf0e"
+  }
+]

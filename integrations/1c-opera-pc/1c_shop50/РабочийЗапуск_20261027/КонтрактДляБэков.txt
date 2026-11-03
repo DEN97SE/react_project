@@ -1,0 +1,139 @@
+Сообщения от бэка в 1С — контракт редакции 27.10.2026
+
+Это JSON-тело сообщения, не XML. Код отправителя/получателя задаётся в конверте Шины, а не произвольным полем JSON.
+ACK товаров уже проверен в пользовательской базе. Новые запросы восстановления и общий справочник PC требуют установки выпуска 27.10.2026 и сквозной проверки.
+
+1. ACK ТОВАРОВ
+Файлы 01_product_ack.json и 02_product_error.json.
+store_id и batch_id всегда копировать из обрабатываемого пакета products. Приведённый batch_id — пример из присланного старого пакета Opera, не универсальное значение для всех пакетов.
+processed возвращать после надёжного сохранения всей порции. При неполной записи — error с описанием.
+Повтор уже обработанного batch_id повторно подтверждать processed. Старую revision не применять поверх новой, но пакет после корректной проверки можно подтвердить как обработанный.
+Opera отвечает по обратному маршруту Opera, PC по обратному маршруту PC. ACK каждого проекта независим. Транспортная квитанция Шины не заменяет прикладной ACK.
+
+2. ACK СПРАВОЧНИКА МАГАЗИНОВ
+Файл 03_directory_ack.template.json — ШАБЛОН, угловые скобки заменить значениями входящего structural_units.
+Обязательные поля: message_type=ack, dataset=structural_units, project, source_id, directory_epoch, scope_store_id, batch_id, status.
+project, source_id, directory_epoch, scope_store_id и batch_id копируются без подмены из пакета. У общего справочника обоих проектов scope_store_id=null. У прежнего локального PC-пакета область равна ID его магазина.
+При ошибке оставить остальные поля и заменить status на error, добавить error с описанием.
+Каждую порцию full надёжно сохранить/стадировать и подтвердить отдельно. Полный справочник публиковать после всех sequence указанной сессии; is_final само по себе полноту не доказывает. Ключ сессии включает project,source_id,directory_epoch,scope_store_id,session_id. Более новые delta сохраняют приоритет.
+ACK идёт от участника, которому предназначался пакет, обратно на source_node источника справочника. Для PC это может быть узел ЦО, а не Magazyni_PC магазина.
+Удаление СЕ не означает автоматическое физическое удаление всей истории товаров магазина. Общий справочник и товарные таблицы не подменяют друг друга.
+
+3. ЗАПРОС ВСЕХ ТОВАРОВ ОДНОГО МАГАЗИНА
+Файлы 04_catalog_full_pc.json и 05_catalog_full_opera.json.
+Отправить catalog_full_request с новым request_id и store_id нужного магазина в соответствующую магазинную базу. project должен соответствовать входящему каналу.
+1С проверяет реального отправителя конверта: настроенный бэк своего проекта. Для Opera перед тестом должен быть явно настроен получатель BackendOpera.
+Запрос сохраняется в 1С; callback не собирает каталог и не отправляет ответ синхронно. Фоновое задание начинает новую full-сессию только для запросившего проекта. Если уже идёт другая сессия, запрос ждёт её завершения подготовки.
+Ответ — обычные products, kind=full, request_id из запроса в КАЖДОЙ порции, session_id, sequence,total_batches,is_final. Отдельного accepted/request_result сообщения нет.
+Бэк возвращает обычный товарный ACK на каждый batch_id ответа. Для восстановления не надо добавлять dataset=structural_units к товарному ACK.
+
+4. ЗАПРОС СПРАВОЧНИКА МАГАЗИНОВ
+Файлы 06..09: structural_units_request отправляется в выбранный ЦО-источник.
+source_id — идентификатор настроенного источника справочника из ранее полученного structural_units. В файлах сейчас приведён ИД тестового источника №50; для рабочего ЦО заменить его фактическим source_id.
+scope_store_id=null означает запрос всего справочника; конкретный ID означает только карточку указанного магазина.
+Ответ на общий запрос: structural_units kind=full, все порции содержат request_id. Ответ на запрос одной СЕ: structural_units kind=delta с request_id, только эта карточка либо её явное удаление; остальные магазины не заменяются.
+В общем режиме Backend_PC может запросить весь список или одну СЕ. В локальном режиме PC может запросить только свой scope и только от явно настроенного узла.
+Ответные порции подтверждаются ACK справочника из пункта2, по значениям фактического ответа. Не надо копировать scope запроса в ACK вслепую: копируйте scope_store_id из ответного пакета.
+
+5. REQUEST_ID И ПОВТОРЫ
+Для новой операции генерировать новый непустой UUID. Для повтора того же запроса использовать прежний UUID и те же project/store/scope/source.
+Одинаковый request_id с тем же содержимым не запускает второй full. Идентификатор с другим содержимым отклоняется. Чтобы запросить новую выгрузку после ранее завершённой, нужен новый request_id.
+1С хранит до100 незавершённых запросов в своей очереди соответствующего вида. Callback только ставит запрос в очередь; ожидать немедленного ответного пакета не нужно.
+Ошибочные JSON, чужой магазин, отправитель, источник или несовместимый project отклоняются и фиксируются в журнале 1С. Следите за ошибками/недоставленными в Шине и не повторяйте неверное тело без исправления.
+Статус queued в техническом журнале 1С означает «все ответные порции поставлены в исходящую очередь», не «бэк уже применил данные».
+
+6. МАРШРУТЫ ТЕСТА
+Товары PC: запрос/ACK Backend_PC -> Magazyni_PC. Ответы идут Magazyni_PC -> Backend_PC.
+Товары Opera: BackendOpera -> фактический отправитель магазинной 1С (по прежней настройке astor123); проверить, что этот код участника входит в соответствующий процесс.
+Справочник: BackendOpera/Backend_PC -> source_node ЦО из пакета. Тестовый источник №50 использует свой сохранённый source_node; рабочий ЦО настраивается отдельно и должен присутствовать в обоих процессах Шины.
+source_id и store_id — стабильные внешние ID данных, а source_node/коды участников — адреса доставки; не заменяйте одно другим.
+
+
+ПРИМЕРЫ JSON
+
+01_product_ack.json
+{
+  "message_type": "ack",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "batch_id": "1f810e13-dd91-4015-9ccb-59e25878125e",
+  "status": "processed"
+}
+
+02_product_error.json
+{
+  "message_type": "ack",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "batch_id": "1f810e13-dd91-4015-9ccb-59e25878125e",
+  "status": "error",
+  "error": "Не удалось сохранить пакет: описание ошибки"
+}
+
+03_directory_ack.template.json
+{
+  "message_type": "ack",
+  "dataset": "structural_units",
+  "project": "pricechecker",
+  "source_id": "<source_id из входящего пакета>",
+  "directory_epoch": "<directory_epoch из входящего пакета>",
+  "scope_store_id": null,
+  "batch_id": "<batch_id из входящего пакета>",
+  "status": "processed"
+}
+
+04_catalog_full_pc.json
+{
+  "schema_version": 1,
+  "message_type": "catalog_full_request",
+  "project": "pricechecker",
+  "request_id": "5a266e9c-b4bc-463a-b863-703592725822",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+}
+
+05_catalog_full_opera.json
+{
+  "schema_version": 1,
+  "message_type": "catalog_full_request",
+  "project": "opera",
+  "request_id": "09e5eacd-e88a-4cf6-b72a-1a90c47f85fa",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+}
+
+06_directory_all_pc.json
+{
+  "schema_version": 1,
+  "message_type": "structural_units_request",
+  "project": "pricechecker",
+  "request_id": "73ff0a63-45ec-4fda-b222-3538a677b5e5",
+  "source_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "scope_store_id": null
+}
+
+07_directory_one_pc.json
+{
+  "schema_version": 1,
+  "message_type": "structural_units_request",
+  "project": "pricechecker",
+  "request_id": "6bef444e-29e1-4bd1-bcbe-2ca1edecb729",
+  "source_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "scope_store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+}
+
+08_directory_all_opera.json
+{
+  "schema_version": 1,
+  "message_type": "structural_units_request",
+  "project": "opera",
+  "request_id": "38610107-db6b-49da-9f25-8cb66ea9326b",
+  "source_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "scope_store_id": null
+}
+
+09_directory_one_opera.json
+{
+  "schema_version": 1,
+  "message_type": "structural_units_request",
+  "project": "opera",
+  "request_id": "e38fb1b1-b324-4d29-822a-10e28f0db3fa",
+  "source_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "scope_store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+}

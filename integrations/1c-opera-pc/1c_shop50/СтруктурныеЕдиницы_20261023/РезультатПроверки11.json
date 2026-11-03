@@ -1,0 +1,38 @@
+{
+  "evidence_source": "Вывод сценария 11, присланный пользователем 23.10.2026",
+  "runtime_verified": true,
+  "publication_or_backend_ack_verified": false,
+  "current_unit_name": "Командор №50",
+  "central_office_helper_result": true,
+  "actual_database_role_confirmed": true,
+  "current_card_as_received": {
+    "id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+    "code": "123",
+    "store_number": "50",
+    "name": "Командор №50",
+    "unit_type": "store",
+    "address": "660093, Красноярский Край, Красноярск г, Королева ул, дом № 1А",
+    "is_working": true,
+    "opening_date": "2011-01-23",
+    "closing_date": "2001-01-01",
+    "coordinates_raw": "55.988359,92.897793",
+    "format": null,
+    "territory": {
+      "id": "1d4d6e66-ded6-11e2-b791-5ef3fd361d6b",
+      "name": "Красноярск"
+    },
+    "region": {
+      "id": "834cf43d-b189-11dd-9fe6-001a64c3f568",
+      "name": "Красноярский край"
+    }
+  },
+  "store_id_matches_product_exchange": true,
+  "unmarked_stores": 567,
+  "deletion_marked_stores": 16,
+  "working_unmarked_stores": 502,
+  "nonworking_unmarked_stores": 65,
+  "queue_or_source_data_changed": false,
+  "closing_date_normalization_in_this_runtime_result": false,
+  "database_origin": "Тестовая база магазина №50; пользователь намеренно изменяет настройки, из-за чего функция определения ЦО возвращает Истина",
+  "directory_publication_authority": false
+}

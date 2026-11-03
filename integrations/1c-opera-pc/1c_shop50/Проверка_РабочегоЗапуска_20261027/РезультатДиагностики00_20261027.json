@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-27",
+  "source": "user screenshot of 00_preflight",
+  "current_unit": "Командор №50",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "unit_code": "123",
+  "store_number": "50",
+  "co_helper": true,
+  "co_helper_explanation": "user deliberately configured test shop copy as CO",
+  "revision": 31,
+  "full_active": false,
+  "persisted_opera_sender": "",
+  "persisted_opera_backend": "",
+  "effective_legacy_opera_sender": "astor123 (fallback by unit code)",
+  "pc_sender": "Magazyni_PC",
+  "pc_backend": "Backend_PC",
+  "queue_counts": {
+    "Opera_sent": 9,
+    "OperaState_confirmed": 1,
+    "PriceCheker_rows": 0
+  },
+  "directory_state_printed": false,
+  "preflight_finished_without_write_or_send": true,
+  "subscription_bindings_verified_by_this_test": false,
+  "next": "12_delete_dependency_check rollback fixture"
+}

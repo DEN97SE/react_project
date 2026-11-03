@@ -1,0 +1,62 @@
+[
+  {
+    "file": "00_START_HERE.txt",
+    "bytes": 18757,
+    "sha256": "b063bc7e4fe46d66938f052845f1991574467bce111b1a10aeae5c52092bec02"
+  },
+  {
+    "file": "01_connection_setup_module.txt",
+    "bytes": 14220,
+    "sha256": "e05d45c7c68050961e0560260d863c5e818e5dd63c52c6e2e7485c8a04b040a6"
+  },
+  {
+    "file": "02_bootstrap_global_module.txt",
+    "bytes": 16189,
+    "sha256": "11ee6652e3680f403db5baa9845e82a3e0952e303aeccda318ddcb3baacc39e9"
+  },
+  {
+    "file": "03_database_preflight.txt",
+    "bytes": 528,
+    "sha256": "329e11d0f19c6fb597d90462afa6e601f383fa00ad19b29f8bcacb1019475b2b"
+  },
+  {
+    "file": "Opera_PC_1.0-39_registration_candidate.xasm",
+    "bytes": 13352,
+    "sha256": "ce3ff3d38d88518156a3b67b0e25f6eaa98b540e573e703b93f971ece9d09309"
+  },
+  {
+    "file": "Run-StoreEnrollment.ps1",
+    "bytes": 11045,
+    "sha256": "53fc0cd1589c039044f09e4d2a012e88faab08fd1f936abd0196af0b980dfd49"
+  },
+  {
+    "file": "Test-EnrollmentApi.ps1",
+    "bytes": 5058,
+    "sha256": "f4735e724818e8c902a77c745f8baec87e046120fbd948a7e42834867ae15b3a"
+  },
+  {
+    "file": "checks.json",
+    "bytes": 6624,
+    "sha256": "076a9894880cdc0d51c975fc36326e1d281a6033586b03b7439d4c6df87a42a8"
+  },
+  {
+    "file": "pilot.csv",
+    "bytes": 105,
+    "sha256": "ede547d43bcb373a32094138344a656ffa456792621f40490e52fbe4e31ecf86"
+  },
+  {
+    "file": "server_InfoBases_code.txt",
+    "bytes": 13436,
+    "sha256": "be7db922f622564bddd0878fc6e418883f156e89e99c04fd846ed7813ad0ed8b"
+  },
+  {
+    "file": "server_InfoBases_metadata.txt",
+    "bytes": 1996,
+    "sha256": "b3624cf79461d09bc6b6348462f3fe11679382def131418f4a0944785329d4d4"
+  },
+  {
+    "file": "server_key_registry_metadata.txt",
+    "bytes": 1482,
+    "sha256": "990a24c5fddd29f1322296d0013f096242816e05c741cc94937e55c93bfb482a"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "bsl_parser_version": "0.40.0",
+  "syntax_errors": 0,
+  "lines": 208,
+  "exported_calls_verified": 5,
+  "scheduled_job_api_reference": "https://github.com/cpr1c/tools_ui_1c/tree/09554193d696c6cecb5859486dd0a51f481586a9",
+  "schedule_fields_verified": true,
+  "only_mutated_object": "selected existing common goods scheduled job",
+  "service_settings_or_keys_changed": false,
+  "other_jobs_changed": false,
+  "job_created_or_deleted": false,
+  "business_method_called_manually": false,
+  "manual_goods_registration": false,
+  "explicit_full_start": false,
+  "initial_full_can_start_via_enabled_scheduler": true,
+  "queue_deleted_or_rewritten": false,
+  "secrets_printed": false,
+  "runtime_1c_tested": true,
+  "runtime_evidence": {
+    "date": "2026-11-02",
+    "stores": [50, 410],
+    "scheduled_jobs_started_by_scheduler": true,
+    "repeated_run_keeps_existing_schedule": true,
+    "initial_full_sessions_created_automatically": true,
+    "first_full_batch_registered": "not yet shown",
+    "complete_delivery_confirmed": false
+  }
+}

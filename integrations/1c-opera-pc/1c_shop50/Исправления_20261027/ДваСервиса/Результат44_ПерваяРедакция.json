@@ -1,0 +1,15 @@
+{
+  "source": "Скриншот пользователя после первого запуска 44, 27.10.2026",
+  "literal_routes_passed": 6,
+  "invalid_routes_rejected": 11,
+  "both_services_present": true,
+  "existing_packet_preview_errors": 18,
+  "errors": "Канал пакета не соответствует проекту Opera / PC",
+  "raw_channel_values_not_printed": true,
+  "verified_code_regression": "Old sender applied СокрЛП; first resolver version compared raw saved channels",
+  "padding_as_root_cause": "Likely, not yet proven from raw values or metadata",
+  "version2_fix": "Normalize only local comparison string, preserve raw input and keys",
+  "version2_fixture": "10 valid / 14 invalid routes, input immutability, actual raw/type/length/trimmed diagnostics",
+  "version2_runtime_result": "Pending user execution",
+  "network_or_queue_mutations_in_fixture": false
+}

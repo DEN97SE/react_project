@@ -1,0 +1,132 @@
+Для анализа содержимого модулей нужно обновить кэш модулей через открывшуюся форму настроек.
+ПРОВЕРЕНО: 10 допустимых маршрутов, включая каналы с крайними пробелами. Исходные значения не менялись.
+ПРОВЕРЕНО: 14 недопустимых сочетаний отклонены, межпроектная подмена канала запрещена.
+Оба сервиса присутствуют в метаданных. Ключи, активность и фактическое подключение этим не проверялись.
+ПАКЕТ | Opera | 1f810e13-dd91-4015-9ccb-59e25878125e | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | Opera | 22d34bd7-dbb2-4d3b-bd31-833752fa85a7 | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | Opera | aa9c02b9-ace7-4950-babc-7fc405fb4ffe | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | Opera | afaf2f9d-951e-4499-9010-6b2e229429c3 | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | Opera | c1db3910-e46a-460c-b5d6-6388f5685490 | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | Opera | cfaeabd6-5642-4fb9-89f0-685bd7bd408c | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | Opera | dd167269-3450-4eb4-bdad-f568c69cadc5 | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: MagazyniOpera; получатель: BackendOpera
+ПАКЕТ | Opera | e4c019e6-c9fd-440b-978a-ddd4412f4c5b | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | Opera | e7ecb914-4af3-4337-bdd8-3b2a04fe6add | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: ; получатель: 
+ПАКЕТ | PriceCheker | 1bc73c77-8610-4784-9fdc-46844ab47d37 | Доставка подтверждена
+  Тип канала: Строка
+  Сохранённый канал: [Основной_PriceChekerExc_FromShops                 ]; длина: 50
+  После СокрЛП: [Основной_PriceChekerExc_FromShops]; длина: 33
+  Доставка через: ExchPriceChecker / Komandor_Opera_PC_Основной_PC_FromShops
+  Канал в сохранённом ключе: Основной_PriceChekerExc_FromShops                 
+  source_node тела: Magazyni_PC; получатель: Backend_PC
+ПАКЕТ | PriceCheker | 2458957a-6753-45e0-bbf3-e8168d6de312 | Ожидает отправки
+  Тип канала: Строка
+  Сохранённый канал: [Основной_PriceChekerExc_FromShops                 ]; длина: 50
+  После СокрЛП: [Основной_PriceChekerExc_FromShops]; длина: 33
+  Доставка через: ExchPriceChecker / Komandor_Opera_PC_Основной_PC_FromShops
+  Канал в сохранённом ключе: Основной_PriceChekerExc_FromShops                 
+  source_node тела: ; получатель: Backend_PC
+ПАКЕТ | PriceCheker | 3531a147-84d5-4f4c-a3b3-cc48163593b6 | Ожидает отправки
+  Тип канала: Строка
+  Сохранённый канал: [Основной_PriceChekerExc_FromShops                 ]; длина: 50
+  После СокрЛП: [Основной_PriceChekerExc_FromShops]; длина: 33
+  Доставка через: ExchPriceChecker / Komandor_Opera_PC_Основной_PC_FromShops
+  Канал в сохранённом ключе: Основной_PriceChekerExc_FromShops                 
+  source_node тела: ; получатель: Backend_PC
+ПАКЕТ | StructuralUnits | 027c7c33-95c3-46ad-b828-a689e85e20ed | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_PriceChekerExc_FromShops                 ]; длина: 50
+  После СокрЛП: [Основной_PriceChekerExc_FromShops]; длина: 33
+  Доставка через: ExchPriceChecker / Komandor_Opera_PC_Основной_PC_FromShops
+  Канал в сохранённом ключе: Основной_PriceChekerExc_FromShops                 
+  source_node тела: MagazyniOpera; получатель: Backend_PC
+ПАКЕТ | StructuralUnits | 4eeb89fa-8c06-4e54-9927-a608f8c7ad60 | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_PriceChekerExc_FromShops                 ]; длина: 50
+  После СокрЛП: [Основной_PriceChekerExc_FromShops]; длина: 33
+  Доставка через: ExchPriceChecker / Komandor_Opera_PC_Основной_PC_FromShops
+  Канал в сохранённом ключе: Основной_PriceChekerExc_FromShops                 
+  source_node тела: MagazyniOpera; получатель: Backend_PC
+ПАКЕТ | StructuralUnits | 7789e628-18d0-40d1-9594-fe1dee7cc4af | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: MagazyniOpera; получатель: BackendOpera
+ПАКЕТ | StructuralUnits | 7e10a738-4e56-4f1c-956d-b5eb442b208b | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: MagazyniOpera; получатель: BackendOpera
+ПАКЕТ | StructuralUnits | c1917d14-50d2-4545-81d7-f3f281cc066a | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_PriceChekerExc_FromShops                 ]; длина: 50
+  После СокрЛП: [Основной_PriceChekerExc_FromShops]; длина: 33
+  Доставка через: ExchPriceChecker / Komandor_Opera_PC_Основной_PC_FromShops
+  Канал в сохранённом ключе: Основной_PriceChekerExc_FromShops                 
+  source_node тела: MagazyniOpera; получатель: Backend_PC
+ПАКЕТ | StructuralUnits | d944df51-ca29-4af2-b33a-5886bea01c44 | Отправлено
+  Тип канала: Строка
+  Сохранённый канал: [Основной_ExchangeOpera_FromOpera                  ]; длина: 50
+  После СокрЛП: [Основной_ExchangeOpera_FromOpera]; длина: 32
+  Доставка через: ExchOperaPC / Основной_ExchangeOpera_FromOpera
+  Канал в сохранённом ключе: Основной_ExchangeOpera_FromOpera                  
+  source_node тела: MagazyniOpera; получатель: BackendOpera
+Ошибок просмотра сохранённых пакетов: 0
+Очередь, тела, batch_id, отправители, настройки и прогресс full не менялись. Отправка и ACK не вызывались.

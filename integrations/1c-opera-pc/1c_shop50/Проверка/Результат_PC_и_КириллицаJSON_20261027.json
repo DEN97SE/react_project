@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-27",
+  "source": "user reports and screenshot",
+  "pc_remaining_batch_id": "cda51ba9-747e-4c1c-b998-409d55a0b16d",
+  "pc_remaining_batch_confirmed_then_removed": true,
+  "pc_automatic_flow_reported_success": true,
+  "pc_automatic_flow_detail": "Пользователь сообщил: «все получилось, кроме оперы» после предложенной проверки автоматического цикла. Отдельные логи смены цены не присланы.",
+  "opera_status": "Пользователь уточнил: Opera пока не подключали; это не подтверждённая ошибка доставки.",
+  "new_json_serialization": "Подготовлена читаемая кириллица для новых сообщений; установка в платформу пока не подтверждена."
+}

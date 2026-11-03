@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "project_candidate": "/workspace/downloads/autoconnect_ready_20261028/Opera_PC_1.0-39_registration_candidate.xasm",
+  "validation_checks": 55,
+  "esb_compilation_pending": true,
+  "one_c_compilation_pending": true,
+  "external_environment_changed": false,
+  "single_sequential_registrar_only": true,
+  "closed_key_registry_contains_plain_fields_admin_only": true,
+  "next_action": "Compile XASM in user IDE before publication"
+}

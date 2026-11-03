@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "fixture": "44 version2",
+  "valid_routes": 10,
+  "invalid_routes_rejected": 14,
+  "services_present": true,
+  "packet_preview_errors": 0,
+  "packet_count": 18,
+  "stored_channel_length": 50,
+  "trimmed_opera_length": 32,
+  "trimmed_legacy_pc_length": 33,
+  "observed_statuses": [
+    {
+      "system": "Opera",
+      "status": "Отправлено",
+      "count": 9
+    },
+    {
+      "system": "PriceCheker",
+      "status": "Доставка подтверждена",
+      "count": 1
+    },
+    {
+      "system": "PriceCheker",
+      "status": "Ожидает отправки",
+      "count": 2
+    },
+    {
+      "system": "StructuralUnits",
+      "status": "Отправлено",
+      "count": 6
+    }
+  ],
+  "network_or_ack_invoked_by_fixture": false,
+  "new_service_connection_proven": false,
+  "queue_and_state_unchanged_by_fixture": true,
+  "source_file": "/workspace/attachments/31649676-da49-4899-b422-099d07a6fc84/Вставленный текст.txt"
+}

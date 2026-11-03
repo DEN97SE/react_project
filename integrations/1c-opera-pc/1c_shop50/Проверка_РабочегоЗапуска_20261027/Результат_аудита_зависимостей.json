@@ -1,0 +1,35 @@
+{
+  "collector_changed": [
+    "СформироватьСостояниеКаталога",
+    "СформироватьСостояниеПоНоменклатурам"
+  ],
+  "collector_new": [
+    "ДополнитьФизическиеУдаления"
+  ],
+  "new_registration_module_methods": [
+    "НоменклатураПередУдалением",
+    "ПолучитьИдентификаторыУдаленнойНоменклатуры",
+    "НаборУдаленнойНоменклатуры",
+    "ГруппаНоменклатурыПриЗаписи",
+    "СвязанныйСправочникПриЗаписи",
+    "СвязанныйСправочникПередУдалением",
+    "ЭтоТипЗависимостиКарточки",
+    "СтруктурнаяЕдиницаПередЗаписью",
+    "СтруктурнаяЕдиницаПриЗаписи",
+    "СкладПередЗаписью",
+    "СкладПриЗаписи",
+    "СкладПередУдалением",
+    "ПроверитьТранзакцию"
+  ],
+  "native_modules_edited": false,
+  "new_subscriptions_required": 9,
+  "runtime_remote_1c": "Not executed",
+  "native_creation_constraint": "СправочникиОПЕРАТИВНОГОУчета required in CO",
+  "script02": "Algorithm fixture with rollback, not a real business object deletion",
+  "static_module_initial_pass_errors": 0,
+  "final_static_two_modules_and_three_scripts": {
+    "Information": 122,
+    "Hint": 23,
+    "Warning": 86
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "source": "user pasted full output file_00000000a9d88207850e5174388e61f4",
+  "empty_opera_batch": "2406c48b-9b79-49f8-9c0c-940ac1c1b988",
+  "quarantine_runtime": "passed; typed original row saved OperaState/КХ_OperaQuarantine, archive Error, no ACK",
+  "after_json39": {
+    "valid": 14,
+    "invalid": 0,
+    "Opera": 8,
+    "StructuralUnits": 6
+  },
+  "active_full_preserved": true,
+  "catalog_request_test31_after_fix": "not re-run; real full already active",
+  "next": "Enable directory job only, verify both project directory deliveries/ACKs/cleanup; keep goods job paused until store directory accepted."
+}

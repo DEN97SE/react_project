@@ -1,0 +1,10 @@
+{
+  "message_type": "ack",
+  "dataset": "structural_units",
+  "project": "pricechecker",
+  "source_id": "<source_id из входящего пакета>",
+  "directory_epoch": "<directory_epoch из входящего пакета>",
+  "scope_store_id": null,
+  "batch_id": "<batch_id из входящего пакета>",
+  "status": "processed"
+}

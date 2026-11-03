@@ -1,0 +1,17 @@
+{
+  "source": "Фактические JSON ACK предоставлены пользователем в ответ на запрос; транспортный SenderCode не предоставлен",
+  "messages": [
+    {
+      "message_type": "ack",
+      "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+      "batch_id": "aaaec85a-d078-4001-8350-7a486e854979",
+      "status": "processed"
+    },
+    {
+      "message_type": "ack",
+      "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+      "batch_id": "e49be6df-046a-4b16-b727-a91db17a26cf",
+      "status": "processed"
+    }
+  ]
+}

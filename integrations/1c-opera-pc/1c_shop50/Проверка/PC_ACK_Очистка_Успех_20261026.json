@@ -1,0 +1,24 @@
+{
+  "date_local": "2026-10-26",
+  "evidence": "Скриншот очереди и вывода 19/22, сообщение пользователя «Удалился один пакет»",
+  "background_ack_write_succeeded": true,
+  "confirmed_pc_deletion_succeeded": true,
+  "cleanup_before": {
+    "PriceCheker_confirmed": 1,
+    "PriceCheker_sent": 1,
+    "Opera_sent": 6
+  },
+  "cleanup_after": {
+    "PriceCheker_confirmed": 0,
+    "PriceCheker_sent": 1,
+    "Opera_sent": 6
+  },
+  "remaining_pc_batch_id": "cda51ba9-747e-4c1c-b998-409d55a0b16d",
+  "remaining_pc_status": "Отправлено",
+  "remaining_pc_source_revision": "25",
+  "remaining_pc_route": "Magazyni_PC -> Backend_PC",
+  "unconfirmed_preserved": true,
+  "all_pending_ack_automation_verified": false,
+  "automatic_change_after_job_enable_verified": false,
+  "next_step": "Бэк должен автоматически возвращать ACK каждого принятого batch_id, включая повторы; затем проверка автоматического изменения цены с общим заданием"
+}

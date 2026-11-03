@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-02",
+  "revision": 2,
+  "algorithm": "26_ВключитьСЕ_ТолькоOpera_ТестовыйЦО50.bsl",
+  "purpose": "Первоначальное включение СЕ только в Opera из единственного тестового источника50 и повторный контроль без нового full",
+  "source_store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "directory_recipient": "BackendOpera",
+  "pc_directory_node": "",
+  "pc_routes": [],
+  "syntax_parser": "io.github.1c-syntax:bsl-parser:0.40.0",
+  "syntax_errors": 0,
+  "api_review": "Экспорты текущих модулей СЕ/товаров; работа с заданием, расписанием и сервисом по фактически исполнявшемуся алгоритму24",
+  "runtime_1c_tested": true,
+  "previous_revision_user_run": {
+    "completed_preflight_stages": [1, 2, 3, 4],
+    "directory_cards": 567,
+    "deleted_store_ids": 16,
+    "stores_50_and_410_found": true,
+    "stopped_stage": "5. Задание и пользователь",
+    "reason": "Лишняя проверка включённости товарного задания; удалена в ревизии2",
+    "goods_job_enabled": false,
+    "publication_setup_called": false
+  },
+  "directory_packets_observed_after_activation": true,
+  "directory_ack_observed_after_activation": false,
+  "runtime_result": {
+    "job_user": "Семидоцкий Денис Александрович",
+    "job_enabled": true,
+    "scheduler_started_at_as_reported": "02.11.2026 15:40:49",
+    "last_job_state": "Задание выполняется",
+    "directory_epoch": "a32916b2-26b5-431c-8196-141e0c8272ce",
+    "full_requested": false,
+    "full_active": false,
+    "sent_directory_packets": 3,
+    "goods_job_enabled": false,
+    "pc_directory_routes": 0,
+    "repeated_execution_requested_new_full": false,
+    "filter_working_stores_applied_in_this_run": false
+  },
+  "writes": [
+    "НастроитьПубликацию только при отсутствии сохранённого состояния СЕ",
+    "Только выбранное задание публикации СЕ, при отличии настроек"
+  ],
+  "scheduler_interval_seconds": 10,
+  "job_user": "Из сохранённых настроек общего товарного задания50; его включённость не требуется",
+  "remaining_issue": "Нужен настоящий ACK Opera на source_node исходного пакета. Также пользователь уточнил отбор: новые полные списки только работающих магазинов без пометки удаления; для этого подготовлен этап27"
+}

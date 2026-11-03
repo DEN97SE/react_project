@@ -1,0 +1,222 @@
+[
+  {
+    "file": "00_preflight.txt",
+    "bytes": 6399,
+    "sha256": "6041a01d8522911d4be4a5912f27a24d1c983984cbb086fa339e80d1f3421004"
+  },
+  {
+    "file": "01_data_opera.txt",
+    "bytes": 79217,
+    "sha256": "b9139854923e39ab23567931a322e7257940038cee053292446ddc97876c682a"
+  },
+  {
+    "file": "02_data_pc.txt",
+    "bytes": 2050,
+    "sha256": "837fff735fe21e4d52a5d46fa8404dc0399508eba74fb440f84361f61c6bad92"
+  },
+  {
+    "file": "03_data_units.txt",
+    "bytes": 12384,
+    "sha256": "6398aa026c4a08a4f8970b7b8f63b4d604ca11b7bcb8bce2cf86a9cc52fd312b"
+  },
+  {
+    "file": "04_exchange_opera.txt",
+    "bytes": 151211,
+    "sha256": "e89bc6c36f4cfc8a22c26d024ca622dffcd5433b11c9697309ec63d7273ce9d5"
+  },
+  {
+    "file": "05_exchange_pc.txt",
+    "bytes": 9194,
+    "sha256": "d25f7a151534a1a1692853a996c77c290c293a62ed0d460bd142f48b3107e6ce"
+  },
+  {
+    "file": "06_exchange_units.txt",
+    "bytes": 100595,
+    "sha256": "b6dc3c7fa5af4a4cb60e8403cb1b62c17e38c56cb923e4ccadd3a9b2eb5abd98"
+  },
+  {
+    "file": "07_change_registration.txt",
+    "bytes": 23480,
+    "sha256": "300ecc8778612a4c72f03adb953cfc5b70e50d8679359b7506694ca1bd1be483"
+  },
+  {
+    "file": "11_related_catalog_types.txt",
+    "bytes": 1902,
+    "sha256": "324f4adaac8533e93b6d482a53a35237539d0a56ab51c7dd1807e81549191f23"
+  },
+  {
+    "file": "12_delete_dependency_check.txt",
+    "bytes": 8870,
+    "sha256": "00ae751d24776c9b16d2fd58a1e9efbd52369adaf6c93e63a0d30ea6e677e0dc"
+  },
+  {
+    "file": "15_store_event_check.txt",
+    "bytes": 17319,
+    "sha256": "4e98342def2cc82ed8dbf12283e4dc1435102388a4fa35265477205b745cede3"
+  },
+  {
+    "file": "24_store_cards_prepare.txt",
+    "bytes": 13972,
+    "sha256": "ed0c7552f7207095b868cf388dc7c3273ccd07f82e9a8a2efe9e772704e43db6"
+  },
+  {
+    "file": "25_store_cards_status.txt",
+    "bytes": 4997,
+    "sha256": "6ea549c15639429d9373ddf6de9241d0390f8e04480021e4668a1ea844b2ad0b"
+  },
+  {
+    "file": "26_product_cards_initial.txt",
+    "bytes": 4015,
+    "sha256": "6884306c50443697601fbcbe039ae0a7ea88f5e50d7ac0fa7c2d61275e8bc658"
+  },
+  {
+    "file": "28_production_directory_enable.txt",
+    "bytes": 3714,
+    "sha256": "56e873830f42375e16f339b0f3344ec741fd15cd0fba224ec084d663b73e5c5c"
+  },
+  {
+    "file": "30_test_routes.txt",
+    "bytes": 2071,
+    "sha256": "ad4aeea7796fb2bfb1c4131e6147722296df5b72840c7d1228d6f9bf1f366e2f"
+  },
+  {
+    "file": "31_catalog_request_check.txt",
+    "bytes": 18035,
+    "sha256": "dde9b9190b91b0d9a934271f0abf11552e6a335fc878b6cc22d0d654d1990b34"
+  },
+  {
+    "file": "32_directory_request_check.txt",
+    "bytes": 18934,
+    "sha256": "831de797c239edd253bc139b66eaa54e264c6a59ef01cf71e4ceb0dcb2860b11"
+  },
+  {
+    "file": "33_directory_resume.txt",
+    "bytes": 983,
+    "sha256": "4932945a93a86ae53d0f907bb7e6e0c488f9237bd9040b069128a5f3609305a7"
+  },
+  {
+    "file": "39_check_packet_json.txt",
+    "bytes": 3422,
+    "sha256": "5697d8743947a0ca6967bdb50d1ac109a2572ac21654fef8a1406245e4bf7397"
+  },
+  {
+    "file": "40_quarantine_one_empty_opera_packet.txt",
+    "bytes": 12975,
+    "sha256": "65de6a8f655346b52633dbeba9c28acc086a2b8bd6c44eb1192698ce2a1c5280"
+  },
+  {
+    "file": "44_check_two_services_without_send.txt",
+    "bytes": 11922,
+    "sha256": "047c8573cae642b0a7f375caf17b169342f6dbc1da3f6ba0f2b05fef51a40514"
+  },
+  {
+    "file": "ALL_MODULES.txt",
+    "bytes": 378534,
+    "sha256": "3b5ec099888e1e45d5a04a3978f4dc590718f7f9a589b5ab885e910c74ea4b92"
+  },
+  {
+    "file": "START_HERE.txt",
+    "bytes": 19494,
+    "sha256": "9f15c6b839b1831ed0d815b6b877ec837310e98dd46aaf96fa6d471a43d9fdac"
+  },
+  {
+    "file": "backend/01_product_ack.json",
+    "bytes": 161,
+    "sha256": "5c3addaecfdc34c93a8e8e03e946a27380f5dfb70d34cdb50fa2df58706ea667"
+  },
+  {
+    "file": "backend/02_product_error.json",
+    "bytes": 252,
+    "sha256": "fde3e229dbac52b6e173e109ba348aae37dfc02e6c870212d4d2a95d044c8a5c"
+  },
+  {
+    "file": "backend/03_directory_ack.template.json",
+    "bytes": 352,
+    "sha256": "bc33bbb6764178dbc49bd5fcc27a6f49320942690c9f5f8677e9ab34df63a808"
+  },
+  {
+    "file": "backend/04_catalog_full_pc.json",
+    "bytes": 207,
+    "sha256": "e94c02a03c29c939eb9c420133eef367d81042f47841e9c79e38d4c7b75eaad9"
+  },
+  {
+    "file": "backend/05_catalog_full_opera.json",
+    "bytes": 200,
+    "sha256": "4269cc65fe90adc735f4086de84ca9b066c4a105e5118de9c13e379c5021c3c7"
+  },
+  {
+    "file": "backend/06_directory_all_pc.json",
+    "bytes": 238,
+    "sha256": "1d9d1246d684f15729e34b461e04e4f7cc4c339d5613760320d28bb1ed3293d4"
+  },
+  {
+    "file": "backend/07_directory_one_pc.json",
+    "bytes": 272,
+    "sha256": "3bfbd49f48d43621a36b9130fe939cf310e6419ee8e959c5bf41f9109af6dced"
+  },
+  {
+    "file": "backend/08_directory_all_opera.json",
+    "bytes": 231,
+    "sha256": "524cfc2b9947a8babe9acf8a923ef7b06b4edff5dbcb0417ac75545a0a808e2d"
+  },
+  {
+    "file": "backend/09_directory_one_opera.json",
+    "bytes": 265,
+    "sha256": "52bef93a21179fc197a5888217af193b46acd183038653da880fe7602c8da6fd"
+  },
+  {
+    "file": "backend/README.txt",
+    "bytes": 9248,
+    "sha256": "6a95725ea6f8adb98ae778e16faac7ad5420e781d57b08d6579478f1a9394a92"
+  },
+  {
+    "file": "backend_messages.txt",
+    "bytes": 11829,
+    "sha256": "7524e9545916ff92927ec4aa62c1d2321451070b0afc99302ebec3a80ce31696"
+  },
+  {
+    "file": "processing_build_steps.txt",
+    "bytes": 8275,
+    "sha256": "6ea4e4003490c4efd827e57a573c4c430e7e1333ecb8837b4ad131d136946653"
+  },
+  {
+    "file": "processing_form_module.txt",
+    "bytes": 20650,
+    "sha256": "329beda215c02957fafb9326079e99cefc179330f5485a6668ff0aaec321202e"
+  },
+  {
+    "file": "production_shop_config_template.txt",
+    "bytes": 1715,
+    "sha256": "32dd202553a3e11293b44bc640bc36812b0fe9eea026d1ee7b6b20001586ce66"
+  },
+  {
+    "file": "service_module.txt",
+    "bytes": 966,
+    "sha256": "57cea6a61a42c51853a582f7a8308eac2a287b2ca26bbf3187c97f767d88f930"
+  },
+  {
+    "file": "service_pc_module.txt",
+    "bytes": 973,
+    "sha256": "ac48dc54ce2fb821085c2a6b9849255251c17c7fde64f5770104f5180a903868"
+  },
+  {
+    "file": "static_analysis.json",
+    "bytes": 636754,
+    "sha256": "179d43d2a933e309e612f415041bba760a41886ca9060e0c9f793720499f6006"
+  },
+  {
+    "file": "subscriptions.txt",
+    "bytes": 11155,
+    "sha256": "23796ea5a28530db6c2cbada4b511c98562553bc9e87af704e49b73471f4b836"
+  },
+  {
+    "file": "two_services_instructions.txt",
+    "bytes": 12489,
+    "sha256": "f53a2a355f78fc0dd1cb7213ceee24dba937e061768e9575113e82be82b8ba0c"
+  },
+  {
+    "file": "two_services_static_analysis.json",
+    "bytes": 538473,
+    "sha256": "b0f5d29d3526fc2181782cd446c17b66e984826ee29b2a14b376e22b4d3e95af"
+  }
+]

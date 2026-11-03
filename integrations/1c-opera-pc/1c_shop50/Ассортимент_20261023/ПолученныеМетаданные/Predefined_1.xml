@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="954d40e8-48b1-474e-a92b-6d93d8941179">
+		<Name>МатрицаСтатусовТоваров</Name>
+		<Code xsi:type="xs:decimal">5</Code>
+		<Description>Матрица статусов товаров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d0905fef-13e1-492d-8076-b1fc08bebc91">
+		<Name>БазоваяМатрицаТоваров</Name>
+		<Code xsi:type="xs:decimal">6</Code>
+		<Description>Базовая матрица товаров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

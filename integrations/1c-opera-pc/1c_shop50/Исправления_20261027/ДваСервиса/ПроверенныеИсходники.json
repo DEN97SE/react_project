@@ -1,0 +1,29 @@
+{
+  "source": "Скриншот конфигуратора пользователя, 27.10.2026",
+  "services": {
+    "ExchOperaPC": {
+      "outgoing": "Основной_ExchangeOpera_FromOpera",
+      "incoming": "Основной_ExchangeOpera_ToBackend"
+    },
+    "ExchPriceChecker": {
+      "outgoing": "Komandor_Opera_PC_Основной_PC_FromShops",
+      "incoming": "Komandor_Opera_PC_Основной_PC_ToBackend"
+    }
+  },
+  "legacy_pc_saved_key": "Основной_PriceChekerExc_FromShops",
+  "legacy_pc_action": "Resolve only at send time; preserve saved row and immutable body",
+  "changed_common_modules": [
+    "КХ_ОбменШиныОпера"
+  ],
+  "static_checked_files": 10,
+  "static_diagnostics": {
+    "Warning": 263,
+    "Information": 429,
+    "Hint": 35
+  },
+  "runtime_routing_fixture": "44 version2: 10 valid/14 invalid, pending user execution",
+  "platform_delivery_verified": false,
+  "pending_directory_pc_sender": "MagazyniOpera; must retain permission and ACK route",
+  "revision": 2,
+  "channel_normalization": "СокрЛП in separate local variable; raw key unchanged"
+}

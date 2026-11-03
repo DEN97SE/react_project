@@ -1,0 +1,208 @@
+{
+  "ПартииНоменклатуры.xml": {
+    "original_name": "ПартииНоменклатуры.xml",
+    "saved_as": "ПартииНоменклатуры.xml",
+    "sha256": "87d3f4bc08779ba3e4378c4c2bd17760d7120ce63bd76cfe776fbd2f0998df56",
+    "bytes": 17147,
+    "metadata_kind": "AccumulationRegister",
+    "metadata_name": "ПартииНоменклатуры"
+  },
+  "RecordSetModule.bsl": {
+    "original_name": "RecordSetModule.bsl",
+    "saved_as": "RecordSetModule.bsl",
+    "sha256": "176b6ae9c1a73999689498c7299a1a82ba08c6fdc69758d935187d2c9f0004b7",
+    "bytes": 2760
+  },
+  "ФормаСписка_1.xml": {
+    "original_name": "ФормаСписка.xml",
+    "saved_as": "ФормаСписка_1.xml",
+    "sha256": "13b02ba9805dbf65cd8dbf2e14deecc1ea6c63f693124381783a8c7efbf2eef0",
+    "bytes": 1624,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаСписка"
+  },
+  "Form_1.bin": {
+    "original_name": "Form.bin",
+    "saved_as": "Form_1.bin",
+    "sha256": "f08f95ca3c75c5fe18de1752f41a3dc00492f4aa950b2e0585ae07971170f7c0",
+    "bytes": 19277
+  },
+  "ObjectModule.bsl": {
+    "original_name": "ObjectModule.bsl",
+    "saved_as": "ObjectModule.bsl",
+    "sha256": "b63df3d02bc1940829b9ada8e3b25b8246fc3f08900ffe6065fc2c63700a6f17",
+    "bytes": 2111
+  },
+  "Predefined_1.xml": {
+    "original_name": "Predefined.xml",
+    "saved_as": "Predefined_1.xml",
+    "sha256": "f21c5b8ae4ce3d55a9055797046d049dd1bc2eb46a82c351880ecd503fa9f8d5",
+    "bytes": 883
+  },
+  "ФормаСписка_2.xml": {
+    "original_name": "ФормаСписка.xml",
+    "saved_as": "ФормаСписка_2.xml",
+    "sha256": "e1c476cb30ba4316494071a8d6746fac20a04673ce450ad441c9ec9c32425456",
+    "bytes": 1624,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаСписка"
+  },
+  "ФормаВыбора_1.xml": {
+    "original_name": "ФормаВыбора.xml",
+    "saved_as": "ФормаВыбора_1.xml",
+    "sha256": "e955c98f2c9856160bc9aa6ea501d7160f519beb83511bfb2ef57429710bc9af",
+    "bytes": 1631,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаВыбора"
+  },
+  "Form_2.bin": {
+    "original_name": "Form.bin",
+    "saved_as": "Form_2.bin",
+    "sha256": "750bf2be29697b1f0f4b4ed3348e9e65becdecc4a47ab4677134fe83b7ebede7",
+    "bytes": 10206
+  },
+  "Form_3.bin": {
+    "original_name": "Form.bin",
+    "saved_as": "Form_3.bin",
+    "sha256": "a34572975fc6b546ae8a5029aa4935712f5ed87577378ef4d2737fdcca3139a3",
+    "bytes": 24307
+  },
+  "ФормаЭлемента_1.xml": {
+    "original_name": "ФормаЭлемента.xml",
+    "saved_as": "ФормаЭлемента_1.xml",
+    "sha256": "3c39c4b6ae53ac7f467d676c51e3c77f4bdb8bcb48b432fa4be3bd8fbb418b6a",
+    "bytes": 1532,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаЭлемента"
+  },
+  "ФормаСписка_3.xml": {
+    "original_name": "ФормаСписка.xml",
+    "saved_as": "ФормаСписка_3.xml",
+    "sha256": "49449d556bbe03c85f35b3e25341c05ab595f4597cbafde7719d4b14467a8c49",
+    "bytes": 1524,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаСписка"
+  },
+  "Form_4.bin": {
+    "original_name": "Form.bin",
+    "saved_as": "Form_4.bin",
+    "sha256": "5f8ae6f1b431385efc181e9a0dad529c30a9ab86b16333f5953b0b2b868a33ce",
+    "bytes": 11301
+  },
+  "Form_5.bin": {
+    "original_name": "Form.bin",
+    "saved_as": "Form_5.bin",
+    "sha256": "31d9ea940c93fbbe92961667627cc19b562b6d39910128bf84822f4146754f84",
+    "bytes": 17947
+  },
+  "Help.xml": {
+    "original_name": "Help.xml",
+    "saved_as": "Help.xml",
+    "sha256": "76aa9ea3f89de48211fc07ae7713bf627d61be458b41c955a87b05c3eb2bcd23",
+    "bytes": 232
+  },
+  "Predefined_2.xml": {
+    "original_name": "Predefined.xml",
+    "saved_as": "Predefined_2.xml",
+    "sha256": "1d5f44cc44d16e1e0811891c8c6c87432f7411320dc3aeb80275848806fa021f",
+    "bytes": 1631
+  },
+  "ru.html": {
+    "original_name": "ru.html",
+    "saved_as": "ru.html",
+    "sha256": "81f0ab3f5c89e87931d427556e23de64a8de6e5535e57be01c647113bcfba605",
+    "bytes": 1436
+  },
+  "ФормаЭлемента_2.xml": {
+    "original_name": "ФормаЭлемента.xml",
+    "saved_as": "ФормаЭлемента_2.xml",
+    "sha256": "c3a5b368ada37d82b420473368027910765f8d50303dcba9151b6f9c682cbe1d",
+    "bytes": 1531,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаЭлемента"
+  },
+  "ФормаСписка_4.xml": {
+    "original_name": "ФормаСписка.xml",
+    "saved_as": "ФормаСписка_4.xml",
+    "sha256": "9f0d34fdbd3854be5451ae0f88eb6e71d02573c7a07874d7bf32207ca8ce4efd",
+    "bytes": 1523,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаСписка"
+  },
+  "ФормаВыбора_2.xml": {
+    "original_name": "ФормаВыбора.xml",
+    "saved_as": "ФормаВыбора_2.xml",
+    "sha256": "4815d36d7d602e3abf3522c697430bcbdaa6b0c85407d3f30ca6dfe5ae55b4be",
+    "bytes": 1523,
+    "metadata_kind": "Form",
+    "metadata_name": "ФормаВыбора"
+  },
+  "Form_1.xml": {
+    "original_name": "Form.xml",
+    "saved_as": "Form_1.xml",
+    "sha256": "5c11759db45f3fc8a8a7d24ca6499e7ac67d0a0bac14c854561b29f502264289",
+    "bytes": 6940
+  },
+  "Module_1.bsl": {
+    "original_name": "Module.bsl",
+    "saved_as": "Module_1.bsl",
+    "sha256": "50ee97804f7a3ea685a82c466e65e0488efcf42bcd63be1e3619cecd47e4a118",
+    "bytes": 630
+  },
+  "Form_2.xml": {
+    "original_name": "Form.xml",
+    "saved_as": "Form_2.xml",
+    "sha256": "b6965fe352b5a308aef85516aab1493e376b640c320d3b35f64f8e84f362ab32",
+    "bytes": 6849
+  },
+  "Module_2.bsl": {
+    "original_name": "Module.bsl",
+    "saved_as": "Module_2.bsl",
+    "sha256": "50ee97804f7a3ea685a82c466e65e0488efcf42bcd63be1e3619cecd47e4a118",
+    "bytes": 630
+  },
+  "Form_3.xml": {
+    "original_name": "Form.xml",
+    "saved_as": "Form_3.xml",
+    "sha256": "ed531448369c6dae3676e25b6b6cef8145b373b1b123e8d3e1b8371a551ba605",
+    "bytes": 2507
+  },
+  "Module_3.bsl": {
+    "original_name": "Module.bsl",
+    "saved_as": "Module_3.bsl",
+    "sha256": "31fdef37ff44663ad553d261fb7f222b9c18bc27c7cef7b8bafe99b62a6275b1",
+    "bytes": 663
+  },
+  "СтатусыНоменклатуры.xml": {
+    "original_name": "СтатусыНоменклатуры.xml",
+    "saved_as": "СтатусыНоменклатуры.xml",
+    "sha256": "19cf4a2ebf039a9913f61a01be14b2394083296bf0bedeaeff8a0b20dcf3814d",
+    "bytes": 7114,
+    "metadata_kind": "Catalog",
+    "metadata_name": "СтатусыНоменклатуры"
+  },
+  "АссортиментныеМатрицы.xml": {
+    "original_name": "АссортиментныеМатрицы.xml",
+    "saved_as": "АссортиментныеМатрицы.xml",
+    "sha256": "dccbd7f31df403b68e574d5d8dd07f2ec6a6f97fbc33e21771f0d0a40eef4308",
+    "bytes": 8003,
+    "metadata_kind": "Catalog",
+    "metadata_name": "АссортиментныеМатрицы"
+  },
+  "АссортиментныеМикроматрицы.xml": {
+    "original_name": "АссортиментныеМикроматрицы.xml",
+    "saved_as": "АссортиментныеМикроматрицы.xml",
+    "sha256": "1e5fd5ce73c8a26660e12db538ff5675970c17b0fd3be5c69797b8d34050508d",
+    "bytes": 19566,
+    "metadata_kind": "Catalog",
+    "metadata_name": "АссортиментныеМикроматрицы"
+  },
+  "ЗначенияСвойств.xml": {
+    "original_name": "ЗначенияСвойств.xml",
+    "saved_as": "ЗначенияСвойств.xml",
+    "sha256": "4945fb29d9930580a9c3063f64f45e77ef0e0e58587ea19f120e39ded25b303d",
+    "bytes": 5333,
+    "metadata_kind": "Catalog",
+    "metadata_name": "ЗначенияСвойств"
+  }
+}

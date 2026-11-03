@@ -1,0 +1,17 @@
+{
+  "kind": "LOCAL_STRUCTURAL_CHECKS_ONLY",
+  "signature_evidence": "User IDE screenshot: Пользователи.Найти(Ид: ИдПользователя): Пользователи.Ссылка…",
+  "checks": {
+    "find_uses_confirmed_typed_id": true,
+    "no_connect": true,
+    "no_uuid_userid_comparison": true,
+    "no_user_creation": true,
+    "no_key_generation": true,
+    "direct_reference_assignment": true,
+    "lookup_guard_precedes_mutations": true
+  },
+  "passed": 7,
+  "total": 7,
+  "sha256": "069d06c363fc3650fb985b31a8e162705c690421b1252b67783e0f5e1a494d22",
+  "runtime_verified": false
+}

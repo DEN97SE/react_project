@@ -1,0 +1,20 @@
+{
+  "date_local": "2026-10-26",
+  "evidence": "Скриншот пользователя: новый 18, отчёт 19 и очистка 22",
+  "scoped_delta_created_pc_packet": true,
+  "source_revision": "25",
+  "pc_batch_id": "9d4a84df-91c5-43ff-92a2-f1f5557a3408",
+  "route": "Magazyni_PC -> Backend_PC",
+  "pc_status": "Ошибка",
+  "error": "Сервис интеграции не активен: СервисИнтеграции.ExchOperaPC",
+  "error_stage": "СоздатьСообщение, до отправки",
+  "before_and_after_cleanup": {
+    "Opera_sent": 4,
+    "Opera_waiting": 1,
+    "PriceCheker_error": 1
+  },
+  "unconfirmed_rows_preserved_by_cleanup": true,
+  "positive_confirmed_deletion_verified": false,
+  "real_pc_ack_verified": false,
+  "startup_fix_installed": false
+}

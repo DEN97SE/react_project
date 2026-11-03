@@ -1,0 +1,34 @@
+[
+  {
+    "file_id": "file_000000000660820bbf377ae330be7fe5",
+    "name": "СтруктурныеЕдиницы.xml",
+    "result": {
+      "path": "/workspace/attachments/46efb78b-7b65-459b-b391-a154e2583b35/СтруктурныеЕдиницы.xml",
+      "size_bytes": 125812
+    }
+  },
+  {
+    "file_id": "file_000000005c5c820b855aef4982ab8054",
+    "name": "Склады.xml",
+    "result": {
+      "path": "/workspace/attachments/90c27870-2e84-4149-9cd7-abf1852e18cb/Склады.xml",
+      "size_bytes": 29597
+    }
+  },
+  {
+    "file_id": "file_00000000af348211a2dc35a904cdbe50",
+    "name": "ТерриториальныеЕдиницы.xml",
+    "result": {
+      "path": "/workspace/attachments/ba76f294-232c-488b-81ed-a75f8ca52fdf/ТерриториальныеЕдиницы.xml",
+      "size_bytes": 15859
+    }
+  },
+  {
+    "file_id": "file_0000000044c8820baf978a89e41beb70",
+    "name": "ТерриториальныеОбразования.xml",
+    "result": {
+      "path": "/workspace/attachments/74b44e5f-5dfb-4a95-9b54-63d7a87629c9/ТерриториальныеОбразования.xml",
+      "size_bytes": 16815
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "date_local": "2026-10-26",
+  "runtime_executed": false,
+  "static_analysis": {
+    "Information": 2,
+    "Warning": 1
+  },
+  "events_confirmed_by_screenshot": [
+    "Основной_ExchangeOpera_ToBackendОбработкаПолученияСообщения",
+    "Основной_PriceChekerExc_ToBackendОбработкаПолученияСообщения"
+  ],
+  "empty_bodies_observed": true,
+  "dispatchers_and_signatures_resolved": true,
+  "source_sha256": "01304c4370a7f48f37d0e8d83ef6aad84224b40582ea7bbf02d739081a31fa3d"
+}

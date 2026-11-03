@@ -1,0 +1,23 @@
+{
+  "source": "Скрин диагностики 08 пользователя",
+  "store": "Командор №50",
+  "time": "2026-10-23 12:04:16 Asia/Krasnoyarsk",
+  "counts": {
+    "all_unmarked": 357621,
+    "active": 18123,
+    "closed": 222,
+    "closed_nonzero_stock": 0,
+    "active_not_closed": 18123,
+    "extra_nonzero_not_closed": 2181,
+    "candidate": 20304,
+    "candidate_without_barcode": 2,
+    "candidate_without_price": 1429,
+    "candidate_negative_stock": 205
+  },
+  "business_rules": {
+    "passive_with_stock": "продаются",
+    "closed": "не продаются, исключаются"
+  },
+  "latest_scope": "ПрайсЧекеры также получают full/delta и хранят карточки в бэке магазина; прежний режим только lookup больше не целевая архитектура",
+  "pending": "Один общий бэк или два отдельных потребителя"
+}

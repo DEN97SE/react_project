@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-02",
+  "collector": "ОбщиеМодули/КХ_ДанныеСтруктурныхЕдиниц.bsl",
+  "console_algorithm": "27_СЕ_ПаузаИПроверкаОтбора_БезОтправки.bsl",
+  "initial_directory_filter": "Вид=Магазин, не группа, Работает=Да, ПометкаУдаления=Нет",
+  "initial_directory_deleted_ids": 0,
+  "selected_store_behavior": "Ранее переданный магазин после закрытия или пометки удаления передаётся только своим ID в deleted_structural_unit_ids, без карточки",
+  "followup_removal_policy_question_pending": false,
+  "followup_removal_policy_user_confirmed": true,
+  "user_answer": "Отправлять только ID для удаления ранее переданного магазина",
+  "syntax_parser": "io.github.1c-syntax:bsl-parser:0.40.0",
+  "collector_syntax_errors": 0,
+  "console_syntax_errors": 0,
+  "runtime_1c_tested": true,
+  "runtime_result": {
+    "job_already_paused": true,
+    "all_store_records": 583,
+    "eligible_working_stores": 502,
+    "excluded_deletion_marked": 16,
+    "excluded_not_working_without_mark": 65,
+    "collector_cards": 502,
+    "collector_deleted_ids_in_full": 0,
+    "stores_50_and_410_eligible": true,
+    "filter_check_passed": true,
+    "directory_epoch": "a32916b2-26b5-431c-8196-141e0c8272ce",
+    "full_active": false,
+    "saved_directory_packets": 3,
+    "ack_observed": false,
+    "old_packets": [
+      {"batch_id": "b5b8ded0-a1a8-4491-a344-74d233dea8e6", "status": "Отправлено", "cards": 200, "outside_current_filter": 30, "deleted_ids": 0},
+      {"batch_id": "fc2c7f55-839e-4216-8a64-a63b80ea74a7", "status": "Отправлено", "cards": 200, "outside_current_filter": 14, "deleted_ids": 0},
+      {"batch_id": "026f0a95-2ec1-41a6-83ad-e9cd0b29fc5a", "status": "Отправлено", "cards": 167, "outside_current_filter": 21, "deleted_ids": 16}
+    ]
+  },
+  "latest_user_direction": "Бэк принял491магазин; в тестах сверка размера старой очереди не блокирует продолжение товарных отправок",
+  "backend_store_count_reported_by_user": 491,
+  "installation_target": "Конфигуратор тестовой базы50: Общие / Общие модули / КХ_ДанныеСтруктурныхЕдиниц / Модуль",
+  "console_compile_error_observed": "Отдельная функция ПолучитьСостояниеМагазинов вставлена в консоль; частная КарточкаМагазина не определена в этом контексте",
+  "installation_guide": "27_КудаВставлятьКод.md",
+  "observed_previous_directory": {
+    "cards_before_filter": 567,
+    "deleted_ids_before_filter": 16,
+    "sent_packets": 3,
+    "directory_epoch": "a32916b2-26b5-431c-8196-141e0c8272ce",
+    "ack_observed": false
+  },
+  "console_writes": ["Использование=Ложь только у единственного задания СЕ в тестовом источнике50"],
+  "console_network_calls": false,
+  "console_packet_mutations": false,
+  "new_full_requested": false
+}

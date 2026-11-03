@@ -1,0 +1,231 @@
+{
+  "passed": 55,
+  "checks": [
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Проект.yaml",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/PC.xbsl",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/PC.yaml",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/ПанельДействий.yaml",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/Приложение.xbsl",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/Exch.yaml",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/КомандаВыход.xbsl",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/Opera.yaml",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/Opera.xbsl",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/Приложение.yaml",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/НавигацияГлавная.xbsl",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/КомандаВыход.yaml",
+      "passed": true
+    },
+    {
+      "name": "original unchanged: Komandor/Opera_PC/Основной/НавигацияГлавная.yaml",
+      "passed": true
+    },
+    {
+      "name": "unique metadata IDs in candidate",
+      "passed": true
+    },
+    {
+      "name": "HTTP admin-only",
+      "passed": true
+    },
+    {
+      "name": "route admin-only: /health",
+      "passed": true
+    },
+    {
+      "name": "method admin-only: /health/GET",
+      "passed": true
+    },
+    {
+      "name": "declared HTTP handler: ПроверитьВерсию",
+      "passed": true
+    },
+    {
+      "name": "route admin-only: /infosystem",
+      "passed": true
+    },
+    {
+      "name": "method admin-only: /infosystem/POST",
+      "passed": true
+    },
+    {
+      "name": "declared HTTP handler: ЗарегистрироватьМагазин",
+      "passed": true
+    },
+    {
+      "name": "route admin-only: /gettoken",
+      "passed": true
+    },
+    {
+      "name": "method admin-only: /gettoken/GET",
+      "passed": true
+    },
+    {
+      "name": "declared HTTP handler: ПолучитьСохраненныеКлючи",
+      "passed": true
+    },
+    {
+      "name": "secret registry admin-only",
+      "passed": true
+    },
+    {
+      "name": "secret registry not in automatic interface",
+      "passed": true
+    },
+    {
+      "name": "single location issuing credentials",
+      "passed": true
+    },
+    {
+      "name": "no EDO dependencies",
+      "passed": true
+    },
+    {
+      "name": "responses disable cache",
+      "passed": true
+    },
+    {
+      "name": "existing group: MagazyniOpera",
+      "passed": true
+    },
+    {
+      "name": "registration group: MagazyniOpera",
+      "passed": true
+    },
+    {
+      "name": "existing group: MagazinyPriceChecker",
+      "passed": true
+    },
+    {
+      "name": "registration group: MagazinyPriceChecker",
+      "passed": true
+    },
+    {
+      "name": "syntax parsing: КХ_НастройкаПодключенийШины.bsl",
+      "passed": true
+    },
+    {
+      "name": "no data delivery calls: КХ_НастройкаПодключенийШины.bsl",
+      "passed": true
+    },
+    {
+      "name": "syntax parsing: КХ_ЗапускРегистрацииШины.bsl",
+      "passed": true
+    },
+    {
+      "name": "no data delivery calls: КХ_ЗапускРегистрацииШины.bsl",
+      "passed": true
+    },
+    {
+      "name": "syntax parsing: 00_ПроверкаОтправлятораБезИзменений.txt",
+      "passed": true
+    },
+    {
+      "name": "no data delivery calls: 00_ПроверкаОтправлятораБезИзменений.txt",
+      "passed": true
+    },
+    {
+      "name": "syntax parsing: Run-StoreEnrollment.ps1",
+      "passed": true
+    },
+    {
+      "name": "syntax parsing: Test-EnrollmentApi.ps1",
+      "passed": true
+    },
+    {
+      "name": "original ИмяПользователя preserved",
+      "passed": true
+    },
+    {
+      "name": "preview exits before registration",
+      "passed": true
+    },
+    {
+      "name": "database/store guard precedes HTTP registration",
+      "passed": true
+    },
+    {
+      "name": "DPAPI cache",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Test-EnrollmentApi.ps1:Write-Host 'PASS: endpoint version and administrative a",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Test-EnrollmentApi.ps1:Write-Host 'PASS: registration response saved in local ",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Test-EnrollmentApi.ps1:Write-Host 'PASS: repeat returned the same credentials'",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Test-EnrollmentApi.ps1:Write-Host 'PASS: issued credentials authenticate at th",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Test-EnrollmentApi.ps1:Write-Host 'Verify both group memberships in ESB. No 1C",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Test-EnrollmentApi.ps1:Write-Host ('FAILED at '+$Stage+' HTTP='+$HttpStatus+'.",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Run-StoreEnrollment.ps1:Write-Host ($Row.StoreId+' '+$Result.Status+' ['+$Stage",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Run-StoreEnrollment.ps1:Write-Host 'Waiting 21 seconds once for the platform se",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Run-StoreEnrollment.ps1:Write-Host ('Report: '+$ReportPath)",
+      "passed": true
+    },
+    {
+      "name": "no credential output: Run-StoreEnrollment.ps1:Write-Host 'Saved settings and token authentication are",
+      "passed": true
+    }
+  ],
+  "esb_compilation_run": false,
+  "one_c_platform_compilation_run": false,
+  "windows_com_runtime_run": false,
+  "deployed_to_user_environment": false,
+  "note": "Tree-sitter parses client syntax; YAML/source checks do not replace ESB/1C compilation or runtime tests.",
+  "server_scope": "One sequential registration worker. Concurrent same-GUID enrolment is not claimed."
+}

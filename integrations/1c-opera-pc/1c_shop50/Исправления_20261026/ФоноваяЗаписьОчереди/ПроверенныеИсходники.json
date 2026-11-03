@@ -1,0 +1,52 @@
+{
+  "date_local": "2026-10-26",
+  "runtime_executed": false,
+  "static_analysis": {
+    "Information": 179,
+    "Warning": 62,
+    "Hint": 25
+  },
+  "changed": {
+    "КХ_ОбменШиныОпера.bsl": {
+      "changed_methods": [
+        "НаборОчереди"
+      ],
+      "unchanged_methods": 48
+    },
+    "КХ_ОбменСтруктурныхЕдиниц.bsl": {
+      "changed_methods": [
+        "НаборТехнической"
+      ],
+      "unchanged_methods": 34
+    }
+  },
+  "unchanged_native_module_sha256": "f41b38e33703cdd057c50cbd1884a891705d25fe4b8f7dfcad37cbc27e17be53",
+  "native_loading_guard_proven": true,
+  "unchanged_other_modules": 4,
+  "files": {
+    "/workspace/1c_shop50/ОбщиеМодули/КХ_ОбменШиныОпера.bsl": {
+      "bytes": 89806,
+      "sha256": "d50954982152f08b3bc6fceadd25935c2b3d44b73cce93b5e8f02a3cbda08e3d"
+    },
+    "/workspace/1c_shop50/ОбщиеМодули/КХ_ОбменСтруктурныхЕдиниц.bsl": {
+      "bytes": 39268,
+      "sha256": "370de0364449c73509c636560d08f9651d811a104d43beb9c049802fd261da54"
+    },
+    "/workspace/1c_shop50/Исправления_20261026/ФоноваяЗаписьОчереди/Порядок.txt": {
+      "bytes": 6460,
+      "sha256": "52cab9b67b77d1527c3c7a8ed156e64ffbe6126d4827ad7c632f50cba74a0e3e"
+    },
+    "/workspace/downloads/pc_full_module_background_write.txt": {
+      "bytes": 91057,
+      "sha256": "32752b5d6f2231ea1878725aefbef437e7d9fc544e58cbe50e80ff6ed067a086"
+    },
+    "/workspace/downloads/se_full_module_background_write.txt": {
+      "bytes": 39804,
+      "sha256": "4bea69030fa57b7f1ca019434c4dc3e34dffe0726016f80db1252e3273a3041d"
+    },
+    "/workspace/downloads/pc_background_write_instructions.txt": {
+      "bytes": 6491,
+      "sha256": "a91a86e1c6715f736d6a683f6274e40c0ec8e4852cfc4d98be6d525e30f61513"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_local": "2026-10-26",
+  "timezone": "Asia/Krasnoyarsk",
+  "evidence": "Скриншот раскрытого блока инфосистемы Backend_PC в чате",
+  "backend_code": "Backend_PC",
+  "backend_group": "BackendPriceChecker",
+  "process": "Komandor::Opera_PC::Основной::PC",
+  "process_running": true,
+  "store_info_system_exists": "Magazyni_PC",
+  "store_group_membership_verified": true,
+  "existing_default_receiver_for_store_50": "pricechecker123",
+  "runtime_pc_transport_verified": true,
+  "next_test": "16_ОтправитьОдинТоварВШинуPC.txt",
+  "test_scope": "Прямое сообщение через платформенный сервис, собственный outbox/ACK не проверяет",
+  "static_analysis": {
+    "Information": 6
+  },
+  "sha256": {
+    "16_ОтправитьОдинТоварВШинуPC.txt": "4df8dd2fa65448c1be0a2ff4b737869399b4adc77d91571c20826a0528bbc056",
+    "16_send_one_product_pc.txt": "27dc38ad5b9aac5f541d3355638ff7dac43c89bf31e1f5dac2bb3063f7d8a678",
+    "16_pc_readme.txt": "714a72607165244c8087fb9167f629f2e20cf3fbc982a96c77b16c9dfdf0bbb0"
+  },
+  "store_membership_evidence": "В процессе PC отображён участник Magazyni_PC с каналами FromShops/ToBackend; FromShops: доставлено 4",
+  "backend_acceptance_reported_by_user": true,
+  "backend_acceptance_evidence": "Пользователь: «Бэк принял все отлично по прай чекерам»",
+  "screenshot_counters": {
+    "process_incoming": 2,
+    "process_outgoing": 2,
+    "Magazyni_PC_FromShops_in_channel": 0,
+    "Magazyni_PC_FromShops_delivered": 4,
+    "Backend_PC_ToShops_in_channel": 4,
+    "Backend_PC_ToShops_delivered": 0
+  },
+  "screenshot_proves_backend_application_consumption": false,
+  "production_outbox_pc_verified": false,
+  "real_pc_application_ack_verified": false,
+  "next_step": "Штатная адресация отдельно для PC и проверка собственной очереди, затем настоящий ACK. Тест 16 напрямую отправлял сообщение."
+}

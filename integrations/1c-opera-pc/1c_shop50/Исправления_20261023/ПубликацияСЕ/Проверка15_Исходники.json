@@ -1,0 +1,31 @@
+{
+  "date_local": "2026-10-23",
+  "timezone": "Asia/Krasnoyarsk",
+  "runtime_executed": false,
+  "language_server": {
+    "Information": 17,
+    "Warning": 2
+  },
+  "files": {
+    "АвтоматическаяРегистрация/15_ПроверитьПодпискиСЕСПОткатом.txt": {
+      "sha256": "c9c6da8d8e8dcc3e7b7762ee0fd966e42a9cc7921ce98e5a24f2c2601bc6471e",
+      "bytes": 17111
+    },
+    "Исправления_20261023/ПубликацияСЕ/Проверка15_Порядок.txt": {
+      "sha256": "619da7cb75d5e3e61e376a95f71251f18ff21e35c6e1c271d7a91262c2f63999",
+      "bytes": 4263
+    },
+    "/tmp/1c_se_subscription_check/report/bsl-json.json": {
+      "sha256": "cb67ad7c7ddc09643918c585ec6eb69417de92d4fb00c6adf2e48f57f00d02a7",
+      "bytes": 31785
+    },
+    "/workspace/downloads/15_test_se_subscriptions_rollback.txt": {
+      "sha256": "77833ef20c6493cfc46a90c755b365c1d63b9697493cc562d57c7355e46e1d72",
+      "bytes": 17315
+    },
+    "/workspace/downloads/15_readme.txt": {
+      "sha256": "85308db1629e6a88485a2ae021623bee49dddb27bfd857457b62d70a58bd6b87",
+      "bytes": 4290
+    }
+  }
+}

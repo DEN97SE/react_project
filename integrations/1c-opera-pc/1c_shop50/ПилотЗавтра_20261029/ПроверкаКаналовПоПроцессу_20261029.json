@@ -1,0 +1,17 @@
+{
+  "kind": "LOCAL_PARSER_AND_LOGIC_FIXTURES_ONLY",
+  "passed": 6,
+  "total": 6,
+  "checks": {
+    "limited_bsl_parse": true,
+    "uses_process_field": true,
+    "does_not_parse_destination": true,
+    "separate_process_names_allowed": true,
+    "same_process_different_dest_rejected": true,
+    "repeated_identical_entry_allowed": true
+  },
+  "schema_evidence": "User runtime screenshot: items each has process, channel, destination",
+  "bsl_errors": [],
+  "native_runtime_executed": false,
+  "sha256": "cde0ab3a1059f013d38f90c86a0cabc2fc68e8a3860f9399069f7128d2172186"
+}

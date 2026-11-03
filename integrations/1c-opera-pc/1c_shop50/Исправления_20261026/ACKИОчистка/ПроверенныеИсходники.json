@@ -1,0 +1,71 @@
+{
+  "date_local": "2026-10-26",
+  "timezone": "Asia/Krasnoyarsk",
+  "runtime_executed": false,
+  "static_analysis": {
+    "report_modules": {
+      "Warning": 62,
+      "Information": 179,
+      "Hint": 25
+    },
+    "report_checks": {
+      "Information": 38,
+      "Hint": 2
+    }
+  },
+  "changed_methods_from_route_version": [
+    "ПараметрыОбмена",
+    "ПодготовитьДельту",
+    "УдалитьПодтвержденныеПакеты",
+    "РегламентнаяОбработкаОчередиОпера"
+  ],
+  "unchanged_methods": 45,
+  "ack_method_unchanged": true,
+  "other_modules_unchanged": 5,
+  "files": {
+    "/workspace/1c_shop50/ОбщиеМодули/КХ_ОбменШиныОпера.bsl": {
+      "bytes": 88650,
+      "sha256": "e2e882db58871aa766a89c3345e0b694292b766b58ecdf0f8a3d15a805dc81c8"
+    },
+    "/workspace/1c_shop50/АвтоматическаяРегистрация/18_ПроверитьОчередьPCОднимТоваром.txt": {
+      "bytes": 7685,
+      "sha256": "bef4a0dff5cb3d2baf0827012e2f72fb8a4ac8eec25ac7667512a17e20a610a0"
+    },
+    "/workspace/1c_shop50/АвтоматическаяРегистрация/19_СтатусОчередиPCИАCK.txt": {
+      "bytes": 3637,
+      "sha256": "3e88528b5f7fad7f55a802796dcaba8441404822642fa9b816103254d69a5a82"
+    },
+    "/workspace/1c_shop50/АвтоматическаяРегистрация/22_ОчиститьТолькоПодтвержденныеПакеты.txt": {
+      "bytes": 2285,
+      "sha256": "7ad99ce17f5744d82bc541c788440fa0d5d72736da2ba9ede02849b26ceb679a"
+    },
+    "/workspace/1c_shop50/Исправления_20261026/ACKИОчистка/21_ACK_И_Очистка_Порядок.txt": {
+      "bytes": 9681,
+      "sha256": "ea37812991420130d8df7f276153751c34f086919dfa294b3a2fbccb31542b59"
+    },
+    "/workspace/downloads/pc_full_module_ack_cleanup.txt": {
+      "bytes": 89890,
+      "sha256": "b492982e66abeabe1a8aa31b60ea1455a9585f52dc7c5235e73539d5b477cbdc"
+    },
+    "/workspace/downloads/pc_18_send_one_keep_marks.txt": {
+      "bytes": 7757,
+      "sha256": "b660ad876c8d09af73fcbc3ee18a4020b1308572f2efc68b1338a87b60f63453"
+    },
+    "/workspace/downloads/pc_19_status.txt": {
+      "bytes": 3676,
+      "sha256": "24327976ed7b21c57e0dfddd3c93a16df4b9998b50013609f5aa4a1840745e00"
+    },
+    "/workspace/downloads/pc_22_cleanup_confirmed.txt": {
+      "bytes": 2309,
+      "sha256": "218f6c113dc17c33de70a8cf3206ceeb152e4bd86311e24d62efa9bcded29e2f"
+    },
+    "/workspace/downloads/pc_21_ack_and_cleanup.txt": {
+      "bytes": 9719,
+      "sha256": "16ce0e2e7304af30c46b68fa25fc928ec3b7c984bc0b02975769aa4baeda9355"
+    },
+    "/workspace/downloads/1c_pc_ack_cleanup_20261026.zip": {
+      "bytes": 22121,
+      "sha256": "650453f455211c7bdf1202eda97b5e2842fe2d7f7e0150e540a733962a00f3ce"
+    }
+  }
+}

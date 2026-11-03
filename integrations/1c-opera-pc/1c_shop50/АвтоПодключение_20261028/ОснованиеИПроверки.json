@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "source": "User platform help and screenshot",
+  "manager_methods": [
+    "ПолучитьНастройки",
+    "УстановитьНастройки",
+    "ПолучитьАктивность",
+    "УстановитьАктивность"
+  ],
+  "settings_type": "НастройкиСервисаИнтеграции",
+  "settings_properties": [
+    "АдресВнешнегоСервисаИнтеграции",
+    "ИмяПользователя",
+    "ИмяПользователяВнешнегоСервисаИнтеграции",
+    "ПарольПользователяВнешнегоСервисаИнтеграции"
+  ],
+  "source_checks_passed": [
+    "method boundaries and per-line string delimiters",
+    "no assignment to ИмяПользователя",
+    "no network processing or queue/full/route functions"
+  ],
+  "platform_compile_or_runtime_tested": false,
+  "bsl_language_server_available": false,
+  "existing_exchange_modules_modified": false,
+  "http_key_issue_api_verified": false
+}

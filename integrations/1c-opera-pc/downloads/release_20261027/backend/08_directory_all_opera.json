@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "message_type": "structural_units_request",
+  "project": "opera",
+  "request_id": "38610107-db6b-49da-9f25-8cb66ea9326b",
+  "source_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "scope_store_id": null
+}

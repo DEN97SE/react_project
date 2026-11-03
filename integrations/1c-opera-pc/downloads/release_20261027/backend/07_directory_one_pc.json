@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "message_type": "structural_units_request",
+  "project": "pricechecker",
+  "request_id": "6bef444e-29e1-4bd1-bcbe-2ca1edecb729",
+  "source_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+  "scope_store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "LOCAL_PREPARATION_ONLY",
+  "date": "2026-10-28",
+  "bsl_parser_errors": [],
+  "passed": 26,
+  "total": 26,
+  "checks": [
+    {
+      "name": "no_os_secret_storage",
+      "pass": true
+    },
+    {
+      "name": "no_fake_positive_ack",
+      "pass": true
+    },
+    {
+      "name": "new_http_method_names_present",
+      "pass": true
+    },
+    {
+      "name": "all_dtos_default_initialized",
+      "pass": true
+    },
+    {
+      "name": "key_generation_after_membership",
+      "pass": true
+    },
+    {
+      "name": "duplicate_check_before_user_create",
+      "pass": true
+    },
+    {
+      "name": "store_binding_before_key_apply",
+      "pass": true
+    },
+    {
+      "name": "no_enable_in_apply",
+      "pass": true
+    },
+    {
+      "name": "both_expected_groups",
+      "pass": true
+    },
+    {
+      "name": "global_and_local_user_ids_separate",
+      "pass": true
+    },
+    {
+      "name": "core_export:ВJSON",
+      "pass": true
+    },
+    {
+      "name": "core_export:ИзJSON",
+      "pass": true
+    },
+    {
+      "name": "core_export:КодУзлаОтправителя",
+      "pass": true
+    },
+    {
+      "name": "core_export:МаршрутКаналаОтправки",
+      "pass": true
+    },
+    {
+      "name": "core_export:НастроитьМаршрутПрайсЧекеров",
+      "pass": true
+    },
+    {
+      "name": "core_export:НастроитьПолучателяОпера",
+      "pass": true
+    },
+    {
+      "name": "core_export:НачатьПолнуюВыгрузку",
+      "pass": true
+    },
+    {
+      "name": "core_export:ОбработатьПодтверждение",
+      "pass": true
+    },
+    {
+      "name": "core_export:ОтправитьПорциюПакетов",
+      "pass": true
+    },
+    {
+      "name": "core_export:ПараметрыМаршрутаПрайсЧекеров",
+      "pass": true
+    },
+    {
+      "name": "core_export:ПодготовитьСледующийПолныйПакет",
+      "pass": true
+    },
+    {
+      "name": "core_export:СтроковоеПоле",
+      "pass": true
+    },
+    {
+      "name": "core_export:УстановитьКодУзлаОтправителя",
+      "pass": true
+    },
+    {
+      "name": "limited_bsl_parse:ExchOperaPC_Модуль.bsl",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "limited_bsl_parse:КХ_ПилотШины.bsl",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "limited_bsl_parse:ExchPriceChecker_Модуль.bsl",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "sha256": {
+    "ExchOperaPC_Модуль.bsl": "cae63cc90c5e958d95589bb6edb715b20f5c2c3b6f57a5fa758feaf116ec9a0a",
+    "КХ_ПилотШины.bsl": "3102cfa0e3ec5593ca5d12478965fa92e71508a15d0e6a8fdc39b00ab60bbe46",
+    "ExchPriceChecker_Модуль.bsl": "dd354cd125ab6a2ca1917d2bea7c39822215adb066bd1fa1a7eeff7734d7148e",
+    "InfoBases_Пилот3.xbsl": "4e1215e43d0662cc2bc7422b78107f27e6091960ad38a42d247ba522a6c1b2ae",
+    "ПорядокИПриемка.md": "d270eda6c76d6961b8bcad2cbafc8410e780c578088e94e9bd398825f56ba4c9"
+  },
+  "not_run": [
+    "1C compilation",
+    "XBSL compilation/publication",
+    "HTTP program58",
+    "Real backend persistence/ACK",
+    "Runtime failure/restart tests"
+  ]
+}

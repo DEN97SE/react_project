@@ -1,0 +1,138 @@
+[
+  {
+    "file_id": "file_000000003bbc820ba5885374f3b22676",
+    "name": "ObjectModule.bsl",
+    "result": {
+      "path": "/workspace/attachments/a0295c71-0cb5-4809-a733-e66fb6aa67c6/ObjectModule.bsl",
+      "size_bytes": 23469
+    }
+  },
+  {
+    "file_id": "file_000000009d50820b8f9b09edf6704f75",
+    "name": "Help.xml",
+    "result": {
+      "path": "/workspace/attachments/ed9142aa-dc3b-4cb0-be6e-d5d8a8629bce/Help.xml",
+      "size_bytes": 232
+    }
+  },
+  {
+    "file_id": "file_0000000068f0820b992612947fa7448c",
+    "name": "Predefined.xml",
+    "result": {
+      "path": "/workspace/attachments/3ff6a415-4837-43df-93dd-1f6b681d76d2/Predefined.xml",
+      "size_bytes": 865
+    }
+  },
+  {
+    "file_id": "file_0000000084c0820bb1b9da1bf60e9025",
+    "name": "ManagerModule.bsl",
+    "result": {
+      "path": "/workspace/attachments/bcdeb90d-52ca-4441-a868-9daa8feb4ace/ManagerModule.bsl",
+      "size_bytes": 1693
+    }
+  },
+  {
+    "file_id": "file_00000000a8fc8211993e9e86ee62c047",
+    "name": "ru.html",
+    "result": {
+      "path": "/workspace/attachments/0c7ae90b-73b8-4f56-aebe-d849f9c9c9b3/ru.html",
+      "size_bytes": 3467
+    }
+  },
+  {
+    "file_id": "file_00000000729c820b8c394004f2c6f9c6",
+    "name": "ФормаГруппы.xml",
+    "result": {
+      "path": "/workspace/attachments/15844005-e96e-4b25-aacb-93d1c9c1d679/ФормаГруппы.xml",
+      "size_bytes": 1628
+    }
+  },
+  {
+    "file_id": "file_00000000ac3c820bb69e38f7fd09916d",
+    "name": "ФормаВыбораУправляемая.xml",
+    "result": {
+      "path": "/workspace/attachments/ceeb6eed-f23d-4c84-a287-6680d2ff17bf/ФормаВыбораУправляемая.xml",
+      "size_bytes": 1568
+    }
+  },
+  {
+    "file_id": "file_000000007794823082bce09bf06588d5",
+    "name": "ФормаВыбора.xml",
+    "result": {
+      "path": "/workspace/attachments/f9820e46-f316-43c5-afb4-aefb5bb81e97/ФормаВыбора.xml",
+      "size_bytes": 1631
+    }
+  },
+  {
+    "file_id": "file_000000005a64820b9711da08c9fffa01",
+    "name": "ФормаСписка.xml",
+    "result": {
+      "path": "/workspace/attachments/0e3eb04e-d25b-464a-bd56-ae2cdfe17003/ФормаСписка.xml",
+      "size_bytes": 1624
+    }
+  },
+  {
+    "file_id": "file_00000000c9dc820b9b38923d4363e488",
+    "name": "Form.bin",
+    "result": {
+      "path": "/workspace/attachments/1ed5e22e-2f4e-49ca-89b8-26b1c07d0602/Form.bin",
+      "size_bytes": 18024
+    }
+  },
+  {
+    "file_id": "file_00000000b01882119a6d817bc22e0e21",
+    "name": "ФормаЭлемента.xml",
+    "result": {
+      "path": "/workspace/attachments/afe95bf7-c2f6-409d-835c-67ead96b640f/ФормаЭлемента.xml",
+      "size_bytes": 1644
+    }
+  },
+  {
+    "file_id": "file_0000000001d8820ba97ac23986b6e9cd",
+    "name": "Form.xml",
+    "result": {
+      "path": "/workspace/attachments/5043545d-56bf-4168-be26-14efcafb7b24/Form.xml",
+      "size_bytes": 41298
+    }
+  },
+  {
+    "file_id": "file_000000000cd8820b9203bb11aed17a1c",
+    "name": "Form.bin",
+    "result": {
+      "path": "/workspace/attachments/e250b1b5-ad89-4cdd-a2f5-45131d3c5ea5/Form.bin",
+      "size_bytes": 12236
+    }
+  },
+  {
+    "file_id": "file_00000000b8ec820993e9e357f97b6b90",
+    "name": "Form.bin",
+    "result": {
+      "path": "/workspace/attachments/5fe0a927-15dd-4305-815b-fc086222179c/Form.bin",
+      "size_bytes": 47518
+    }
+  },
+  {
+    "file_id": "file_0000000055b8820bb0696fa8bc78fd66",
+    "name": "Help.xml",
+    "result": {
+      "path": "/workspace/attachments/fc94b4e7-aa30-4e0c-b469-2e2e78ee316d/Help.xml",
+      "size_bytes": 232
+    }
+  },
+  {
+    "file_id": "file_00000000c25c8211aa09e5e3f9cff086",
+    "name": "Form.bin",
+    "result": {
+      "path": "/workspace/attachments/5135b55e-326a-49e8-8270-6dced02fdf78/Form.bin",
+      "size_bytes": 239266
+    }
+  },
+  {
+    "file_id": "file_000000009138820bb5603fbb4a46392d",
+    "name": "ru.html",
+    "result": {
+      "path": "/workspace/attachments/e6779b01-7bb2-4f11-bbd9-421f812c23ff/ru.html",
+      "size_bytes": 3614
+    }
+  }
+]

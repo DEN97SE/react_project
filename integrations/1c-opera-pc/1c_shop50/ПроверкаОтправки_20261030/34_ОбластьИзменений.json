@@ -1,0 +1,29 @@
+[
+  {
+    "path": "/workspace/1c_shop50/ОбщиеМодули/КХ_ДанныеОпера.bsl",
+    "changed_functions": [
+      "ПолучитьДанныеДляВыгрузки",
+      "СформироватьШтрихкод"
+    ],
+    "outside_functions_unchanged": true,
+    "line_end_preserved": true
+  },
+  {
+    "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.md",
+    "changed_functions": [
+      "ПолучитьДанныеДляВыгрузки",
+      "СформироватьШтрихкод"
+    ],
+    "outside_functions_unchanged": true,
+    "line_end_preserved": true
+  },
+  {
+    "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.txt",
+    "changed_functions": [
+      "ПолучитьДанныеДляВыгрузки",
+      "СформироватьШтрихкод"
+    ],
+    "outside_functions_unchanged": true,
+    "line_end_preserved": true
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "message_type": "catalog_full_request",
+  "project": "opera",
+  "request_id": "09e5eacd-e88a-4cf6-b72a-1a90c47f85fa",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+}

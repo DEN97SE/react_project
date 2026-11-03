@@ -1,0 +1,22 @@
+{
+  "evidence": "Скриншот пользователя: ОчередьШины, отбор StructuralUnits, 27.10.2026",
+  "total": 6,
+  "queue_status": "Отправлено",
+  "queue_text": "Ожидается прикладное подтверждение бэка",
+  "opera_recipient": "BackendOpera",
+  "pc_recipient": "Backend_PC",
+  "opera_batch_ids": [
+    "7789e628-18d0-40d1-9594-fe1dee7cc4af",
+    "7e10a738-4e56-4f1c-956d-b5eb442b208b",
+    "d944df51-ca29-4af2-b33a-5886bea01c44"
+  ],
+  "pc_batch_ids": [
+    "c1917d14-50d2-4545-81d7-f3f281cc066a",
+    "4eeb89fa-8c06-4e54-9927-a608f8c7ad60",
+    "027c7c33-95c3-46ad-b828-a689e85e20ed"
+  ],
+  "backend_commit_proven": false,
+  "application_ack_proven": false,
+  "product_pc_queue_screenshot": "Пустая под отбором PriceCheker; причина по одному списку не установлена",
+  "next_check": "Отдельно проверить общую регистрацию одного товара, без повторного full справочника"
+}

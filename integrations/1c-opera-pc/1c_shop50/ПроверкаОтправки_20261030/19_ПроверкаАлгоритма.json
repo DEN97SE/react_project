@@ -1,0 +1,12 @@
+{
+  "bsl_parser_version": "0.40.0",
+  "syntax_errors": 0,
+  "exported_calls_verified": 17,
+  "pilot_store_restrictions": false,
+  "automatic_incoming_purge": false,
+  "new_full_started": false,
+  "manual_business_ack": false,
+  "native_handler_called_from_console": false,
+  "runtime_1c_tested": false,
+  "lines": 290
+}

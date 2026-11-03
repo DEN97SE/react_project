@@ -1,0 +1,11 @@
+// Один и тот же ОБЫЧНЫЙ ключ TEST_SHARED_50 — в базах №50 и №410.
+ОбщийClientID = "ВСТАВЬ_ОБЩИЙ_CLIENT_ID";
+ОбщийClientSecret = "REDACTED_CREDENTIAL_9";
+Попытка
+    КХ_ТестОбщегоДоступа.Каналы(ОбщийClientID, ОбщийClientSecret);
+    КХ_ТестОбщегоДоступа.Настроить(ОбщийClientID, ОбщийClientSecret);
+Исключение
+    Сообщить(ОписаниеОшибки());
+КонецПопытки;
+ОбщийClientID = "";
+ОбщийClientSecret = "";

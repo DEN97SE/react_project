@@ -1,0 +1,21 @@
+{
+  "kind": "LOCAL_STRUCTURAL_CHECKS_ONLY",
+  "date": "2026-10-29",
+  "checks": {
+    "no_connect_call": true,
+    "no_user_create": true,
+    "no_key_issue": true,
+    "query_existing_references": true,
+    "no_id_string_conversion": true,
+    "guard_before_create": true,
+    "direct_reference_assignment": true,
+    "both_processes": true
+  },
+  "passed": 8,
+  "total": 8,
+  "sha256": "a948d96b81dd3846aeb896be7919b1b0006010f445299e20657361d14a308ba5",
+  "limits": [
+    "No XBSL compilation or runtime",
+    "Query reference Id / service UserId comparison requires platform validation"
+  ]
+}

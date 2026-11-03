@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/workspace/1c_shop50/ОбщиеМодули/КХ_ДанныеОпера.bsl",
+    "only_getter_metadata_block_changed": true,
+    "unsupported_periodicity_removed": true
+  },
+  {
+    "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.md",
+    "only_getter_metadata_block_changed": true,
+    "unsupported_periodicity_removed": true
+  },
+  {
+    "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.txt",
+    "only_getter_metadata_block_changed": true,
+    "unsupported_periodicity_removed": true
+  },
+  {
+    "path": "/workspace/1c_shop50/ПроверкаОтправки_20261030/35_КХ_ДанныеОпера_ПолныйМодуль.bsl",
+    "only_getter_metadata_block_changed": true,
+    "unsupported_periodicity_removed": true
+  },
+  {
+    "path": "/workspace/1c_shop50/ПроверкаОтправки_20261030/35_КХ_ДанныеОпера_ПолныйМодуль.txt",
+    "only_getter_metadata_block_changed": true,
+    "unsupported_periodicity_removed": true
+  },
+  {
+    "path": "/workspace/1c_shop50/ПроверкаОтправки_20261030/35_ИзменяемыеФункции.bsl",
+    "only_getter_metadata_block_changed": true,
+    "unsupported_periodicity_removed": true
+  }
+]

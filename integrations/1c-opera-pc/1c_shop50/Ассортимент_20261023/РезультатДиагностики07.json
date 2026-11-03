@@ -1,0 +1,42 @@
+{
+  "source": "Скрин служебных сообщений пользователя, диагностика 07",
+  "local_time": "2026-10-23 11:38:19 Asia/Krasnoyarsk",
+  "store": "Командор №50",
+  "counts": {
+    "unmarked_nonfolders": 357621,
+    "with_barcode": 356405,
+    "without_barcode": 1216,
+    "with_current_price": 125253,
+    "without_current_price": 232368,
+    "positive_price": 125253,
+    "positive_stock": 11576,
+    "zero_stock": 345840,
+    "negative_stock": 205,
+    "assigned_matrix_nonempty_status": 153652,
+    "matrix_without_barcode": 9,
+    "matrix_without_price": 54485,
+    "outside_nonempty_matrix_nonzero_stock": 526,
+    "matrix_or_nonzero_stock": 154178,
+    "price_or_nonzero_stock": 125270,
+    "barcode_positive_price": 125247,
+    "barcode_positive_price_positive_stock": 11562
+  },
+  "status_counts": {
+    "empty": 1,
+    "Закрытый": 222,
+    "Пассивный": 135307,
+    "Активный": 18123
+  },
+  "inferences": {
+    "nonzero_stock": 11781,
+    "active_or_nonzero_stock_exact_count": "Не определён по этому скрину: неизвестно пересечение активных товаров и остатков",
+    "active_or_nonzero_stock_upper_bound": 29904,
+    "active_or_nonzero_stock_lower_bound": 18649,
+    "active_or_nonzero_stock_lower_bound_note": "Граница до отдельного учёта исключения Закрытый; итоговое правило измеряется диагностикой 08"
+  },
+  "execution": "Диагностика выполнена в базе пользователя без регистрации/отправки пакетов",
+  "business_rules_confirmed": {
+    "Пассивный": "Продолжают продавать при наличии остатка",
+    "Закрытый": "Не продают, даже при наличии остатка"
+  }
+}

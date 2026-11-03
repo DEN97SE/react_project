@@ -1,0 +1,38 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "source": "Два фактических вывода пользователя",
+  "routes_before": {
+    "50": "все5 полей пустые",
+    "410": "все5 полей пустые"
+  },
+  "routes_restored": true,
+  "full_request_revision": 1,
+  "scheduler_enabled": true,
+  "scheduler_repeat_seconds": 10,
+  "stores": {
+    "50": {
+      "session_id": "7db8cc58-b741-4610-a6d2-bbb71f79504c",
+      "next_sequence": 1,
+      "total_batches": 102,
+      "request_pending": false,
+      "full_active": true
+    },
+    "410": {
+      "session_id": "733b2d16-85b0-4592-bc33-6c2c90812bf9",
+      "next_sequence": 1,
+      "total_batches": 28,
+      "request_pending": false,
+      "full_active": true
+    }
+  },
+  "progress_observed": false,
+  "first_portion_registration_confirmed": false,
+  "queue_lines_in_supplied_logs": false,
+  "backend_acceptance_confirmed": false,
+  "core_source_observation": "РегламентнаяОбработкаОчередиОпера перехватывает ошибки ПодготовитьСледующийПолныйПакет и пишет КХ.Шина.ПодготовкаПолной; поэтому завершение job не доказывает постановку порции.",
+  "exact_runtime_error_received": false,
+  "next_probe": "39_ОшибкаТекущейПорцииСОткатом_50_410.bsl",
+  "probe_semantics": "Реальная подготовка одной текущей порции под внешней транзакцией с обязательным откатом, без сетевой отправки или нового full.",
+  "probe_validation": "BSLParser0.40.0:0 ошибок; в исходнике call graph подготовки/регистрации уважает внешнюю транзакцию и не отправляет в сеть; native-проба ещё не выполнялась."
+}

@@ -1,0 +1,70 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "latest_user_requirement": "Передавать и шт, и кор100%; связывать с единицей измерения, учитывать основной ШК.",
+  "previous_carton_filter_superseded": true,
+  "metadata_evidence": "Снимки пользователя: ОсновныеШтрихкоды.Номенклатура/ШтрихКод без единицы; ЕдиницыИзмерения.ЕдиницаПоКлассификатору/Коэффициент; КлассификаторЕдиницИзмерения отдельный справочник.",
+  "module": "КХ_ДанныеОпера",
+  "fields": {
+    "unit_id": "UUID конкретной ЕдиницыИзмерения; не выдумывается при пустой ссылке",
+    "is_primary": "barcode == ОсновныеШтрихкоды.ШтрихКод по товару",
+    "is_base_unit": "классификатор единицы == базовый классификатор товара и коэффициент ==1"
+  },
+  "backend_key_within_project": [
+    "store_id",
+    "nomenclature_id",
+    "unit_id",
+    "barcode"
+  ],
+  "schema_version_unchanged": 1,
+  "all_packaging_variants_preserved": true,
+  "full_query_result_count": 9,
+  "temporary_table_count": 4,
+  "grammar_checks": {
+    "data_module_bsl_errors": 0,
+    "read_only_check_bsl_errors": 0,
+    "nonperiodic_primary_register_query_sdbl_errors": 0,
+    "periodic_primary_register_query_sdbl_errors": 0
+  },
+  "native_1c_compile_tested": false,
+  "native_1c_runtime_tested": false,
+  "backend_modified": false,
+  "live_deployment_performed": false,
+  "saved_packets_rewritten": false,
+  "acks_fabricated": false,
+  "old_raw_payloads_not_retrofitted_with_unit_ids": true,
+  "manual_fixture_review_not_runtime_test": "Все3 записи ШК булочки должны остаться: шт2000452859001, шт2210000274648 основной, кор2000452859001 с30. Обе коробки тетрадей100/50 также остаются.",
+  "subscription_configuration_required": "РегистрСведенийНаборЗаписей.ОсновныеШтрихкоды → ПередЗаписью → КХ_ОбменШиныОпера.НаборЗаписейПередЗаписью",
+  "change_scope": [
+    {
+      "path": "/workspace/1c_shop50/ОбщиеМодули/КХ_ДанныеОпера.bsl",
+      "changed_functions": [
+        "ПолучитьДанныеДляВыгрузки",
+        "СформироватьШтрихкод"
+      ],
+      "outside_functions_unchanged": true,
+      "line_end_preserved": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.md",
+      "changed_functions": [
+        "ПолучитьДанныеДляВыгрузки",
+        "СформироватьШтрихкод"
+      ],
+      "outside_functions_unchanged": true,
+      "line_end_preserved": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.txt",
+      "changed_functions": [
+        "ПолучитьДанныеДляВыгрузки",
+        "СформироватьШтрихкод"
+      ],
+      "outside_functions_unchanged": true,
+      "line_end_preserved": true
+    }
+  ],
+  "native_check_file": "34_ПроверитьУпаковкиИОсновнойШК_50_410.bsl",
+  "superseded_by_revision": 35,
+  "reason": "Нужно выбирать один ШК на единицу, а не передавать все альтернативные."
+}

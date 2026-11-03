@@ -1,0 +1,112 @@
+{
+  "kind": "LOCAL_SOURCE_AND_PACKAGING_CHECKS_ONLY",
+  "date": "2026-10-28",
+  "limitations": [
+    "Not a 1C or ESB compile or runtime test; XBSL not parsed.",
+    "BSL parser input uses two explicitly documented grammar workarounds.",
+    "Does not prove identity binding, membership, queue selection or fault recovery.",
+    "Previous 76-check report is superseded; that count was not runtime evidence."
+  ],
+  "passed": 17,
+  "total": 17,
+  "checks": [
+    {
+      "check": "Limited BSL parse: КХ_ТестОбщегоДоступа.bsl",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "check": "Limited BSL parse: МодульТестовогоСервиса.bsl",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "check": "Limited BSL parse: МодульТестовогоБэка.bsl",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "check": "Limited BSL parse: 01_ПодготовитьИС_ИзКонсоли50.txt",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "check": "Limited BSL parse: 02_Настроить_В_ОбеихБазах.txt",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "check": "Limited BSL parse: 02б_НастроитьБэк_Только50.txt",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "check": "Limited BSL parse: 03_ПроверитьОтправку.txt",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "check": "Four native test nodes",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Two test groups",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Both backend routes",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Graph references",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Schema UUID uniqueness",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Callback: МодульТестовогоСервиса.bsl",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Callback: МодульТестовогоБэка.bsl",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Fixture/client address: 00000000-0000-4000-8000-000000000050",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Fixture/client address: 00000000-0000-4000-8000-000000000410",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "Fixture/client address: 00000000-0000-4000-8000-000000000003",
+      "pass": true,
+      "details": ""
+    }
+  ],
+  "sha256": {
+    "SharedUserTest.yaml": "2fd45eba2449ba9501aa661f1c65e6ef92a35b102680d9c4f62a9c54824e2db7",
+    "InfoBases_Добавка.xbsl": "a4eecdbfc2ee3b69c170a375dfd11dbccf085c6680a25c9ce148a2e4ca47402c",
+    "КХ_ТестОбщегоДоступа.bsl": "d0a0e18a8a2f6528c21a66f4945f445e3593da47d7c52b5ffb7f106d80916f25",
+    "МодульТестовогоСервиса.bsl": "f98b95eea7afb9c560acd2c9cdb6c7b82ee7b3a35e0a6604724f522f123fbdec",
+    "МодульТестовогоБэка.bsl": "818ee736bbd0f15d5fbfbc4e830b3f555d2f7ca9177027da1c7351181f9b6c86",
+    "01_ПодготовитьИС_ИзКонсоли50.txt": "060e96bba6e0b5cd634073bb944387a54d9639d126ef6db8d683fa2a6f534f08",
+    "02_Настроить_В_ОбеихБазах.txt": "59ab7046f053936a1789143b6d7644b5744aab05543c3b38a885accd280340d6",
+    "02б_НастроитьБэк_Только50.txt": "075de0332e0e5197c2f4f55a2c70b545ae4af99cc880e83d50ce047622db742a",
+    "03_ПроверитьОтправку.txt": "a217e8912af3eeb0dd9bb561f55d65164d55636073ea2e94b5da9e1b4c3670aa",
+    "Порядок.txt": "1205af3faf6f0d7e07944f5cbebb11d19439935cc40e4a188ba7dd023f9246b2",
+    "ВесьКодДляКопирования.md": "947e84312d0543588e9f6e17ae90710570df5799320e9f6ade7d1a264972f924"
+  }
+}

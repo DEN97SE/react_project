@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="ad9ee122-bdb6-4605-bbeb-c4aff0474387">
+		<Name>Активный</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>Активный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a48e2dd1-d7e7-44ef-a6d4-0b17ad3f8e2a">
+		<Name>Закрытый</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>Закрытый</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d1d6f0cd-f1f0-4332-b07f-858fd1f0f6e7">
+		<Name>Пассивный</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>Пассивный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9e0ba8c8-f523-49f9-84da-59dc4a33781f">
+		<Name>Пробный</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>Пробный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f9d84663-ea36-4aea-845b-308755bfe6e4">
+		<Name>Сезонный</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>Сезонный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0064562d-1def-4f39-a84f-8ec2627a6c43">
+		<Name>Утвержденный</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>Утвержденный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

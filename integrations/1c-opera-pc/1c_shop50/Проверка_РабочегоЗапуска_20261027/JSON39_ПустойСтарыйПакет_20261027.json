@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "source": "user screenshot of JSON39",
+  "valid_outgoing_json": 14,
+  "invalid_outgoing_json": 1,
+  "invalid_packet": {
+    "system": "Opera",
+    "batch_id": "2406c48b-9b79-49f8-9c0c-940ac1c1b988",
+    "node": "",
+    "channel": "Основной_ExchangeOpera_FromOpera",
+    "status": "Отправлено",
+    "body_length": 0
+  },
+  "known_valid": {
+    "Opera": 8,
+    "StructuralUnits": 6
+  },
+  "catalog_test31_failure_cause": "Fixture parsed all pre-existing product rows, including this empty body; corrected fixture isolates newly created rows.",
+  "maintenance_prepared": "40_quarantine_one_empty_opera_packet.txt",
+  "maintenance_executed": false,
+  "maintenance_behavior": "one exact empty Opera key -> full typed backup in OperaState/КХ_OperaQuarantine with Error status; no success ACK; no other queues/epochs/full progress mutated",
+  "maintenance_static": {
+    "Information": 20,
+    "Hint": 1,
+    "Warning": 3
+  }
+}

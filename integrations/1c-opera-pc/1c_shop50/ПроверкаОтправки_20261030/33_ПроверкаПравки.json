@@ -1,0 +1,74 @@
+{
+  "date_client": "2026-11-03",
+  "timezone": "Asia/Krasnoyarsk",
+  "authorization": "Пользователь подтвердил три проблемных товара и правильный вариант шт/1; одинаковый ШК у коробки назвал ошибкой базы.",
+  "scope": "Только ПодготовитьШтрихКоды в КХ_ДанныеОпера и её копиях для установки. Общий сборщик Opera/PC.",
+  "rule": "По паре Номенклатура + нормализованный строковый ШК предварительно найти шт/1. При наличии удалить из выгрузки строки того же ШК с положительным коэффициентом, отличным от 1. Затем прежняя дедупликация полностью одинаковых строк.",
+  "order_independent_by_design": true,
+  "main_barcode_preserved": "2210000274648 остаётся отдельной строкой шт/1; основной ШК не определяется по порядку строк и новый JSON-флаг не добавлен.",
+  "nonconflicting_packaging_preserved": true,
+  "other_sku_never_merged": true,
+  "missing_invalid_quantity_not_defaulted_to_one": true,
+  "barcode_leading_zeros_preserved": true,
+  "master_data_written": false,
+  "queue_written": false,
+  "old_packet_bodies_written": false,
+  "grammar_checks": {
+    "engine": "BSLParser 0.40.0",
+    "КХ_ДанныеОпера.bsl": {
+      "errors": 0,
+      "exit_code": 0
+    },
+    "33_ПроверитьШтучныеШК_50_410.bsl": {
+      "errors": 0,
+      "exit_code": 0
+    }
+  },
+  "change_scope_checks": [
+    {
+      "path": "/workspace/1c_shop50/ОбщиеМодули/КХ_ДанныеОпера.bsl",
+      "backup": "/workspace/1c_shop50/Исправления_20261103/ШтучнаяУпаковкаПриКонфликтеШК/ДоПравки/ОбщиеМодули_КХ_ДанныеОпера.bsl",
+      "outside_function_byte_identical": true,
+      "line_end_preserved": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.md",
+      "backup": "/workspace/1c_shop50/Исправления_20261103/ШтучнаяУпаковкаПриКонфликтеШК/ДоПравки/ДляКопирования_КХ_ДанныеОпера.md",
+      "outside_function_byte_identical": true,
+      "line_end_preserved": true
+    },
+    {
+      "path": "/workspace/1c_shop50/ДляКопирования/КХ_ДанныеОпера.txt",
+      "backup": "/workspace/1c_shop50/Исправления_20261103/ШтучнаяУпаковкаПриКонфликтеШК/ДоПравки/ДляКопирования_КХ_ДанныеОпера.txt",
+      "outside_function_byte_identical": true,
+      "line_end_preserved": true
+    }
+  ],
+  "native_1c_compile_tested": false,
+  "native_1c_runtime_tested": false,
+  "read_only_runtime_check": "33_ПроверитьШтучныеШК_50_410.bsl; ожидается в 410 одна карточка, в 50 две. Выполнение пользователем ещё не показано.",
+  "fixture_review_not_runtime_test": [
+    {
+      "barcode": "2000452859001",
+      "remove": "кор/30",
+      "keep": "шт/1",
+      "also_keep": "2210000274648"
+    },
+    {
+      "barcode": "4620000130321",
+      "remove": "кор/100",
+      "keep": "шт/1",
+      "also_keep": "4620000130314"
+    },
+    {
+      "barcode": "4620000130369",
+      "remove": "кор/50",
+      "keep": "шт/1",
+      "also_keep": "4620000130352"
+    }
+  ],
+  "recovery": "Новые сборки используют правило. Для существующих трёх пакетов предпочтительна та же подтверждённая нормализация на бэке до проверки конфликтов и повтор реальной обработки прежних batch_id. Если бэк так не меняется, новый корректный full нужно согласовать отдельно; переписывать JSON сохранённых batch_id нельзя.",
+  "superseded_by_user": true,
+  "superseded_reason": "Нужно передавать обе упаковки, связывать ШК с единицей измерения и читать основной ШК из отдельного регистра.",
+  "active_source_drops_carton_variant": false
+}

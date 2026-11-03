@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-02",
+  "source": "31_Opera_ОбратныйТранслятор.xbsl",
+  "target": "Модуль процесса Opera; событие Преобразование обратного транслятора FromBackend -> ToBackend",
+  "handler_name_preserved": "АдресОтветаPCПреобразование",
+  "module_level_structure": null,
+  "sender_required": "BackendOpera",
+  "more_than_one_recipient": "Явное исключение; групповой рассылки нет",
+  "valid_explicit_recipient": "Один непустой получатель, отличный от BackendOpera, сохраняется; существование и членство проверяет Шина",
+  "missing_or_backend_recipient": "Адрес определяется по UUID store_id, для structural_units по source_id издателя",
+  "target_code_format": "S + канонический UUID без дефисов",
+  "body_preservation": "Возвращается весь исходный JSON-текст через новый поток; адресное соответствие обратно не сериализуется. Побайтовая идентичность не обещается.",
+  "missing_invalid_zero_uuid": "Явное исключение вместо возврата сообщения без получателя",
+  "grammar_check": {
+    "engine": "keyfire/xbsl parser",
+    "commit": "d9df8fb4003d4fb6d9c6ea4447fca1ba2420ae7b",
+    "lexicon": "Явный словарь русских ключевых слов фрагмента; комплект SDK language.json отсутствует",
+    "grammar_errors": 0,
+    "platform_types_checked": false,
+    "native_platform_compile_tested": false,
+    "members": [
+      "АдресОтветаPCПреобразование"
+    ]
+  },
+  "api_review_sources": [
+    "ДокументацияШины_20261027/03.txt: ВременныйПотокЗаписи.Записать, ОткрытьПотокЧтения, УстановитьТелоИзПотока",
+    "ДокументацияШины_20261027/15.txt и фактический пользовательский обработчик: Получатели, Отправитель.Код, УстановитьКодыПолучателей",
+    "InfoBases.xbsl кандидата41: inline структура, НастройкиЧтенияОбъектовJson, СериализацияJson.ПрочитатьОбъект с Тип<T>, Ууид.ВСтроку",
+    "korolevpavel/xbsl-ai-skills commit73524afa62f93e925de8f1070cd8566778f22e26 docs/xbsl-spec.md: выбросить новый ИсключениеНедопустимоеСостояние",
+    "keyfire/xbsl docs/linting.ru.md: ПотокЧтения.ПрочитатьКакСтроку",
+    "keyfire/xbsl tests/test_rule_deprecated_api.py: перегрузка ПрочитатьОбъект(Источник, Тип<T>, Настройки) и разбор JSON в соответствие; это вспомогательное свидетельство API, не native-проверка",
+    "korolevpavel/xbsl-ai-skills docs/xbsl-spec.md: Соответствие.СодержитКлюч/Получить; фактический ExchangeVEDO.xbsl: оператор как Строка"
+  ],
+  "api_compatibility_with_reported_esb_8_1_3_runtime_tested": false,
+  "runtime_tested": false,
+  "live_deployment_performed": false,
+  "pc_process_changed": false,
+  "manually_reviewed_cases_not_runtime_tests": [
+    "Явный S410 сохраняется без чтения и изменения тела",
+    "Нет получателя + store_id410 -> S4093310384ba4d00ab50ce9efa15eda8",
+    "Получатель BackendOpera + store_id50 -> S3370588b074211e0b9c1001a64c3f566",
+    "ACK structural_units + source_id50 -> S3370588b074211e0b9c1001a64c3f566",
+    "Нет/неверный/нулевой UUID -> исключение, пустой адрес не возвращается",
+    "Несколько получателей или отправитель не BackendOpera -> исключение"
+  ],
+  "revision": 2,
+  "json_read_target": "Соответствие<Строка, Объект?>; ключи проверяются через СодержитКлюч до Получить",
+  "previous_revision_runtime_failure": {
+    "reported_by_user": true,
+    "time_as_shown": "02.11.2026 19:19:15",
+    "message": "В тексте JSON для типа ДанныеАдресаОтветаOpera не найдены поля source_id, dataset",
+    "cause": "Типизированная структура требовала отсутствующие поля; значения по умолчанию и ИгнорироватьНеизвестныеСвойства этого не отменяют",
+    "actual_goods_ack": {
+      "message_type": "ack",
+      "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+      "batch_id": "f72e6bad-a11f-44a0-8ceb-b17dc57a45af",
+      "status": "processed"
+    }
+  }
+}

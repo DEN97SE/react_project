@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-27",
+  "source": "uploaded text and user screenshots",
+  "checks": {
+    "12_delete_dependency": "passed; rollback and queue restoration confirmed",
+    "31_catalog_request": "failed at JSON read; not passed; rollback comparison did not report a mismatch",
+    "32_directory_request": "passed full PC3portions/oneOpera/dedup/source guards/rollback",
+    "15_directory_events": "passed real write/deletionmark/unmark with rollback; no physical object deletion"
+  },
+  "routes_saved": {
+    "opera_sender": "MagazyniOpera",
+    "opera_receiver": "BackendOpera",
+    "pc_sender": "Magazyni_PC",
+    "pc_receiver": "Backend_PC"
+  },
+  "directory": {
+    "prepared_opera_packets": 3,
+    "prepared_pc_packets": 3,
+    "cards_per_project": 567,
+    "deleted_ids_per_project": 16,
+    "session_id": "bee8bde1-3cdb-4297-95bf-7fff3d2be345",
+    "source_id": "3370588b-0742-11e0-b9c1-001a64c3f566",
+    "source_node": "MagazyniOpera",
+    "epoch": "54af1cc2-9486-4d4a-bf3a-8ce0a3bacc05",
+    "revision": 1,
+    "resume_enabled": true,
+    "backend_delivery": "not shown"
+  },
+  "products": {
+    "session_id": "8f045dc5-42b9-4b0a-bb2c-f9e7638a0534",
+    "full_initialized": true,
+    "old_opera_sent_count": 9,
+    "goods_job_running": "not proven by screenshots"
+  },
+  "current_action": "Read-only JSON39 to identify failing outgoing row; do not restart active full or fake ACK; defer31retry until active full naturally completes."
+}

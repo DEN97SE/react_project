@@ -1,0 +1,27 @@
+[
+  {
+    "file": "01_read_connection_status.txt",
+    "bytes": 1729,
+    "sha256": "3f88270d0bdfbfa0d6c1e19a9c0611577ff81a57fc704cdc0f0ba562a9afc265"
+  },
+  {
+    "file": "02_apply_connection_plan.txt",
+    "bytes": 3573,
+    "sha256": "6bf47a747c1f0e33cf0aa1ff8697c79b2e273d158a8e694f607fe51e77578460"
+  },
+  {
+    "file": "http_enrollment_plan.txt",
+    "bytes": 9291,
+    "sha256": "1dc300db2bc0e21d29ca7651cdd41f1f20dd352f6ec5c5fcc6bd537942ac5679"
+  },
+  {
+    "file": "instructions.txt",
+    "bytes": 11345,
+    "sha256": "fd8a0671201b3a6358ab849c09a84fa79257fe15abd3daa6793bacd303113a4d"
+  },
+  {
+    "file": "module_connection_setup.txt",
+    "bytes": 14220,
+    "sha256": "e05d45c7c68050961e0560260d863c5e818e5dd63c52c6e2e7485c8a04b040a6"
+  }
+]

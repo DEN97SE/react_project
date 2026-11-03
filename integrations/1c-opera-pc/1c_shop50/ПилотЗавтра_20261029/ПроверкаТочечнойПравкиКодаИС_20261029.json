@@ -1,0 +1,72 @@
+{
+  "kind": "LOCAL_POINT_FIX_VALIDATION_ONLY",
+  "date": "2026-10-29",
+  "passed": 11,
+  "total": 11,
+  "checks": [
+    {
+      "name": "BSL limited parse",
+      "pass": true
+    },
+    {
+      "name": "33 characters, initial ASCII letter, identifier characters",
+      "pass": true
+    },
+    {
+      "name": "Store UUID fully recoverable from node suffix",
+      "pass": true
+    },
+    {
+      "name": "No collisions in sample",
+      "pass": true
+    },
+    {
+      "name": "Server creation uses node code",
+      "pass": true
+    },
+    {
+      "name": "Global lookup retains original UUID",
+      "pass": true
+    },
+    {
+      "name": "Frozen store binding retained",
+      "pass": true
+    },
+    {
+      "name": "PC sender uses node code",
+      "pass": true
+    },
+    {
+      "name": "Opera sender uses node code",
+      "pass": true
+    },
+    {
+      "name": "No fallback for missing node_code",
+      "pass": true
+    },
+    {
+      "name": "Catalog old/new duplicate check",
+      "pass": true
+    }
+  ],
+  "examples": [
+    [
+      "40933103-84ba-4d00-ab50-ce9efa15eda8",
+      "S4093310384ba4d00ab50ce9efa15eda8"
+    ],
+    [
+      "3370588b-0742-11e0-b9c1-001a64c3f566",
+      "S3370588b074211e0b9c1001a64c3f566"
+    ]
+  ],
+  "bsl_parser_errors": [],
+  "limits": [
+    "XBSL not compiled",
+    "1C/ESB runtime not executed",
+    "No remote credentials used"
+  ],
+  "sha256": {
+    "КХ_ПилотШины.bsl": "5cb93d4b40a1fa9a767ee16b478aa9a402b2706fce6a630e3bc4ce4d85bac3dc",
+    "InfoBases_Пилот3.xbsl": "5c766e5c214eac647c14b29cb99e3040c5b1437c8041d2f3df037cc7e17da905"
+  }
+}

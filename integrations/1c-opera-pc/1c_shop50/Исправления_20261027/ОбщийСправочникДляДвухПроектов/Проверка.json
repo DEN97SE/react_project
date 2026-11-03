@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "changed_common_modules": [
+    "КХ_ОбменСтруктурныхЕдиниц"
+  ],
+  "changed_executable_methods": [
+    "ЗарегистрироватьПорцию",
+    "НастроитьПубликацию",
+    "ПроверитьРегистрациюПакета",
+    "ПрочитатьСостояние",
+    "РегламентнаяОбработкаСправочника"
+  ],
+  "new_export": [
+    "ПодготовитьВыбранныеМагазины"
+  ],
+  "other_common_modules_identical": 5,
+  "static_analysis": {
+    "Information": 302,
+    "Hint": 25,
+    "Warning": 215
+  },
+  "runtime_global_directory": "Not yet tested in 1C or backends",
+  "mode_all": "full to Opera and explicit common PC node; independent batches and ACK",
+  "mode_one": "selected store delta to both; does not replace other stores",
+  "local_pc_routes": "Legacy per-store routing retained; mutually exclusive with common PC node",
+  "script24": "Test database 50 only; queue commit; publisher remains disabled; no service or send calls",
+  "script26": "One-time product-full session initialization in current store; background job continues",
+  "script28": "One-time working CO directory enable and full request; background job continues",
+  "initial_backend_requests": "Not implemented",
+  "co_confirmed_cleanup": "Directory job invokes existing checked own-outbox cleaner even without goods job"
+}

@@ -1,0 +1,14 @@
+{
+  "modules": 6,
+  "methods_documented": 118,
+  "diff_only_added_full_comment_lines": true,
+  "executable_source_unchanged": true,
+  "txt_encoding": "UTF-8 BOM, CRLF",
+  "bsl_language_server": {
+    "Information": 219,
+    "Warning": 206,
+    "Hint": 24
+  },
+  "platform_execution": "Not run locally; 1C is not installed",
+  "includes_previous_readable_cyrillic_json_change": true
+}

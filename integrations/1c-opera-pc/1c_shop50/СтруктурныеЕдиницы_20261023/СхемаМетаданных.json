@@ -1,0 +1,921 @@
+{
+  "СтруктурныеЕдиницы": {
+    "hierarchical": "true",
+    "code_type": "Number",
+    "code_length": "3",
+    "attributes": {
+      "Адрес": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "150",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ВидСтруктурнойЕдиницы": {
+        "types": [
+          "cfg:EnumRef.ВидыСтруктурныхЕдиниц"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "КатегорияЦенОпта": {
+        "types": [
+          "cfg:CatalogRef.КатегорииЦен"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "КатегорияЦенРозницы": {
+        "types": [
+          "cfg:CatalogRef.КатегорииЦен"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СкладТорговогоЗала": {
+        "types": [
+          "cfg:CatalogRef.Склады"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СрокВыполненияЗаказа": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "2",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "Формат": {
+        "types": [
+          "cfg:CatalogRef.ФорматыМагазинов"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "АссортиментнаяМатрица": {
+        "types": [
+          "cfg:CatalogRef.АссортиментныеМатрицы"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Сервер": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Порт": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "3",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "Логин": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Пароль": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "РабочаяНеделя": {
+        "types": [
+          "cfg:EnumRef.РабочаяНеделя"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ОбособленноеПодразделение": {
+        "types": [
+          "cfg:CatalogRef.Организации"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ВебАдрес": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ВебЛогин": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ВебПароль": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ВремяОнлайнРезерва": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "10",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "ДиректорМагазина": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "0",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ГлавныйБухгалтер": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "0",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Руководитель": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "0",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЮридическоеЛицо": {
+        "types": [
+          "cfg:CatalogRef.Организации"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "КонтрольПревышенияЛимитаЗадолженности": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ДатаПереходаНаТД": {
+        "types": [
+          "xs:dateTime"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": "Date"
+      },
+      "СпАутентификации": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "1",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "КодСинхронизации": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "10",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЦФО": {
+        "types": [
+          "cfg:CatalogRef.ЦФО"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СмещениеПоВремени": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "4",
+        "fraction_digits": "2",
+        "date_fractions": null
+      },
+      "GLN": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "13",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "ПроверятьЦены": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Направление": {
+        "types": [
+          "cfg:CatalogRef.Направления"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ТерриториальноеОбразование": {
+        "types": [
+          "cfg:CatalogRef.ТерриториальныеОбразования"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "КодПоОКПО": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ГеографическиеКоординаты": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Филиал": {
+        "types": [
+          "cfg:CatalogRef.Филиалы"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Работает": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ДатаЗакрытия": {
+        "types": [
+          "xs:dateTime"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": "Date"
+      },
+      "ОтправлятьУведомленияОбОтгрузкеПоEDI": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПриниматьЗаказыПокупателяПоEDI": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПриниматьУведомленияОПриемкеПоEDI": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПровайдерОбменаДаннымиEDI": {
+        "types": [
+          "cfg:CatalogRef.EDIПровайдеры"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СлепаяПриемкаПоDesadv": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЭтоРаспределительныйЦентр": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "РаботаетСWMSГрафБестужев": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ИспользоватьМикроматрицы": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПриниматьУведомленияОВозвратеПоEDI": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ОтправлятьИнструкцииОВозвратеПоEDI": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СубъектРФ": {
+        "types": [
+          "cfg:CatalogRef.СубъектыРФ"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогинКонтур": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПарольКонтур": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "id_ящикаКонтур": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогинКорус": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПарольКорус": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "id_ящикаКорус": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ГруппаПоПрофилюНедельнойСезонности": {
+        "types": [
+          "cfg:CatalogRef.EY_ГруппыПоПрофилюСезонности"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ИспользоватьАвтозаказДляЗаявок": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ИспользоватьАвтозаказДляОтгрузок": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ИспользоватьДляНедельнойСезонности": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ДатаОткрытия": {
+        "types": [
+          "xs:dateTime"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": "Date"
+      },
+      "ЭтоЛогистическийОператор": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_EDIПровайдер": {
+        "types": [
+          "cfg:CatalogRef.EDIПровайдеры"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_КаталогНаFTP": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_КоличествоЭкземпляровПФ": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "3",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "ЛогОператор_ЗалоговаяСтоимостьПоУмолчанию": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "15",
+        "fraction_digits": "2",
+        "date_fractions": null
+      },
+      "ЛогОператор_ОсновнойСклад": {
+        "types": [
+          "cfg:CatalogRef.Склады"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_СкладБрак": {
+        "types": [
+          "cfg:CatalogRef.Склады"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_СкладОтклонения": {
+        "types": [
+          "cfg:CatalogRef.Склады"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_ДолжностьОтпускПроизвел": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_ФИООтпускПроизвел": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_ДоверенностьДата": {
+        "types": [
+          "xs:dateTime"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": "Date"
+      },
+      "ЛогОператор_ДоверенностьНомер": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "100",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_ТранспортнаяКомпания": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "400",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_ИзмененияКорректировокРеализаций": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЛогОператор_ОтдельныйУчетТоваровСП": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СкладКорректировкиОстатков": {
+        "types": [
+          "cfg:CatalogRef.Склады"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПродажаТовараКоробками": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "НомерМагазина": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "7",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "РежимРаботы": {
+        "types": [
+          "cfg:CatalogRef.РежимРаботы"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ПодФорматы": {
+        "types": [
+          "cfg:CatalogRef.Подформаты"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      }
+    }
+  },
+  "Склады": {
+    "hierarchical": "false",
+    "code_type": "Number",
+    "code_length": "4",
+    "attributes": {
+      "ВидСклада": {
+        "types": [
+          "cfg:EnumRef.ВидыСкладов"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ОтрицательныеОстатки": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Телефон": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "КатегорияЦенРозницы": {
+        "types": [
+          "cfg:CatalogRef.КатегорииЦен"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ОтрицательныеОстаткиБухУчет": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СуммовойУчет": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ККМ": {
+        "types": [
+          "cfg:CatalogRef.ККМ"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "НеУчаствуетВРасчетеЗаказа": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Площадь": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "10",
+        "fraction_digits": "1",
+        "date_fractions": null
+      },
+      "НазваниеПоБухгалтерии": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "30",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ЦФО": {
+        "types": [
+          "cfg:CatalogRef.ЦФО"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "GLN": {
+        "types": [
+          "xs:decimal"
+        ],
+        "string_length": null,
+        "digits": "13",
+        "fraction_digits": "0",
+        "date_fractions": null
+      },
+      "НеУчавствуетВСплошнойИнвентаризации": {
+        "types": [
+          "xs:boolean"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ВиртуальныйСклад": {
+        "types": [
+          "cfg:CatalogRef.Склады"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "НаименованиеWMS": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "ГеографическиеКоординаты": {
+        "types": [
+          "xs:string"
+        ],
+        "string_length": "50",
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "СкладЕГАИС": {
+        "types": [
+          "cfg:CatalogRef.СкладыТСКомандорЕГАИС"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      }
+    }
+  },
+  "ТерриториальныеЕдиницы": {
+    "hierarchical": "false",
+    "code_type": "String",
+    "code_length": "5",
+    "attributes": {
+      "Город": {
+        "types": [
+          "cfg:CatalogRef.ТерриториальныеОбразования"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      }
+    }
+  },
+  "ТерриториальныеОбразования": {
+    "hierarchical": "false",
+    "code_type": "String",
+    "code_length": "9",
+    "attributes": {
+      "Филиал": {
+        "types": [
+          "cfg:CatalogRef.Филиалы"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      },
+      "Регион": {
+        "types": [
+          "cfg:CatalogRef.СубъектыРФ"
+        ],
+        "string_length": null,
+        "digits": null,
+        "fraction_digits": null,
+        "date_fractions": null
+      }
+    }
+  }
+}

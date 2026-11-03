@@ -1,0 +1,44 @@
+[
+  {
+    "module": "КХ_ДанныеОпера",
+    "methods_documented": 26,
+    "code_unchanged_ignoring_full_comment_lines": true,
+    "sha256": "f61c4dc830cb25fdef171b4b61e25c2ccd0ffeb7d671b5738b107aec8dfc5d6a",
+    "download": "01_data_opera_commented.txt"
+  },
+  {
+    "module": "КХ_ДанныеПрайсЧекеры",
+    "methods_documented": 1,
+    "code_unchanged_ignoring_full_comment_lines": true,
+    "sha256": "837fff735fe21e4d52a5d46fa8404dc0399508eba74fb440f84361f61c6bad92",
+    "download": "02_data_pc_commented.txt"
+  },
+  {
+    "module": "КХ_ДанныеСтруктурныхЕдиниц",
+    "methods_documented": 4,
+    "code_unchanged_ignoring_full_comment_lines": true,
+    "sha256": "6398aa026c4a08a4f8970b7b8f63b4d604ca11b7bcb8bce2cf86a9cc52fd312b",
+    "download": "03_data_units_commented.txt"
+  },
+  {
+    "module": "КХ_ОбменШиныОпера",
+    "methods_documented": 49,
+    "code_unchanged_ignoring_full_comment_lines": true,
+    "sha256": "0f3121f9df28ec481a0668f9a5119b79715bafb237ceba33624b78ffedc5e8fd",
+    "download": "04_exchange_opera_commented.txt"
+  },
+  {
+    "module": "КХ_ОбменШиныПрайсЧекеры",
+    "methods_documented": 3,
+    "code_unchanged_ignoring_full_comment_lines": true,
+    "sha256": "1e3055de757cdde885bb4a5efe62e9c2ba6d28fc5ddc34901bc972176b131fe9",
+    "download": "05_exchange_pc_commented.txt"
+  },
+  {
+    "module": "КХ_ОбменСтруктурныхЕдиниц",
+    "methods_documented": 35,
+    "code_unchanged_ignoring_full_comment_lines": true,
+    "sha256": "07c358a1b3a91a6eccc615c178cec2ea2877f0346d2aeac20b4036df84ca34f7",
+    "download": "06_exchange_units_commented.txt"
+  }
+]

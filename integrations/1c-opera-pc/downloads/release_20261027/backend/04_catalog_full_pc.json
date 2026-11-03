@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "message_type": "catalog_full_request",
+  "project": "pricechecker",
+  "request_id": "5a266e9c-b4bc-463a-b863-703592725822",
+  "store_id": "3370588b-0742-11e0-b9c1-001a64c3f566"
+}
