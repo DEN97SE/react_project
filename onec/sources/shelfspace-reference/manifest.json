@@ -1,0 +1,24 @@
+[
+  {
+    "original_name": "Исходный_модуль_v1_20260813.txt",
+    "original_bytes": 172427,
+    "original_sha256": "e3d74c6a278020759682d4b8f92d4794f769103d227b29605b82184059019437",
+    "line_count": 3126,
+    "repository_copy": "Исходный_модуль_v1_20260813.sanitized.txt",
+    "redacted_lines": [
+      1804
+    ],
+    "copy_sha256": "d2bc037d5e4c7bc7d177b09096955f6bbc1fece9d50baa56f9ec1bcace9252da"
+  },
+  {
+    "original_name": "KX_APIShelfSpaceCenterV2.txt",
+    "original_bytes": 171102,
+    "original_sha256": "3dfd7b94fa84c0383d3c6c5a2f2af5b397e92d01cb2a695099c44d7e0baadd76",
+    "line_count": 3057,
+    "repository_copy": "KX_APIShelfSpaceCenterV2.sanitized.txt",
+    "redacted_lines": [
+      1873
+    ],
+    "copy_sha256": "8bafdf3f2d56ff6139971aaad0c8661a9b6f03fdf9b7595578936528f11d47ee"
+  }
+]
