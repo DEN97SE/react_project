@@ -53,19 +53,28 @@ for path in sorted((ROOT/'modules').glob('*.txt')):
     assert all(name.lower()!='состояние' for name,_ in defs),path.name
     modules[path.stem]={name.lower() for name,export in defs if export}
     # All referenced information registers/constants existed in the supplied source.
-    assert not re.search(r'(?:РегистрыСведений|РегистрСведений)\.(?!ОчередьШины\b|РаспределениеКМПоКатегориям\b)\w+',raw),path.name
+    assert not re.search(r'(?:РегистрыСведений|РегистрСведений)\.(?!РаспределениеКМПоКатегориям\b)\w+',raw),path.name
     assert 'Константы.' not in src,path.name
+    assert 'ОчередьШины' not in raw,path.name
+    assert not re.search(r'Интеграция1СШина(?:Переопределяемый)?\.',raw),path.name
     print('PASS structure:',path.name)
 for path in (ROOT/'modules').glob('*.txt'):
     src=tokens(path.read_text())
     for mod,method in re.findall(r'(КХ_\w+)\.(\w+)\s*\(',src):
-        if mod in modules:assert method.lower() in modules[mod],(path.name,mod,method)
+        assert mod in modules and method.lower() in modules[mod],(path.name,mod,method)
     calls=set(re.findall(r'Интеграция1СШина\.(\w+)\s*\(',src))
-    assert calls <= {'ЗарегистрироватьОбъектВОчереди'},(path.name,calls)
+    assert not calls,(path.name,calls)
 assert not (ROOT/'modules'/'Интеграция1СШина.txt').exists()
-registry=(ROOT/'modules'/'КХ_ОбменШиныОбщий.txt').read_text()
-assert re.findall(r'Новый Структура\("Метка,Обмен", "([^"]+)"',registry)==['Opera','PriceCheker','OperaChange','OperaState','StructuralUnits','KP_SUPPLIER']
 for path in (ROOT/'modules').glob('*.txt'):
     assert 'AMQP' not in path.read_text(),path.name
-print('PASS exports, native registrar only, existing register names, original tags, HTTP active modules')
+transport=(ROOT/'modules'/'КХ_КП_ТранспортШины.txt').read_text()
+assert 'Параметры.Вставить("configuration", "Astor")' in transport
+assert 'СоздатьСообщение()' in transport and '.ОтправитьСообщение(Сообщение)' in transport
+bus=(ROOT/'bus'/'Integration.txt').read_text()
+assert 'Получить("configuration")' in bus
+assert 'Http_kp_Astor' in bus and 'Http_kp_DO' in bus
+assert 'Установить("Authorization", Integration.Параметры.API_key)' in bus
+assert 'X-API-Key' not in bus
+assert 'ПолучитьТелоКакПоток()' in bus and 'УстановитьТело(ПотокТела)' in bus
+print('PASS exports, no queue access, no native module calls, Astor routing parameter, preserved Bus Authorization')
 print('NOT RUN: 1C compilation/runtime, SQL data, Bus project or HTTP delivery')

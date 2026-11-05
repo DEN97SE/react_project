@@ -1,0 +1,35 @@
+digraph HTTP_KP {
+  graph [rankdir=LR, bgcolor="#f6f8fc", pad="0.3", nodesep="0.65", ranksep="0.55", fontname="DejaVu Sans", fontsize=20, labelloc=t, label="Кабинет поставщика · обмен через HTTP / HTTPS"];
+  node [shape=box, style="rounded,filled", fillcolor=white, color="#aab9cd", fontname="DejaVu Sans", fontsize=12, margin="0.18,0.14"];
+  edge [color="#52657f", arrowsize=0.7, fontname="DejaVu Sans", fontsize=10];
+  Astor [label="АСТОР\nСборка справочников\nи ответственных", fillcolor="#dbedff"];
+  Q [label="ОчередьШины\nСуществующий регистр", fillcolor="#dbedff"];
+  DO [label="ДО 3.0\nИнициатор запросов КП", fillcolor="#e5e0ff"];
+  Backend [label="БЭКЕНД КАБИНЕТА\nHTTPS API\nПолный снимок / КП", fillcolor="#dcf4e8"];
+  subgraph cluster_bus {
+    label="1С:Шина · отдельные маршруты"; color="#9bb2d1"; style="rounded"; bgcolor="#edf3fb"; fontsize=16;
+    FromAstor [label="FromAstor\nКанал 1С"];
+    HTTPReference [label="HTTP_Reference\nPUT полного снимка", color="#28a278"];
+    Result [label="BuildHTTPResult\nКод HTTP + контекст запроса"];
+    ToAstor [label="ToAstor_Result\nКанал 1С"];
+    FromDOGet [label="FromDO_RequestOffers\nКанал 1С"];
+    HTTPGet [label="HTTP_GetOffers\nGET /commercial-offers"];
+    ToDOGet [label="ToDO_Offers\nОтвет в ДО"];
+    FromDOUpdate [label="FromDO_OfferChanges\nКанал 1С"];
+    HTTPUpdate [label="HTTP_UpdateOffer\nPUT /commercial-offers/{id}"];
+    ToDOResult [label="ToDO_OfferResult\nРезультат в ДО"];
+  }
+  Astor -> Q -> FromAstor -> HTTPReference;
+  HTTPReference -> Backend [label="PUT · JSON UTF-8", color="#28a278"];
+  HTTPReference -> Result [label="ответ HTTP", constraint=false, style=dashed];
+  Result -> ToAstor;
+  ToAstor -> Q [label="применён / повтор / остановка", constraint=false, style=dashed];
+  DO -> FromDOGet -> HTTPGet;
+  HTTPGet -> Backend [label="GET · КП по курсору", color="#28a278"];
+  HTTPGet -> ToDOGet [label="ответ", constraint=false, style=dashed];
+  ToDOGet -> DO [constraint=false, style=dashed];
+  DO -> FromDOUpdate -> HTTPUpdate;
+  HTTPUpdate -> Backend [label="PUT · изменения КП", color="#28a278"];
+  HTTPUpdate -> ToDOResult [label="ответ", constraint=false, style=dashed];
+  ToDOResult -> DO [constraint=false, style=dashed];
+}
