@@ -53,17 +53,21 @@ for path in sorted((ROOT/'modules').glob('*.txt')):
     assert all(name.lower()!='состояние' for name,_ in defs),path.name
     modules[path.stem]={name.lower() for name,export in defs if export}
     # All referenced information registers/constants existed in the supplied source.
-    assert not re.search(r'(?:РегистрыСведений|РегистрСведений)\.(?!РаспределениеКМПоКатегориям\b)\w+',raw),path.name
+    assert not re.search(r'(?:РегистрыСведений|РегистрСведений)\.(?!РаспределениеКМПоКатегориям\b|ОчередьШины\b)\w+',raw),path.name
     assert 'Константы.' not in src,path.name
-    assert 'ОчередьШины' not in raw,path.name
-    assert not re.search(r'Интеграция1СШина(?:Переопределяемый)?\.',raw),path.name
+    native_calls=set(re.findall(r'Интеграция1СШина(?:Переопределяемый)?\.(\w+)\s*\(',src))
+    assert native_calls <= {'ЗарегистрироватьОбъектВОчереди'},path.name
+    if native_calls:assert path.stem=='КХ_КП_ОчередьКабинета',path.name
     print('PASS structure:',path.name)
 for path in (ROOT/'modules').glob('*.txt'):
     src=tokens(path.read_text())
     for mod,method in re.findall(r'(КХ_\w+)\.(\w+)\s*\(',src):
-        assert mod in modules and method.lower() in modules[mod],(path.name,mod,method)
+        if mod=='КХ_ОбменШиныОпера':
+            assert method=='СистемыСобственнойОчереди',(path.name,method)
+        else:
+            assert mod in modules and method.lower() in modules[mod],(path.name,mod,method)
     calls=set(re.findall(r'Интеграция1СШина\.(\w+)\s*\(',src))
-    assert not calls,(path.name,calls)
+    assert calls <= {'ЗарегистрироватьОбъектВОчереди'},(path.name,calls)
 assert not (ROOT/'modules'/'Интеграция1СШина.txt').exists()
 for path in (ROOT/'modules').glob('*.txt'):
     assert 'AMQP' not in path.read_text(),path.name
@@ -76,5 +80,17 @@ assert 'Http_kp_Astor' in bus and 'Http_kp_DO' in bus
 assert 'Установить("Authorization", Integration.Параметры.API_key)' in bus
 assert 'X-API-Key' not in bus
 assert 'ПолучитьТелоКакПоток()' in bus and 'УстановитьТело(ПотокТела)' in bus
-print('PASS exports, no queue access, no native module calls, Astor routing parameter, preserved Bus Authorization')
+queue=(ROOT/'modules'/'КХ_КП_ОчередьКабинета.txt').read_text()
+assert 'Возврат 259200;' in queue
+# Every persistent delete goes through the manager factory with all five dimensions.
+assert queue.count('.Удалить();')==1
+factory=queue[queue.index('Функция МенеджерНашейЗаписи'):queue.index('Процедура СохранитьЗапись')]
+for dim in ['ИдентификаторОбъекта','ИдентификаторСообщения','КаналСервисаИнтеграции','УзелПолучатель','ВнешняяСистема']:
+    assert 'Менеджер.'+dim+' =' in factory,dim
+assert 'Маркер.СрокUTC =' not in queue
+assert 'Если Применено Тогда' in queue
+assert 'КП.ПодтвержденоПрименение' in queue
+finish=queue[queue.index('Процедура ЗавершитьОтправку'):queue.index('Функция ВременныйHTTPКод')]
+assert 'УдалитьЗапись' not in finish
+print('PASS exports, existing registrar reuse, full-key deletion, fixed 72h deadline, no deletion on transport success, Astor routing/Auth')
 print('NOT RUN: 1C compilation/runtime, SQL data, Bus project or HTTP delivery')

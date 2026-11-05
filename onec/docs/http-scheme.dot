@@ -1,8 +1,9 @@
 digraph HTTP_KP {
- graph [rankdir=LR, bgcolor="#f6f8fc", pad="0.3", nodesep="0.55", ranksep="0.65", fontname="DejaVu Sans", fontsize=20, labelloc=t, label="Рабочая схема пользователя · прямая отправка через сервис интеграции"];
+ graph [rankdir=LR, bgcolor="#f6f8fc", pad="0.3", nodesep="0.55", ranksep="0.65", fontname="DejaVu Sans", fontsize=20, labelloc=t, label="HTTP через Шину · существующая очередь · TTL 72 часа"];
  node [shape=box, style="rounded,filled", fillcolor=white, color="#aab9cd", fontname="DejaVu Sans", fontsize=12, margin="0.15,0.12"];
  edge [color="#52657f", arrowsize=0.7, fontname="DejaVu Sans", fontsize=10];
  A [label="Астор", fillcolor="#dbedff"];
+ Q [label="ОчередьШины\nKP_SUPPLIER · 72 часа", fillcolor="#dbedff"];
  D [label="DocumentManager\nДО", fillcolor="#e5e0ff"];
  B [label="Бэкенд кабинета\nHTTP / HTTPS", fillcolor="#dcf4e8"];
  subgraph cluster_bus {
@@ -18,7 +19,7 @@ digraph HTTP_KP {
   M [label="message_kp"];
   TD [label="kp_to_DO"];
  }
- A -> AK -> R;
+ A -> Q -> AK -> R;
  D -> DK -> R;
  R -> HA [label="Astor"];
  R -> HD [label="DocumentManager"];
@@ -26,7 +27,8 @@ digraph HTTP_KP {
  HD -> B [label="данные ДО",color="#28a278"];
  HA -> RA [label="HTTP-ответ",style=dashed,constraint=false];
  HD -> RD [label="HTTP-ответ",style=dashed,constraint=false];
- RA -> A [style=dashed,constraint=false];
+ RA -> A [label="результат: требуется привязка",style=dashed,constraint=false];
+ A -> Q [label="подтверждён успех → удалить",style=dashed,constraint=false];
  RD -> D [style=dashed,constraint=false];
  B -> KP [label="входящий запрос с телом КП",constraint=false,color="#9b6fb5"];
  KP -> M -> TD;
